@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+# residencias_profesionales
+
 # Prototipo funcional SYSTEMKW
 
 La aplicación organiza los archivos de presentación, estilos, lógica y datos por separado:
@@ -18,6 +19,6 @@ La aplicación organiza los archivos de presentación, estilos, lógica y datos 
 Se requiere Python instalado. Si prefieres, abre una terminal dentro de esta carpeta y ejecuta `python -m http.server 8000`; después visita `http://localhost:8000`.
 
 El prototipo es de consulta. Los clientes, licencias y transacciones se mantienen en archivos separados y se relacionan en la aplicación cuando existe una coincidencia única. Los casos no confirmados se señalan para revisión. Las notificaciones se calculan por fecha de vencimiento; no se envían correos.
-=======
-# residencias_profesionales
->>>>>>> 6cac4e27105b9be15f5d3863cdad70a79923a957
+
+
+
