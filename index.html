@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SYSTEMKW | Centro de información</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="shell">
+<aside class="side">
+  <div class="brand"><div class="logo">SK</div><div><strong>SYSTEMKW</strong><small>Centro de información</small></div></div>
+  <div class="nav-label">Espacio de trabajo</div>
+  <nav class="nav" id="nav">
+    <button class="active" data-view="dashboard"><span class="ico">▦</span>Dashboard</button>
+    <button data-view="clientes"><span class="ico">♙</span>Clientes</button>
+    <button data-view="licencias"><span class="ico">▣</span>Licencias</button>
+    <button data-view="transacciones"><span class="ico">⇄</span>Transacciones</button>
+    <button data-view="notificaciones"><span class="ico">♧</span>Notificaciones</button>
+  </nav>
+  <div class="side-note"><b>Modo de consulta</b>Los registros se muestran desde los CSV proporcionados. Las asociaciones dudosas se señalan para revisión.</div>
+</aside>
+<main class="main">
+  <header class="top"><div class="crumb">SYSTEMKW <span style="padding:0 7px">/</span> <b id="crumb">Dashboard</b></div><div class="top-right"><span class="date-text" id="dateNow"></span><div class="avatar">SK</div></div></header>
+  <div class="content" id="content"></div>
+</main>
+</div>
+<div id="modalRoot"></div>
+
+<script src="js/app.js" defer></script>
+</body></html>
