@@ -1,14 +1,62 @@
+function parseCSV(text){
+  const rows=[];let row=[],value='',quoted=false;
+  for(let i=0;i<text.length;i++){
+    const char=text[i];
+    if(quoted){
+      if(char==='"'&&text[i+1]==='"'){value+='"';i++}
+      else if(char==='"')quoted=false;
+      else value+=char;
+    }else if(char==='"')quoted=true;
+    else if(char===','){row.push(value);value=''}
+    else if(char==='\n'){row.push(value.replace(/\r$/,''));rows.push(row);row=[];value=''}
+    else value+=char;
+  }
+  if(value.length||row.length){row.push(value.replace(/\r$/,''));rows.push(row)}
+  if(!rows.length)return[];
+  const headers=rows.shift().map((h,i)=>i===0?h.replace(/^\uFEFF/,'').trim():h.trim());
+  return rows.filter(r=>r.some(v=>v!=='')).map(r=>Object.fromEntries(headers.map((h,i)=>[h,r[i]??''])));
+}
+function mapCleanRows(rows,dateFields=[],amountFields=[]){
+  return rows.map(row=>{
+    const item={...row};
+    for(const field of dateFields){
+      item[field+'_original']=item[field]||'';
+      item[field]=item[field+'_normalizada']||'';
+      delete item[field+'_normalizada'];
+    }
+    for(const field of amountFields){
+      item[field+'_original']=item[field]||'';
+      item[field]=item[field+'_numerico']||'';
+      delete item[field+'_numerico'];
+    }
+    return item;
+  });
+}
 async function loadData(){
-  const paths=['data/clientes.json','data/licencias.json','data/transacciones.json'];
+  const paths=[
+    'limpieza_csv/datos_limpios/clientes_limpios.csv',
+    'limpieza_csv/datos_limpios/licencias_limpias.csv',
+    'limpieza_csv/datos_limpios/transacciones_limpias.csv',
+    'limpieza_csv/datos_limpios/relacion_licencias_clientes.csv',
+    'limpieza_csv/datos_limpios/relacion_transacciones_clientes.csv'
+  ];
   const responses=await Promise.all(paths.map(path=>fetch(path)));
-  if(responses.some(response=>!response.ok)) throw new Error('No fue posible cargar uno de los archivos de datos.');
-  const [clientes,licencias,transacciones]=await Promise.all(responses.map(response=>response.json()));
-  startApp({clientes,licencias,transacciones});
+  if(responses.some(response=>!response.ok)) throw new Error('No se pudieron cargar los CSV limpios. Ejecuta primero limpieza_csv/limpieza_datos.py y vuelve a iniciar el servidor local.');
+  const files=await Promise.all(responses.map(response=>response.text()));
+  const [clientesCsv,licenciasCsv,transaccionesCsv,relacionLicenciasCsv,relacionTransaccionesCsv]=files;
+  const clientes=mapCleanRows(parseCSV(clientesCsv),['fecha_registro']);
+  const licencias=mapCleanRows(parseCSV(licenciasCsv),['fecha_compra','fecha_inicio','fecha_vencimiento'],['precio']);
+  const transacciones=mapCleanRows(parseCSV(transaccionesCsv),['fecha_transaccion'],['monto']);
+  startApp({
+    clientes,licencias,transacciones,
+    relacionLicencias:parseCSV(relacionLicenciasCsv),
+    relacionTransacciones:parseCSV(relacionTransaccionesCsv)
+  });
 }
 function startApp(DATA){
 
 
-const state={view:'dashboard',query:'',filter:'',page:1,pageSize:12,days:30};
+const state={view:'dashboard',query:'',filter:'',page:1,pageSize:12,days:15};
 const today=new Date(); today.setHours(0,0,0,0);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>String(s??'').trim().toLocaleLowerCase('es-MX').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ');
@@ -19,27 +67,37 @@ const dateFmt=s=>{const d=parseDate(s);return d?new Intl.DateTimeFormat('es-MX',
 const daysTo=s=>{const d=parseDate(s);return d?Math.round((d-today)/86400000):null};
 const statusClass=s=>{const x=norm(s);if(x.includes('activ')||x==='pagado'||x.includes('enviado'))return'green';if(x.includes('vencer')||x==='pendiente')return'amber';if(x.includes('vencid')||x.includes('reembols'))return'red';return'blue'};
 const customers=DATA.clientes.map(x=>({...x,_type:'cliente'}));
-const byEmail=new Map();for(const c of customers){const k=norm(c.correo);if(k){if(!byEmail.has(k))byEmail.set(k,[]);byEmail.get(k).push(c)}}
-const byName=new Map();for(const c of customers){for(const raw of [c.empresa,c.razon_social]){const k=norm(raw);if(k){if(!byName.has(k))byName.set(k,[]);byName.get(k).push(c)}}}
-function uniqueClient(list){if(!list)return null;const unique=[...new Map(list.map(c=>[c.id_cliente,c])).values()];return unique.length===1?unique[0]:null}
-const licenses=DATA.licencias.map(x=>{const c=uniqueClient(byName.get(norm(x.cliente)));return{...x,_type:'licencia',_client:c,_link:c?'VALIDADA':(byName.has(norm(x.cliente))?'REVISAR':'PENDIENTE')}});
-const transactions=DATA.transacciones.map(x=>{const c=uniqueClient(byEmail.get(norm(x.cliente_email)));return{...x,_type:'transaccion',_client:c,_link:c?'VALIDADA':(byEmail.has(norm(x.cliente_email))?'REVISAR':'PENDIENTE')}});
+const clientById=new Map(customers.map(c=>[c.id_cliente,c]));
+const licenseLinks=new Map(DATA.relacionLicencias.map(x=>[x.id_licencia,x]));
+const transactionLinks=new Map(DATA.relacionTransacciones.map(x=>[x.id_transaccion,x]));
+const licenses=DATA.licencias.map(x=>{
+  const rel=licenseLinks.get(x.id_licencia);
+  const c=rel?.resultado==='coincidencia única'?(clientById.get(rel.id_cliente_sugerido)||null):null;
+  const days=daysTo(x.fecha_vencimiento);
+  const status=days===null?'Sin fecha validada':days<0?'Vencida':days<=15?'Próxima a vencer':'Activa';
+  return{...x,_type:'licencia',estatus:status,estatus_origen:x.estatus,_days:days,_client:c,_link:c?'VALIDADA':'REVISAR'};
+});
+const transactions=DATA.transacciones.map(x=>{
+  const rel=transactionLinks.get(x.id_transaccion);
+  const c=rel?.resultado==='coincidencia única'?(clientById.get(rel.id_cliente_sugerido)||null):null;
+  return{...x,_type:'transaccion',_client:c,_link:c?'VALIDADA':'REVISAR'};
+});
 const viewNames={dashboard:'Dashboard',clientes:'Clientes',licencias:'Licencias',transacciones:'Transacciones',notificaciones:'Notificaciones'};
 document.getElementById('dateNow').textContent=new Intl.DateTimeFormat('es-MX',{weekday:'short',day:'2-digit',month:'short',year:'numeric'}).format(today);
 function setView(v){state.view=v;state.query='';state.filter='';state.page=1;document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('active',b.dataset.view===v));document.getElementById('crumb').textContent=viewNames[v];render()}
 document.getElementById('nav').addEventListener('click',e=>{const b=e.target.closest('button[data-view]');if(b)setView(b.dataset.view)});
 function pageHead(eyebrow,title,desc,action=''){return `<div class="page-head"><div><div class="eyebrow">${eyebrow}</div><h1>${title}</h1><p>${desc}</p></div>${action}</div>`}
 function dashboard(){
- const active=licenses.filter(x=>norm(x.estatus)==='activa').length,soon=licenses.filter(x=>{const d=daysTo(x.fecha_vencimiento);return d!==null&&d>=0&&d<=30}).length;
+ const active=licenses.filter(x=>norm(x.estatus)==='activa').length,soon=licenses.filter(x=>{const d=daysTo(x.fecha_vencimiento);return d!==null&&d>=0&&d<=15}).length;
  const total=transactions.reduce((a,x)=>a+amount(x.monto),0);
- const stats=[['Clientes',customers.length,'Registros en clientes.csv','♙'],['Licencias',licenses.length,`${active.toLocaleString('es-MX')} con estatus activa`,'▣'],['Transacciones',transactions.length,'Movimientos en transacciones.csv','⇄'],['Licencias próximas',soon,'Vencen en los próximos 30 días','◷']];
- const statuses=['Activa','Por vencer','Vencida'];const counts=statuses.map(s=>licenses.filter(x=>norm(x.estatus)===norm(s)).length);const mx=Math.max(...counts,1);
+ const stats=[['Clientes',customers.length,'Registros en clientes.csv','♙'],['Licencias',licenses.length,`${active.toLocaleString('es-MX')} activas según su fecha de vencimiento`,'▣'],['Transacciones',transactions.length,'Movimientos en transacciones.csv','⇄'],['Licencias próximas',soon,'Vencen en los próximos 15 días','◷']];
+ const statuses=['Activa','Próxima a vencer','Vencida'];const counts=statuses.map(s=>licenses.filter(x=>norm(x.estatus)===norm(s)).length);const mx=Math.max(...counts,1);
  const months=['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];const txMonths=Array(12).fill(0);transactions.forEach(x=>{const d=parseDate(x.fecha_transaccion);if(d&&d.getFullYear()===today.getFullYear())txMonths[d.getMonth()]++});const maxM=Math.max(...txMonths,1);
  const bars=months.map((m,i)=>`<div class="bar-col"><div class="bar-stack"><div class="bar" title="${txMonths[i]} transacciones" style="height:${Math.max(txMonths[i]/maxM*100,1)}%"></div></div><div class="bar-label">${m}</div></div>`).join('');
  const unlinkedL=licenses.filter(x=>!x._client).length,unlinkedT=transactions.filter(x=>!x._client).length;
  return pageHead('Resumen general','Información centralizada','Vista de consulta de clientes, licencias y transacciones.',`<button class="btn" onclick="exportCurrent('dashboard')">⇩ Exportar datos</button>`)+
  `<div class="cards">${stats.map(([l,n,s,i])=>`<div class="card"><div class="card-top">${l}<span class="card-icon">${i}</span></div><div class="metric">${n.toLocaleString('es-MX')}</div><div class="sub">${s}</div></div>`).join('')}</div>`+
- `<div class="grid2"><section class="panel"><div class="panel-head"><div><h2>Transacciones por mes</h2><p>Registros con fecha en ${today.getFullYear()}</p></div><div class="legend"><span>Transacciones</span></div></div><div class="bars">${bars}</div></section><section class="panel"><div class="panel-head"><div><h2>Estatus de licencias</h2><p>Distribución del catálogo importado</p></div></div><div class="status-list">${statuses.map((s,i)=>`<div class="status-row"><span class="status-name">${s}</span><div class="track"><div class="fill" style="width:${counts[i]/mx*100}%"></div></div><span class="status-value">${counts[i].toLocaleString('es-MX')}</span></div>`).join('')}</div><div class="alert-strip">◷ <span><b>${soon}</b> licencias vencen en los siguientes 30 días. <button class="btn" style="padding:4px 8px;margin-left:5px" onclick="setView('notificaciones')">Revisar</button></span></div></section></div>`+
+ `<div class="grid2"><section class="panel"><div class="panel-head"><div><h2>Transacciones por mes</h2><p>Registros con fecha en ${today.getFullYear()}</p></div><div class="legend"><span>Transacciones</span></div></div><div class="bars">${bars}</div></section><section class="panel"><div class="panel-head"><div><h2>Estatus de licencias</h2><p>Distribución del catálogo importado</p></div></div><div class="status-list">${statuses.map((s,i)=>`<div class="status-row"><span class="status-name">${s}</span><div class="track"><div class="fill" style="width:${counts[i]/mx*100}%"></div></div><span class="status-value">${counts[i].toLocaleString('es-MX')}</span></div>`).join('')}</div><div class="alert-strip">◷ <span><b>${soon}</b> licencias vencen en los siguientes 15 días. <button class="btn" style="padding:4px 8px;margin-left:5px" onclick="setView('notificaciones')">Revisar</button></span></div></section></div>`+
  `<section class="panel"><div class="panel-head"><div><h2>Estado de vinculación de registros</h2><p>Los registros sin coincidencia única se conservan para revisión.</p></div></div><div class="notice-grid"><div class="notice-summary"><small>Licencias sin cliente validado</small><strong>${unlinkedL.toLocaleString('es-MX')}</strong><small>de ${licenses.length.toLocaleString('es-MX')} registros</small></div><div class="notice-summary"><small>Transacciones sin cliente validado</small><strong>${unlinkedT.toLocaleString('es-MX')}</strong><small>de ${transactions.length.toLocaleString('es-MX')} registros</small></div></div><div class="footnote">Importe total interpretado desde los valores disponibles: ${money(total)}. Los CSV no especifican moneda; revisa formatos y moneda antes de usarlo como cifra contable.</div></section>`;
 }
 function clientCount(c,type){return(type==='licencias'?licenses.filter(x=>x._client?.id_cliente===c.id_cliente):transactions.filter(x=>x._client?.id_cliente===c.id_cliente)).length}
@@ -61,8 +119,8 @@ function drawTable(){const type=state.view,rows=filteredRows(type),total=rows.le
  document.getElementById('rangeInfo').textContent=total?`Mostrando ${start+1}–${Math.min(start+state.pageSize,total)} de ${total.toLocaleString('es-MX')}`:'Sin resultados';document.getElementById('pageInfo').textContent=`${state.page} / ${pages}`;document.getElementById('prevPage').disabled=state.page<=1;document.getElementById('nextPage').disabled=state.page>=pages;
 }
 function notificationRows(){return licenses.map(x=>({...x,_days:daysTo(x.fecha_vencimiento)})).filter(x=>x._days!==null&&x._days>=0&&x._days<=state.days).sort((a,b)=>a._days-b._days)}
-function notifications(){const upcoming=notificationRows(),overdue=licenses.filter(x=>{const d=daysTo(x.fecha_vencimiento);return d!==null&&d<0&&norm(x.estatus)!=='vencida'});return pageHead('Seguimiento','Notificaciones','Licencias que requieren atención según su fecha de vencimiento.')+
- `<div class="notice-grid"><div class="notice-summary warn"><small>Próximas a vencer en el plazo seleccionado</small><strong>${upcoming.length.toLocaleString('es-MX')}</strong><small>Se muestran avisos calculados a partir de la fecha de vencimiento.</small></div><div class="notice-summary danger"><small>Fecha vencida con estatus distinto a “Vencida”</small><strong>${overdue.length.toLocaleString('es-MX')}</strong><small>Registros sugeridos para revisar en el origen.</small></div></div><section class="panel table-panel"><div class="toolbar"><div class="tools-left"><strong>Licencias próximas a vencer</strong><select class="select" onchange="setDays(this.value)"><option value="7" ${state.days===7?'selected':''}>Próximos 7 días</option><option value="15" ${state.days===15?'selected':''}>Próximos 15 días</option><option value="30" ${state.days===30?'selected':''}>Próximos 30 días</option><option value="60" ${state.days===60?'selected':''}>Próximos 60 días</option><option value="90" ${state.days===90?'selected':''}>Próximos 90 días</option></select></div><div class="tools-right"><button class="btn" onclick="exportCurrent('notificaciones')">⇩ Exportar CSV</button></div></div><div class="table-wrap"><table><thead><tr><th>Licencia</th><th>Cliente</th><th>Producto</th><th>Vencimiento</th><th>Días restantes</th><th>Estatus</th></tr></thead><tbody>${upcoming.length?upcoming.map(x=>`<tr onclick="showDetail('licencias','${esc(x.id_licencia)}')"><td class="primary-cell">${esc(x.id_licencia)}</td><td>${esc(x._client?.empresa||x._client?.razon_social||x.cliente||'Sin referencia')}<span class="secondary-cell">${x._client?esc(x._client.id_cliente):`Vinculación: ${esc(x._link.toLowerCase())}`}</span></td><td>${esc(x.producto)}</td><td>${dateFmt(x.fecha_vencimiento)}</td><td><span class="pill ${x._days<=7?'red':'amber'}">${x._days===0?'Hoy':x._days+' días'}</span></td><td><span class="pill ${statusClass(x.estatus)}">${esc(x.estatus)}</span></td></tr>`).join(''):`<tr><td colspan="6" class="empty">No hay licencias con vencimiento dentro de este plazo.</td></tr>`}</tbody></table></div></section><p class="inline-note">Esta pantalla calcula avisos para consulta; no envía correos. El plazo y el medio de envío deben confirmarse con SYSTEMKW.</p>`}
+function notifications(){const upcoming=notificationRows(),overdue=licenses.filter(x=>x._days!==null&&x._days<0);return pageHead('Seguimiento','Notificaciones','Licencias que requieren atención según su fecha de vencimiento.')+
+ `<div class="notice-grid"><div class="notice-summary warn"><small>Próximas a vencer (0 a 15 días)</small><strong>${upcoming.length.toLocaleString('es-MX')}</strong><small>Se muestran avisos calculados a partir de la fecha de vencimiento.</small></div><div class="notice-summary danger"><small>Licencias vencidas</small><strong>${overdue.length.toLocaleString('es-MX')}</strong><small>Se muestran separadas de las próximas a vencer.</small></div></div><section class="panel table-panel"><div class="toolbar"><div class="tools-left"><strong>Licencias próximas a vencer</strong><span class="pill amber">Plazo: 15 días naturales</span></div><div class="tools-right"><button class="btn" onclick="exportCurrent('notificaciones')">⇩ Exportar CSV</button></div></div><div class="table-wrap"><table><thead><tr><th>Licencia</th><th>Cliente</th><th>Producto</th><th>Vencimiento</th><th>Días restantes</th><th>Estatus</th></tr></thead><tbody>${upcoming.length?upcoming.map(x=>`<tr onclick="showDetail('licencias','${esc(x.id_licencia)}')"><td class="primary-cell">${esc(x.id_licencia)}</td><td>${esc(x._client?.empresa||x._client?.razon_social||x.cliente||'Sin referencia')}<span class="secondary-cell">${x._client?esc(x._client.id_cliente):`Vinculación: ${esc(x._link.toLowerCase())}`}</span></td><td>${esc(x.producto)}</td><td>${dateFmt(x.fecha_vencimiento)}</td><td><span class="pill ${x._days<=7?'red':'amber'}">${x._days===0?'Hoy':x._days+' días'}</span></td><td><span class="pill ${statusClass(x.estatus)}">${esc(x.estatus)}</span></td></tr>`).join(''):`<tr><td colspan="6" class="empty">No hay licencias con vencimiento dentro de este plazo.</td></tr>`}</tbody></table></div></section><p class="inline-note">Esta pantalla calcula avisos para consulta; no envía correos. El plazo es de 15 días naturales; los avisos se consultan dentro del sistema y no se envían por correo.</p>`}
 function render(){const root=document.getElementById('content');if(state.view==='dashboard')root.innerHTML=dashboard();else if(state.view==='notificaciones')root.innerHTML=notifications();else{root.innerHTML=tableView(state.view);drawTable()}}
 function onSearch(v){state.query=v;state.page=1;drawTable()}function onFilter(v){state.filter=v;state.page=1;drawTable()}function changePage(n){state.page+=n;drawTable()}function setDays(v){state.days=Number(v);render()}
 function showDetail(type,id){const rows=type==='clientes'?customers:type==='licencias'?licenses:transactions;const key=type==='clientes'?'id_cliente':type==='licencias'?'id_licencia':'id_transaccion';const x=rows.find(r=>r[key]===id);if(!x)return;let fields=Object.entries(x).filter(([k])=>!k.startsWith('_'));if(type!=='clientes'){fields.push(['Estado de vinculación',x._link]);fields.push(['Cliente central',x._client?.id_cliente||'Sin asociación validada'])}const name=type==='clientes'?x.nombre_cliente:type==='licencias'?x.id_licencia:x.id_transaccion;document.getElementById('modalRoot').innerHTML=`<div class="modal-back" onclick="if(event.target===this)closeModal()"><div class="modal"><div class="modal-head"><h2>${esc(name)}</h2><button class="close" onclick="closeModal()">×</button></div><div class="modal-body"><div class="detail-grid">${fields.map(([k,v])=>`<div class="detail"><small>${esc(k.replace(/_/g,' '))}</small><div>${esc(v||'—')}</div></div>`).join('')}</div></div></div></div>`}
@@ -74,3 +132,4 @@ render();
 
 }
 loadData().catch(error=>{document.getElementById('content').innerHTML='<section class="panel"><h2>No se pudieron cargar los datos</h2><p>Ejecuta iniciar.bat o inicia un servidor local en esta carpeta y vuelve a abrir la página.</p><p>'+String(error.message||error)+'</p></section>';});
+
