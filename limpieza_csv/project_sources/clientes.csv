@@ -1,501 +1,501 @@
-id_cliente,nombre_cliente,razon_social,rfc,correo,telefono,empresa,estado,fecha_registro
-C0001,Laura Martínez Cabrera,Servicios Martínez Nova S.A. de C.V.,SBF230929001,LAURA.MARTINEZ1@MARTINEZ1.MX,+52 55 0000 7919,Servicios Martinez Nova,Estado de México,2023-09-29
-C0002,Camila González Reyes,Comercializadora González Empresarial S.A. de C.V.,SCK240501002, camila.gonzalez2@gonzalez2.mx ,5500015838,comercializadora gonzález empresarial,Puebla,2024-05-01
-C0003,Elena Ramírez Gómez,Consultoría Ramírez del Bajío S.A. de C.V.,SDP220524003,elena.ramirez3@ramirez3.mx,+52 55 0002 3757,Consultoría Ramírez del Bajío,Puebla,2022-05-24
-C0004,Héctor Mendoza Pérez,Logística Mendoza Digital S.A. de C.V.,SEU231230004,hector.mendoza4@mendoza4.mx,(55) 0003 1676,Logística Mendoza Digital,Nuevo León,2023-12-30
-C0005,Jimena Morales Gómez,Soluciones Morales Nova S.A. de C.V.,SFZ250131005,jimena.morales5@morales5.mx,5500039595,Soluciones Morales Nova,Guanajuato,2025-01-31
-C0006,Natalia Rivera Cabrera,Corporativo Rivera Empresarial S.A. de C.V.,SGE241210006,natalia.rivera6@rivera6.mx,525500047514,Corporativo Rivera Empresarial,Querétaro,2024-12-10
-C0007,Camila Cabrera Bautista,Industrias Cabrera del Bajío S.A. de C.V.,SHJ250922007,camila.cabrera7@cabrera7.mx,525500055433,Industrias Cabrera del Bajio,Jalisco,2025-09-22
-C0008,Héctor Hernández Domínguez,Distribuidora Hernández Digital S.A. de C.V.,SIO231129008,hector.hernandez8@hernandez8.mx,(55) 0006 3352,Distribuidora Hernández Digital,Ciudad de México,2023-11-29
-C0009,Eduardo Martínez Rodríguez,Sistemas Martínez Nova S.A. de C.V.,SJT220611009,eduardo.martinez9@martinez9.mx,(55) 0007 1271,Sistemas Martínez Nova,Jalisco,2022-06-11
-C0010,Bruno López Vargas,Grupo López Empresarial S.A. de C.V.,SKY250828010,bruno.lopez10@lopez10.mx,525500079190,Grupo López Empresarial,Querétaro,2025-08-28
-C0011,Natalia Navarro Morales,Innovación Navarro del Bajío S.A. de C.V.,SLD220524011,natalia.navarro11@navarro11.mx,55-0008-7109,INNOVACIÓN NAVARRO DEL BAJÍO,Nuevo León,2022-05-24
-C0012,Laura Márquez Morales,Tecnología Márquez Digital S.A. de C.V.,SMI250401012,laura.marquez12@marquez12.mx,5500095028,Tecnologia Marquez Digital,Querétaro,2025-04-01
-C0013,Rafael Romero Morales,Servicios Romero Nova S.A. de C.V.,SNN230316013,rafael.romero13@romero13.mx,+52 55 0010 2947,Servicios Romero Nova,Guanajuato,2023-03-16
-C0014,Elena Martínez Bautista,Comercializadora Martínez Empresarial S.A. de C.V.,SOS260202014, elena.martinez14@martinez14.mx ,525500110866,Comercializadora Martínez Empresarial,Chihuahua,2026-02-02
-C0015,Natalia Hernández Pérez,Consultoría Hernández del Bajío S.A. de C.V.,SPX240925015,natalia.hernandez15 @hernandez15.mx,5500118785,Consultoría Hernández del Bajío,Veracruz,2024-09-25
-C0016,Rafael González Pérez,Logística González Digital S.A. de C.V.,SQC220323016,rafael.gonzalez16@gonzalez16.mx,(55) 0012 6704,Logística González Digital,Querétaro,2022-03-23
-C0017,Bruno Vargas Ramírez,Soluciones Vargas Nova S.A. de C.V.,SRH250216017,bruno.vargas17@vargas0.mx,(55) 0013 4623,Soluciones Vargas Nova,Estado de México,2025-02-16
-C0018,Javier Flores Ramírez,Corporativo Flores Empresarial S.A. de C.V.,SSM220709018,javier.flores18@flores1.mx,+52 55 0014 2542,corporativo flores empresarial,Estado de México,2022-07-09
-C0019,Diego Márquez Torres,Industrias Márquez del Bajío S.A. de C.V.,STR240126019,diego.marquez19@marquez2.mx,+52 55 0015 0461,Industrias Márquez del Bajío,Chihuahua,26/01/2024
-C0020,Mariana Sánchez Escobar,Distribuidora Sánchez Digital S.A. de C.V.,SUW230916020,mariana.sanchez20@sanchez3.mx,5500158380,DISTRIBUIDORA SÁNCHEZ DIGITAL,Jalisco,2023-09-16
-C0021,Mariana Cortés Gómez,Sistemas Cortés Nova S.A. de C.V.,SVB240728021,mariana.cortes21@cortes4.mx,525500166299,Sistemas Cortés Nova,Estado de México,2024-07-28
-C0022,Ángel Navarro Martínez,Grupo Navarro Empresarial S.A. de C.V.,SWG240829022,angel.navarro22@navarro5.mx,(55) 0017 4218,Grupo Navarro Empresarial,Guanajuato,2024-08-29
-C0023,Ana Rivera Chávez,Innovación Rivera del Bajío S.A. de C.V.,SXL230906023, ana.rivera23@rivera6.mx ,5500182137,Innovación Rivera del Bajío,Guanajuato,2023-09-06
-C0024,Valeria González Pérez,Tecnología González Digital S.A. de C.V.,SYQ240618024,VALERIA.GONZALEZ24@GONZALEZ7.MX,+52 55 0019 0056,Tecnología González Digital,Puebla,2024-06-18
-C0025,Alejandro Rodríguez Gómez,Servicios Rodríguez Nova S.A. de C.V.,SZV251030025,alejandro.rodriguez25@rodriguez8.mx,5500197975,servicios rodríguez nova,Querétaro,2025-10-30
-C0026,José Morales López,Comercializadora Morales Empresarial S.A. de C.V.,SAA230506026,jose.morales26@morales9.mx,525500205894,Comercializadora Morales Empresarial,Querétaro,2023-05-06
-C0027,Renata Bautista Navarro,Consultoría Bautista del Bajío S.A. de C.V.,SBF221207027,renata.bautista27@bautista10.mx,+52 55 0021 3813,Consultoria Bautista del Bajio,Veracruz,2022-12-07
-C0028,Daniela Torres Morales,Logística Torres Digital S.A. de C.V.,SCK230111028,daniela.torres28@torres11.mx,5500221732,Logistica Torres Digital,Jalisco,2023-01-11
-C0029,Ana Álvarez Pérez,Soluciones Álvarez Nova S.A. de C.V.,SDP260128029,ana.alvarez29@alvarez12.mx,+52 55 0022 9651,Soluciones Álvarez Nova,Estado de México,2026-01-28
-C0030,Daniela Pérez García,Corporativo Pérez Empresarial S.A. de C.V.,SEU250526030,daniela.perez30@perez13.mx,5500237570,Corporativo Pérez Empresarial,Yucatán,2025-05-26
-C0031,Inés Navarro Morales,Industrias Navarro del Bajío S.A. de C.V.,SFZ240110031,ines.navarro31@navarro14.mx,525500245489,Industrias Navarro del Bajio,Querétaro,2024-01-10
-C0032,Luis Pérez Romero,Distribuidora Pérez Digital S.A. de C.V.,SGE221019032,luis.perez32@perez15.mx,5500253408,Distribuidora Perez Digital,Ciudad de México,2022-10-19
-C0033,Héctor Escobar Rivera,Sistemas Escobar Nova S.A. de C.V.,SHJ240609033,hector.escobar33@escobar16.mx,525500261327,Sistemas Escobar Nova,Nuevo León,2024-06-09
-C0034,Óscar Jiménez Cabrera,Grupo Jiménez Empresarial S.A. de C.V.,SIO260301034,oscar.jimenez34@jimenez0.mx,5500269246,GRUPO JIMÉNEZ EMPRESARIAL,Jalisco,2026-03-01
-C0035,Miguel Sánchez Torres,Innovación Sánchez del Bajío S.A. de C.V.,SJT260427035,miguel.sanchez35@sanchez1.mx,55-0027-7165,Innovación Sánchez del Bajío,Nuevo León,2026-04-27
-C0036,Diego Aguilar Romero,Tecnología Aguilar Digital S.A. de C.V.,SKY240922036,diego.aguilar36@aguilar2.mx,525500285084,Tecnología Aguilar Digital,Puebla,2024-09-22
-C0037,Mariana García Álvarez,Servicios García Nova S.A. de C.V.,SLD250920037,mariana.garcia37@garcia3.mx,525500293003,Servicios García Nova,Guanajuato,09/20/2025
-C0038,Natalia Ortega Flores,Comercializadora Ortega Empresarial S.A. de C.V.,SMI251208038,natalia.ortega38@ortega4.mx,+52 55 0030 0922,Comercializadora Ortega Empresarial,Estado de México,08/12/2025
-C0039,Víctor Jiménez Bautista,Consultoría Jiménez del Bajío S.A. de C.V.,SNN260531039,victor.jimenez39@jimenez5.mx,55-0030-8841,CONSULTORÍA JIMÉNEZ DEL BAJÍO,Chihuahua,2026-05-31
-C0040,Rafael Vargas Álvarez,Logística Vargas Digital S.A. de C.V.,SOS250220040,RAFAEL.VARGAS40@VARGAS6.MX,+52 55 0031 6760,Logística Vargas Digital,Ciudad de México,2025-02-20
-C0041,Bruno Rivera Domínguez,Soluciones Rivera Nova S.A. de C.V.,SPX241029041,bruno.rivera41@rivera7.mx,525500324679,Soluciones Rivera Nova,Estado de México,2024-10-29
-C0042,Diego Rodríguez Sánchez,Corporativo Rodríguez Empresarial S.A. de C.V.,SQC250413042,diego.rodriguez42@rodriguez8.mx,+52 55 0033 2598,Corporativo Rodriguez Empresarial,Estado de México,2025-04-13
-C0043,Luis Jiménez González,Industrias Jiménez del Bajío S.A. de C.V.,SRH240109043,luis.jimenez43@jimenez9.mx,(55) 0034 0517,Industrias Jiménez del Bajío,Querétaro,2024-01-09
-C0044,Jimena Mendoza Pérez,Distribuidora Mendoza Digital S.A. de C.V.,SSM240312044,jimena.mendoza44@mendoza10.mx,+52 55 0034 8436,Distribuidora Mendoza Digital,Chihuahua,2024-03-12
-C0045,Renata Chávez Reyes,Sistemas Chávez Nova S.A. de C.V.,STR221113045,renata.chavez45@chavez11.mx,(55) 0035 6355,Sistemas Chávez Nova,Estado de México,2022-11-13
-C0046,Valeria Pérez González,Grupo Pérez Empresarial S.A. de C.V.,SUW250214046,valeria.perez46@perez12.mx,55-0036-4274,Grupo Pérez Empresarial,Puebla,2025-02-14
-C0047,José Vargas Ramírez,Innovación Vargas del Bajío S.A. de C.V.,SVB230330047,jose.vargas47@vargas13.mx,,innovación vargas del bajío,Chihuahua,2023-03-30
-C0048,Miguel Mendoza Morales,Tecnología Mendoza Digital S.A. de C.V.,SWG240827048,miguel.mendoza48@mendoza14.mx,55-0038-0112,Tecnologia Mendoza Digital,Puebla,2024-08-27
-C0049,Miguel Torres López,Servicios Torres Nova S.A. de C.V.,SXL250602049,miguel.torres49@torres15.mx,(55) 0038 8031,Servicios Torres Nova,Querétaro,2025-06-02
-C0050,Beatriz Vázquez Rodríguez,Comercializadora Vázquez Empresarial S.A. de C.V.,SYQ230301050,beatriz.vazquez50 @vazquez16.mx,+52 55 0039 5950,Comercializadora Vázquez Empresarial,Nuevo León,2023-03-01
-C0051,Ricardo Domínguez Morales,Consultoría Domínguez del Bajío S.A. de C.V.,SZV220420051,ricardo.dominguez51@dominguez0.mx,55-0040-3869,Consultoría Domínguez del Bajío,Guanajuato,2022-04-20
-C0052,Laura Flores Rivera,Logística Flores Digital S.A. de C.V.,SAA251128052,laura.flores52@flores1.mx,525500411788,Logistica Flores Digital,Veracruz,2025-11-28
-C0053,Daniela Chávez Torres,Soluciones Chávez Nova S.A. de C.V.,SBF220211053, daniela.chavez53@chavez2.mx ,55-0041-9707,Soluciones Chavez Nova,Yucatán,2022-02-11
-C0054,Rafael Romero Márquez,Corporativo Romero Empresarial S.A. de C.V.,SCK260316054,rafael.romero54@romero3.mx,(55) 0042 7626,corporativo romero empresarial,Estado de México,2026-03-16
-C0055,Natalia Márquez Torres,Industrias Márquez del Bajío S.A. de C.V.,SDP230413055,natalia.marquez55@marquez4.mx,525500435545,Industrias Marquez del Bajio,Guanajuato,2023-04-13
-C0056,Ricardo Cabrera Chávez,Distribuidora Cabrera Digital S.A. de C.V.,SEU240906056,ricardo.cabrera56@cabrera5.mx,(55) 0044 3464,Distribuidora Cabrera Digital,Nuevo León,2024-09-06
-C0057,Diego Flores Gómez,Sistemas Flores Nova S.A. de C.V.,SFZ260405057,diego.flores57@flores6.mx,5500451383,Sistemas Flores Nova,Yucatán,05/04/2026
-C0058,Eduardo Cortés Bautista,Grupo Cortés Empresarial S.A. de C.V.,SGE250529058,eduardo.cortes58@cortes7.mx,55-0045-9302,Grupo Cortés Empresarial,Veracruz,2025-05-29
-C0059,Miguel Álvarez Escobar,Innovación Álvarez del Bajío S.A. de C.V.,SHJ250717059,miguel.alvarez59@alvarez8.mx,(55) 0046 7221,Innovación Álvarez del Bajío,Guanajuato,2025-07-17
-C0060,Ana Aguilar Castillo,Tecnología Aguilar Digital S.A. de C.V.,SIO241028060,ana.aguilar60@aguilar9.mx,55-0047-5140,TECNOLOGÍA AGUILAR DIGITAL,Puebla,2024-10-28
-C0061,BRUNO ÁLVAREZ NAVARRO,Servicios Álvarez Nova S.A. de C.V.,SJT221021061,bruno.alvarez61 @alvarez10.mx,5500483059,servicios álvarez nova,Chihuahua,2022-10-21
-C0062,Eduardo Márquez Álvarez,Comercializadora Márquez Empresarial S.A. de C.V.,SKY230614062,eduardo.marquez62@marquez11.mx,(55) 0049 0978,Comercializadora Márquez Empresarial,Veracruz,2023-06-14
-C0063,Óscar Mendoza Martínez,Consultoría Mendoza del Bajío S.A. de C.V.,SLD230901063,oscar.mendoza63@mendoza12.mx,55-0049-8897,Consultoría Mendoza del Bajío,Estado de México,2023-09-01
-C0064,Eduardo Reyes Rodríguez,Logística Reyes Digital S.A. de C.V.,SMI240629064,EDUARDO.REYES64@REYES13.MX,55-0050-6816,Logística Reyes Digital,Guanajuato,2024-06-29
-C0065,Ana Navarro Ramírez,Soluciones Navarro Nova S.A. de C.V.,SNN240823065,ana.navarro65@navarro14.mx,525500514735,Soluciones Navarro Nova,Nuevo León,2024-08-23
-C0066,Beatriz Reyes Romero,Corporativo Reyes Empresarial S.A. de C.V.,SOS240825066,beatriz.reyes66@reyes15.mx,5500522654,Corporativo Reyes Empresarial,Jalisco,2024-08-25
-C0067,Jimena López Chávez,Industrias López del Bajío S.A. de C.V.,SPX251016067,jimena.lopez67 @lopez16.mx,(55) 0053 0573,Industrias López del Bajío,Chihuahua,2025-10-16
-C0068,Carlos García Márquez,Distribuidora García Digital S.A. de C.V.,SQC260117068,carlos.garcia68@garcia0.mx,5500538492,Distribuidora García Digital,Yucatán,2026-01-17
-C0069,Eduardo Martínez Navarro,Sistemas Martínez Nova S.A. de C.V.,SRH220713069,eduardo.martinez69@martinez1.mx,55-0054-6411,Sistemas Martinez Nova,Jalisco,2022-07-13
-C0070,Renata Pérez Flores,Grupo Pérez Empresarial S.A. de C.V.,SSM221123070,renata.perez70@perez2.mx,525500554330,Grupo Pérez Empresarial,Nuevo León,2022-11-23
-C0071,Carlos López Flores,Innovación López del Bajío S.A. de C.V.,STR230627071,carlos.lopez71@lopez3.mx,5500562249,Innovación López del Bajío,Ciudad de México,2023-06-27
-C0072,Mariana Márquez Mendoza,Tecnología Márquez Digital S.A. de C.V.,SUW250113072,mariana.marquez72@marquez4.mx,+52 55 0057 0168,Tecnología Márquez Digital,Jalisco,2025-01-13
-C0073,Diego Domínguez Vázquez,Servicios Dominguez Nova S.A. de C.V.,SVB260204073,diego.dominguez73@dominguez5.mx,(55) 0057 8087,Servicios Domínguez Nova,Estado de México,2026-02-04
-C0074,Inés Vargas Álvarez,Comercializadora Vargas Empresarial S.A. de C.V.,SWG250126074,ines.vargas74@vargas6.mx,(55) 0058 6006,COMERCIALIZADORA VARGAS EMPRESARIAL,Yucatán,01/26/2025
-C0075,Daniela Jiménez Márquez,Consultoría Jiménez del Bajío S.A. de C.V.,SXL250223075,daniela.jimenez75@jimenez7.mx,5500593925,Consultoría Jiménez del Bajío,Puebla,2025-02-23
-C0076,Beatriz Romero Ramírez,Logística Romero Digital S.A. de C.V.,SYQ230713076,beatriz.romero76@romero8.mx,(55) 0060 1844,Logística Romero Digital,Veracruz,13/07/2023
-C0077,Paola Márquez Reyes,Soluciones Márquez Nova S.A. de C.V.,SZV240105077,paola.marquez77@marquez9.mx,(55) 0060 9763,Soluciones Márquez Nova,Nuevo León,2024-01-05
-C0078,Ana Ortega Márquez,Corporativo Ortega Empresarial S.A. de C.V.,SAA230929078,ana.ortega78@ortega10.mx,(55) 0061 7682,corporativo ortega empresarial,Guanajuato,2023-09-29
-C0079,Jimena Domínguez García,Industrias Domínguez del Bajío S.A. de C.V.,SBF241206079,jimena.dominguez79@dominguez11.mx,55-0062-5601,Industrias Domínguez del Bajío,Guanajuato,2024-12-06
-C0080,Valeria Ortega Ramírez,Distribuidora Ortega Digital S.A. de C.V.,SCK240906080,valeria.ortega80@ortega12.mx,55-0063-3520,Distribuidora Ortega Digital,Yucatán,2024-09-06
-C0081,Víctor Reyes Gómez,Sistemas Reyes Nova S.A. de C.V.,SDP220106081,victor.reyes81@reyes13.mx,55-0064-1439,Sistemas Reyes Nova,Estado de México,2022-01-06
-C0082,Mariana Cabrera Jiménez,Grupo Cabrera Empresarial S.A. de C.V.,SEU251025082,mariana.cabrera82@cabrera14.mx,(55) 0064 9358,Grupo Cabrera Empresarial,Puebla,2025-10-25
-C0083,Ana Martínez Vargas,Innovación Martínez del Bajío S.A. de C.V.,SFZ250128083,ana.martinez83@martinez15.mx,55-0065-7277,INNOVACIÓN MARTÍNEZ DEL BAJÍO,,2025-01-28
-C0084,Renata Domínguez Mendoza,Tecnología Domínguez Digital S.A. de C.V.,SGE240509084,renata.dominguez84@dominguez16.mx,(55) 0066 5196,Tecnología Domínguez Digital,Yucatán,2024-05-09
-C0085,Beatriz Gómez Reyes,Servicios Gómez Nova S.A. de C.V.,SHJ260223085,beatriz.gomez85@gomez0.mx,(55) 0067 3115,SERVICIOS GÓMEZ NOVA,Yucatán,2026-02-23
-C0086,Elena Mendoza Navarro,Comercializadora Mendoza Empresarial S.A. de C.V.,SIO220404086, elena.mendoza86@mendoza1.mx ,(55) 0068 1034,Comercializadora Mendoza Empresarial,Nuevo León,2022-04-04
-C0087,Renata Reyes Martínez,Consultoría Reyes del Bajío S.A. de C.V.,SJT250812087,renata.reyes87@reyes2.mx,5500688953,CONSULTORÍA REYES DEL BAJÍO,Estado de México,2025-08-12
-C0088,Alejandro Castillo García,Logística Castillo Digital S.A. de C.V.,SKY231127088, alejandro.castillo88@castillo3.mx ,5500696872,LOGÍSTICA CASTILLO DIGITAL,Yucatán,2023-11-27
-C0089,Javier Rodríguez Romero,Soluciones Rodríguez Nova S.A. de C.V.,SLD250206089,javier.rodriguez89@rodriguez4.mx,,Soluciones Rodríguez Nova,Puebla,2025-02-06
-C0090,Valeria Morales Rodríguez,Corporativo Morales Empresarial S.A. de C.V.,SMI230419090,valeria.morales90@morales5.mx,+52 55 0071 2710,Corporativo Morales Empresarial,Guanajuato,2023-04-19
-C0091,Ángel Chávez Pérez,Industrias Chávez del Bajío S.A. de C.V.,SNN250127091,angel.chavez91@chavez6.mx,55-0072-0629,industrias chávez del bajío,Yucatán,2025-01-27
-C0092,Adriana González Gómez,Distribuidora González Digital S.A. de C.V.,SOS230819092,adriana.gonzalez92@gonzalez7.mx,(55) 0072 8548,Distribuidora González Digital,Jalisco,2023-08-19
-C0093,Daniela González Álvarez,Sistemas González Nova S.A. de C.V.,SPX230727093,daniela.gonzalez93@gonzalez8.mx,55-0073-6467,Sistemas González Nova,Querétaro,2023-07-27
-C0094,Beatriz Ortega Escobar,Grupo Ortega Empresarial S.A. de C.V.,SQC241002094,beatriz.ortega94@ortega9.mx,,Grupo Ortega Empresarial,Querétaro,2024-10-02
-C0095,Renata Aguilar Aguilar,Innovación Aguilar del Bajío S.A. de C.V.,SRH260104095,RENATA.AGUILAR95@AGUILAR10.MX,5500752305,Innovación Aguilar del Bajío,Nuevo León,04/01/2026
-C0096,Sofía Torres Ramírez,Tecnología Torres Digital S.A. de C.V.,SSM240220096,sofia.torres96@torres11.mx,5500760224,Tecnología Torres Digital,Guanajuato,2024-02-20
-C0097,Valeria Navarro Aguilar,Servicios Navarro Nova S.A. de C.V.,STR251114097,valeria.navarro97@navarro12.mx,5500768143,Servicios Navarro Nova,Nuevo León,2025-11-14
-C0098,Inés Álvarez Cabrera,Comercializadora Álvarez Empresarial S.A. de C.V.,SUW240318098,ines.alvarez98@alvarez13.mx,(55) 0077 6062,COMERCIALIZADORA ÁLVAREZ EMPRESARIAL,Guanajuato,2024-03-18
-C0099,Mariana Vázquez Flores,Consultoría Vázquez del Bajío S.A. de C.V.,SVB250130099,mariana.vazquez99@vazquez14.mx,5500783981,Consultoría Vázquez del Bajío,Puebla,2025-01-30
-C0100,Víctor Sánchez Hernández,Logística Sánchez Digital S.A. de C.V.,SWG230304100,victor.sanchez100@sanchez15.mx,+52 55 0079 1900,Logística Sánchez Digital,Ciudad de México,2023-03-04
-C0101,José Rodríguez Castillo,Soluciones Rodríguez Nova S.A. de C.V.,SXL240820101,jose.rodriguez101@rodriguez16.mx,5500799819,Soluciones Rodríguez Nova,Chihuahua,2024-08-20
-C0102,Víctor Ramírez González,Corporativo Ramírez Empresarial S.A. de C.V.,SYQ230223102,victor.ramirez102@ramirez0.mx,5500807738,Corporativo Ramírez Empresarial,Jalisco,2023-02-23
-C0103,Bruno Ortega Martínez,Industrias Ortega del Bajío S.A. de C.V.,SZV220912103,bruno.ortega103@ortega1.mx,525500815657,Industrias Ortega del Bajio,Puebla,2022-09-12
-C0104,Gabriel Sánchez Sánchez,Distribuidora Sánchez Digital S.A. de C.V.,SAA230118104,gabriel.sanchez104@sanchez2.mx,525500823576,Distribuidora Sánchez Digital,Ciudad de México,2023-01-18
-C0105,Mariana Domínguez Torres,Sistemas Domínguez Nova S.A. de C.V.,SBF251121105,mariana.dominguez105@dominguez3.mx,(55) 0083 1495,Sistemas Dominguez Nova,Nuevo León,2025-11-21
-C0106,Alejandro Rodríguez Ortega,Grupo Rodríguez Empresarial S.A. de C.V.,SCK220425106,alejandro.rodriguez106@rodriguez4.mx,+52 55 0083 9414,Grupo Rodríguez Empresarial,Nuevo León,2022-04-25
-C0107,Eduardo Reyes Navarro,Innovación Reyes del Bajío S.A. de C.V.,SDP220111107,eduardo.reyes107@reyes5.mx,(55) 0084 7333,Innovación Reyes del Bajío,Veracruz,2022-01-11
-C0108,Natalia Castillo Flores,Tecnología Castillo Digital S.A. de C.V.,SEU260209108,natalia.castillo108@castillo6.mx,55-0085-5252,Tecnología Castillo Digital,Ciudad de México,2026-02-09
-C0109,Diego Castillo Hernández,Servicios Castillo Nova S.A. de C.V.,SFZ241113109,diego.castillo109@castillo7.mx,(55) 0086 3171,Servicios Castillo Nova,Nuevo León,2024-11-13
-C0110,Luis García Bautista,Comercializadora García Empresarial S.A. de C.V.,SGE231017110, luis.garcia110@garcia8.mx ,55-0087-1090,COMERCIALIZADORA GARCÍA EMPRESARIAL,Nuevo León,2023-10-17
-C0111,Natalia Reyes Reyes,Consultoría Reyes del Bajío S.A. de C.V.,SHJ250529111,natalia.reyes111@reyes9.mx,525500879009,Consultoría Reyes del Bajío,Puebla,05/29/2025
-C0112,Héctor Torres Domínguez,Logística Torres Digital S.A. de C.V.,SIO250331112,hector.torres112@torres10.mx,(55) 0088 6928,Logística Torres Digital,Estado de México,2025-03-31
-C0113,Daniela Sánchez Morales,Soluciones Sánchez Nova S.A. de C.V.,SJT260223113,daniela.sanchez113@sanchez11.mx,(55) 0089 4847,Soluciones Sánchez Nova,Querétaro,2026-02-23
-C0114,Miguel Domínguez Ortega,Corporativo Domínguez Empresarial S.A. de C.V.,SKY230816114,miguel.dominguez114@dominguez12.mx,+52 55 0090 2766,Corporativo Domínguez Empresarial,Estado de México,16/08/2023
-C0115,Eduardo Márquez Torres,Industrias Márquez del Bajío S.A. de C.V.,SLD250503115,eduardo.marquez115@marquez13.mx,55-0091-0685,Industrias Márquez del Bajío,Querétaro,2025-05-03
-C0116,Adriana Ortega Castillo,Distribuidora Ortega Digital S.A. de C.V.,SMI240906116,adriana.ortega116@ortega14.mx,(55) 0091 8604,Distribuidora Ortega Digital,Puebla,2024-09-06
-C0117,Mariana Sánchez Gómez,Sistemas Sánchez Nova S.A. de C.V.,SNN260525117,mariana.sanchez117@sanchez15.mx,(55) 0092 6523,Sistemas Sanchez Nova,Chihuahua,2026-05-25
-C0118,Héctor Álvarez Gómez,Grupo Álvarez Empresarial S.A. de C.V.,SOS250801118,hector.alvarez118@alvarez16.mx,+52 55 0093 4442,Grupo Álvarez Empresarial,Veracruz,2025-08-01
-C0119,Javier Mendoza Reyes,Innovación Mendoza del Bajío S.A. de C.V.,SPX260416119,javier.mendoza119@mendoza0.mx,(55) 0094 2361,Innovación Mendoza del Bajío,Querétaro,2026-04-16
-C0120,Héctor González Ortega,Tecnología González Digital S.A. de C.V.,SQC220226120,hector.gonzalez120@gonzalez1.mx,55-0095-0280,Tecnología González Digital,Veracruz,2022-02-26
-C0121,Daniela Romero García,Servicios Romero Nova S.A. de C.V.,SRH221202121,daniela.romero121@romero2.mx,55-0095-8199,Servicios Romero Nova,Estado de México,2022-12-02
-C0122,MIGUEL NAVARRO TORRES,Comercializadora Navarro Empresarial S.A. de C.V.,SSM230626122,miguel.navarro122@navarro3.mx,5500966118,Comercializadora Navarro Empresarial,Guanajuato,2023-06-26
-C0123,Adriana Jiménez Chávez,Consultoría Jiménez del Bajío S.A. de C.V.,STR250216123,adriana.jimenez123@jimenez4.mx,55-0097-4037,Consultoría Jiménez del Bajío,Guanajuato,2025-02-16
-C0124,Eduardo Martínez Rodríguez,Logística Martínez Digital S.A. de C.V.,SUW220202124,eduardo.martinez124@martinez5.mx,+52 55 0098 1956,Logística Martínez Digital,Estado de México,2022-02-02
-C0125,Miguel Torres Cabrera,Soluciones Torres Nova S.A. de C.V.,SVB230121125,miguel.torres125@torres6.mx,55-0098-9875,Soluciones Torres Nova,Guanajuato,2023-01-21
-C0126,Camila García Cabrera,Corporativo García Empresarial S.A. de C.V.,SWG230321126,camila.garcia126@garcia7.mx,(55) 0099 7794,Corporativo Garcia Empresarial,Jalisco,2023-03-21
-C0127,Inés González Torres,Industrias González del Bajío S.A. de C.V.,SXL220401127,ines.gonzalez127@gonzalez8.mx,(55) 0100 5713,Industrias González del Bajío,Puebla,2022-04-01
-C0128,Ricardo Rivera Reyes,Distribuidora Rivera Digital S.A. de C.V.,SYQ250106128,ricardo.rivera128@rivera9.mx,525501013632,Distribuidora Rivera Digital,Querétaro,2025-01-06
-C0129,Diego Domínguez Pérez,Sistemas Domínguez Nova S.A. de C.V.,SZV240103129,diego.dominguez129@dominguez10.mx,55-0102-1551,Sistemas Domínguez Nova,Querétaro,2024-01-03
-C0130,José Flores Pérez,Grupo Flores Empresarial S.A. de C.V.,SAA241118130,jose.flores130@flores11.mx,+52 55 0102 9470,Grupo Flores Empresarial,Jalisco,2024-11-18
-C0131,Valeria Sánchez Ramírez,Innovación Sánchez del Bajío S.A. de C.V.,SBF220617131,valeria.sanchez131@sanchez12.mx,55-0103-7389,Innovación Sánchez del Bajío,Veracruz,2022-06-17
-C0132,Jimena Pérez Morales,Tecnología Pérez Digital S.A. de C.V.,SCK231004132,jimena.perez132@perez13.mx,55-0104-5308,Tecnología Pérez Digital,Estado de México,2023-10-04
-C0133,Gabriel Navarro Jiménez,Servicios Navarro Nova S.A. de C.V.,SDP230213133,gabriel.navarro133@navarro14.mx,(55) 0105 3227,SERVICIOS NAVARRO NOVA,Jalisco,13/02/2023
-C0134,Paola Mendoza Gómez,Comercializadora Mendoza Empresarial S.A. de C.V.,SEU230827134,paola.mendoza134@mendoza15.mx,55-0106-1146,Comercializadora Mendoza Empresarial,Yucatán,2023-08-27
-C0135,Eduardo Martínez Cabrera,Consultoría Martínez del Bajío S.A. de C.V.,SFZ260615135,eduardo.martinez135@martinez16.mx,55-0106-9065,Consultoría Martínez del Bajío,Chihuahua,2026-06-15
-C0136,Bruno Gómez González,Logística Gómez Digital S.A. de C.V.,SGE230213136,bruno.gomez136@gomez0.mx,(55) 0107 6984,Logística Gómez Digital,Puebla,2023-02-13
-C0137,Adriana Gómez Álvarez,Soluciones Gómez Nova S.A. de C.V.,SHJ230628137,adriana.gomez137@gomez1.mx,+52 55 0108 4903,Soluciones Gomez Nova,Puebla,2023-06-28
-C0138,Jimena Mendoza Ramírez,Corporativo Mendoza Empresarial S.A. de C.V.,SIO241011138,JIMENA.MENDOZA138@MENDOZA2.MX,525501092822,Corporativo Mendoza Empresarial,Estado de México,2024-10-11
-C0139,Elena Jiménez Ramírez,Industrias Jiménez del Bajío S.A. de C.V.,SJT251217139,elena.jimenez139@jimenez3.mx,525501100741,Industrias Jiménez del Bajío,Ciudad de México,2025-12-17
-C0140,Víctor Sánchez Romero,Distribuidora Sánchez Digital S.A. de C.V.,SKY220223140,victor.sanchez140@sanchez4.mx,5501108660,Distribuidora Sánchez Digital,Chihuahua,2022-02-23
-C0141,Ángel Morales González,Sistemas Morales Nova S.A. de C.V.,SLD221121141,angel.morales141@morales5.mx,,Sistemas Morales Nova,Ciudad de México,2022-11-21
-C0142,Alejandro Aguilar Vázquez,Grupo Aguilar Empresarial S.A. de C.V.,SMI250324142,alejandro.aguilar142@aguilar6.mx,525501124498,Grupo Aguilar Empresarial,Querétaro,2025-03-24
-C0143,Ricardo Chávez González,Innovación Chávez del Bajío S.A. de C.V.,SNN240506143,ricardo.chavez143@chavez7.mx,(55) 0113 2417,Innovación Chávez del Bajío,Estado de México,2024-05-06
-C0144,Miguel Torres Romero,Tecnología Torres Digital S.A. de C.V.,SOS250703144,miguel.torres144@torres8.mx,525501140336,Tecnología Torres Digital,Veracruz,2025-07-03
-C0145,Héctor Cortés Ortega,Servicios Cortés Nova S.A. de C.V.,SPX251103145,hector.cortes145@cortes9.mx,(55) 0114 8255,Servicios Cortes Nova,Puebla,2025-11-03
-C0146,Renata Escobar Reyes,Comercializadora Escobar Empresarial S.A. de C.V.,SQC220216146,renata.escobar146@escobar10.mx,+52 55 0115 6174,Comercializadora Escobar Empresarial,Yucatán,2022-02-16
-C0147,Natalia Márquez Flores,Consultoría Márquez del Bajío S.A. de C.V.,SRH231106147,natalia.marquez147@marquez11.mx,+52 55 0116 4093,Consultoría Márquez del Bajío,Yucatán,2023-11-06
-C0148,Inés Aguilar Ortega,Logística Aguilar Digital S.A. de C.V.,SSM251030148,ines.aguilar148@aguilar12.mx,5501172012,Logística Aguilar Digital,Nuevo León,10/30/2025
-C0149,Camila Reyes Bautista,Soluciones Reyes Nova S.A. de C.V.,STR230515149,camila.reyes149@reyes13.mx,5501179931,Soluciones Reyes Nova,Guanajuato,2023-05-15
-C0150,Javier Hernández Ramírez,Corporativo Hernández Empresarial S.A. de C.V.,SUW220117150,javier.hernandez150@hernandez14.mx,5501187850,Corporativo Hernández Empresarial,Nuevo León,2022-01-17
-C0151,Jimena Cortés Sánchez,Industrias Cortés del Bajío S.A. de C.V.,SVB231221151,jimena.cortes151@cortes15.mx,+52 55 0119 5769,Industrias Cortés del Bajío,Estado de México,2023-12-21
-C0152,Víctor Rodríguez Jiménez,Distribuidora Rodríguez Digital S.A. de C.V.,SWG250206152,victor.rodriguez152@rodriguez16.mx,5501203688,Distribuidora Rodriguez Digital,Estado de México,06/02/2025
-C0153,Ricardo Ortega Jiménez,Sistemas Ortega Nova S.A. de C.V.,SXL260615153,ricardo.ortega153@ortega0.mx,+52 55 0121 1607,Sistemas Ortega Nova,Yucatán,2026-06-15
-C0154,Carlos Sánchez Jiménez,Grupo Sánchez Empresarial S.A. de C.V.,SYQ250822154,carlos.sanchez154@sanchez1.mx,525501219526,Grupo Sánchez Empresarial,Veracruz,2025-08-22
-C0155,Héctor Aguilar Martínez,Innovación Aguilar del Bajío S.A. de C.V.,SZV220312155,hector.aguilar155@aguilar2.mx,(55) 0122 7445,Innovación Aguilar del Bajío,Querétaro,2022-03-12
-C0156,Ana Álvarez Reyes,Tecnología Álvarez Digital S.A. de C.V.,SAA240315156,ana.alvarez156@alvarez3.mx,5501235364,Tecnología Álvarez Digital,Veracruz,2024-03-15
-C0157,Rafael López Rivera,Servicios López Nova S.A. de C.V.,SBF260411157,rafael.lopez157@lopez4.mx,+52 55 0124 3283,Servicios López Nova,Jalisco,2026-04-11
-C0158,Adriana Domínguez Ortega,Comercializadora Domínguez Empresarial S.A. de C.V.,SCK231211158,adriana.dominguez158@dominguez5.mx,525501251202,Comercializadora Domínguez Empresarial,Estado de México,2023-12-11
-C0159,Mariana Torres Escobar,Consultoría Torres del Bajío S.A. de C.V.,SDP220926159,mariana.torres159@torres6.mx,(55) 0125 9121,Consultoría Torres del Bajío,Jalisco,2022-09-26
-C0160,Luis Aguilar Flores,Logística Aguilar Digital S.A. de C.V.,SEU241021160,luis.aguilar160@aguilar7.mx,525501267040,Logística Aguilar Digital,Guanajuato,2024-10-21
-C0161,Diego Romero Domínguez,Soluciones Romero Nova S.A. de C.V.,SFZ240224161,diego.romero161@romero8.mx,5501274959,Soluciones Romero Nova,Yucatán,2024-02-24
-C0162,Adriana Vargas López,Corporativo Vargas Empresarial S.A. de C.V.,SGE231127162,adriana.vargas162@vargas9.mx,5501282878,Corporativo Vargas Empresarial,Jalisco,2023-11-27
-C0163,Daniela Chávez Rodríguez,Industrias Chávez del Bajío S.A. de C.V.,SHJ240707163,daniela.chavez163@chavez10.mx,5501290797,Industrias Chávez del Bajío,Guanajuato,2024-07-07
-C0164,Ángel Márquez Gómez,Distribuidora Márquez Digital S.A. de C.V.,SIO220112164,angel.marquez164@marquez11.mx,525501298716,Distribuidora Márquez Digital,Puebla,2022-01-12
-C0165,Daniela Ramírez Cortés,Sistemas Ramírez Nova S.A. de C.V.,SJT240301165,daniela.ramirez165@ramirez12.mx,(55) 0130 6635,sistemas ramírez nova,Puebla,2024-03-01
-C0166,Elena Ramírez Martínez,Grupo Ramírez Empresarial S.A. de C.V.,SKY220406166,elena.ramirez166@ramirez13.mx,55-0131-4554,GRUPO RAMÍREZ EMPRESARIAL,,2022-04-06
-C0167,Óscar Ortega Hernández,Innovación Ortega del Bajío S.A. de C.V.,SLD221231167,oscar.ortega167@ortega14.mx,+52 55 0132 2473,Innovación Ortega del Bajío,Guanajuato,2022-12-31
-C0168,Gabriel Domínguez Hernández,Tecnología Domínguez Digital S.A. de C.V.,SMI240926168,gabriel.dominguez168@dominguez15.mx,(55) 0133 0392,Tecnología Domínguez Digital,Yucatán,2024-09-26
-C0169,Miguel Chávez Morales,Servicios Chávez Nova S.A. de C.V.,SNN230213169,miguel.chavez169@chavez16.mx,525501338311,Servicios Chávez Nova,Chihuahua,2023-02-13
-C0170,Inés Cabrera Navarro,Comercializadora Cabrera Empresarial S.A. de C.V.,SOS230422170,ines.cabrera170@cabrera0.mx,525501346230,Comercializadora Cabrera Empresarial,Ciudad de México,2023-04-22
-C0171,Inés Gómez Jiménez,Consultoría Gómez del Bajío S.A. de C.V.,SPX231203171,ines.gomez171@gomez1.mx,5501354149,consultoría gómez del bajío,Yucatán,03/12/2023
-C0172,Laura Escobar Navarro,Logística Escobar Digital S.A. de C.V.,SQC241010172,laura.escobar172@escobar2.mx,5501362068,logística escobar digital,Guanajuato,2024-10-10
-C0173,Laura Ortega Martínez,Soluciones Ortega Nova S.A. de C.V.,SRH251213173,laura.ortega173@ortega3.mx,525501369987,Soluciones Ortega Nova,Puebla,2025-12-13
-C0174,Beatriz González Castillo,Corporativo González Empresarial S.A. de C.V.,SSM240511174,beatriz.gonzalez174@gonzalez4.mx,+52 55 0137 7906,Corporativo González Empresarial,Jalisco,2024-05-11
-C0175,Camila García Reyes,Industrias García del Bajío S.A. de C.V.,STR240619175,camila.garcia175@garcia5.mx,+52 55 0138 5825,Industrias García del Bajío,Puebla,2024-06-19
-C0176,Bruno Chávez Mendoza,Distribuidora Chávez Digital S.A. de C.V.,SUW240717176,bruno.chavez176@chavez6.mx,525501393744,Distribuidora Chávez Digital,Ciudad de México,2024-07-17
-C0177,Óscar González Romero,Sistemas González Nova S.A. de C.V.,SVB251018177,oscar.gonzalez177@gonzalez7.mx,525501401663,Sistemas González Nova,Yucatán,2025-10-18
-C0178,Carlos Castillo Rodríguez,Grupo Castillo Empresarial S.A. de C.V.,SWG230506178,carlos.castillo178@castillo8.mx,,grupo castillo empresarial,Querétaro,2023-05-06
-C0179,Gabriel Navarro Álvarez,Innovación Navarro del Bajío S.A. de C.V.,SXL260602179,gabriel.navarro179@navarro9.mx,55-0141-7501,Innovación Navarro del Bajío,Ciudad de México,2026-06-02
-C0180,Daniela Márquez Vargas,Tecnología Márquez Digital S.A. de C.V.,SYQ240130180,daniela.marquez180@marquez10.mx,55-0142-5420,Tecnología Márquez Digital,Puebla,2024-01-30
-C0181,Rafael Vargas Domínguez,Servicios Vargas Nova S.A. de C.V.,SZV251001181,rafael.vargas181@vargas11.mx,5501433339,Servicios Vargas Nova,Guanajuato,2025-10-01
-C0182,Daniela Mendoza Martínez,Comercializadora Mendoza Empresarial S.A. de C.V.,SAA250527182,daniela.mendoza182@mendoza12.mx,55-0144-1258,Comercializadora Mendoza Empresarial,Veracruz,2025-05-27
-C0183,ELENA SÁNCHEZ REYES,Consultoría Sánchez del Bajío S.A. de C.V.,SBF260213183,elena.sanchez183@sanchez13.mx,(55) 0144 9177,Consultoría Sánchez del Bajío,Puebla,2026-02-13
-C0184,Paola Vázquez Domínguez,Logística Vázquez Digital S.A. de C.V.,SCK240107184,paola.vazquez184@vazquez14.mx,(55) 0145 7096,Logística Vázquez Digital,Querétaro,2024-01-07
-C0185,Diego Rivera Gómez,Soluciones Rivera Nova S.A. de C.V.,SDP240404185,diego.rivera185@rivera15.mx,5501465015,Soluciones Rivera Nova,Jalisco,04/04/2024
-C0186,Ana Vázquez González,Corporativo Vázquez Empresarial S.A. de C.V.,SEU250811186,ana.vazquez186@vazquez16.mx,+52 55 0147 2934,Corporativo Vázquez Empresarial,Veracruz,2025-08-11
-C0187,Víctor Navarro Torres,Industrias Navarro del Bajío S.A. de C.V.,SFZ240109187,victor.navarro187@navarro0.mx,525501480853,Industrias Navarro del Bajío,Querétaro,2024-01-09
-C0188,Luis Romero Navarro,Distribuidora Romero Digital S.A. de C.V.,SGE250928188,luis.romero188@romero1.mx,,Distribuidora Romero Digital,Jalisco,2025-09-28
-C0189,Paola Aguilar Flores,Sistemas Aguilar Nova S.A. de C.V.,SHJ240317189,paola.aguilar189@aguilar2.mx,55-0149-6691,Sistemas Aguilar Nova,Nuevo León,2024-03-17
-C0190,Víctor Domínguez Hernández,Grupo Domínguez Empresarial S.A. de C.V.,SIO220119190,victor.dominguez190@dominguez3.mx,525501504610,Grupo Dominguez Empresarial,Veracruz,19/01/2022
-C0191,Diego Vázquez Hernández,Innovación Vázquez del Bajío S.A. de C.V.,SJT260401191,diego.vazquez191@vazquez4.mx,+52 55 0151 2529,Innovación Vázquez del Bajío,Guanajuato,2026-04-01
-C0192,Luis Navarro Domínguez,Tecnología Navarro Digital S.A. de C.V.,SKY221118192, luis.navarro192@navarro5.mx ,+52 55 0152 0448,Tecnologia Navarro Digital,Ciudad de México,2022-11-18
-C0193,Ricardo Hernández Domínguez,Servicios Hernández Nova S.A. de C.V.,SLD250526193,ricardo.hernandez193@hernandez6.mx,+52 55 0152 8367,Servicios Hernández Nova,Veracruz,2025-05-26
-C0194,Sofía Rodríguez Ortega,Comercializadora Rodríguez Empresarial S.A. de C.V.,SMI260816194,sofia.rodriguez194@rodriguez7.mx,+52 55 0153 6286,Comercializadora Rodríguez Empresarial,Estado de México,2026-08-16
-C0195,Laura Cabrera Bautista,Consultoría Cabrera del Bajío S.A. de C.V.,SNN230823195,laura.cabrera195@cabrera8.mx,(55) 0154 4205,Consultoría Cabrera del Bajío,Veracruz,2023-08-23
-C0196,Jimena López García,Logística López Digital S.A. de C.V.,SOS220528196,jimena.lopez196@lopez9.mx,+52 55 0155 2124,Logística López Digital,Ciudad de México,2022-05-28
-C0197,Javier Álvarez Álvarez,Soluciones Álvarez Nova S.A. de C.V.,SPX240310197,JAVIER.ALVAREZ197@ALVAREZ10.MX,525501560043,SOLUCIONES ÁLVAREZ NOVA,Nuevo León,2024-03-10
-C0198,Sofía Torres Mendoza,Corporativo Torres Empresarial S.A. de C.V.,SQC230511198, sofia.torres198@torres11.mx ,55-0156-7962,Corporativo Torres Empresarial,Veracruz,2023-05-11
-C0199,Héctor Aguilar Pérez,Industrias Aguilar del Bajío S.A. de C.V.,SRH220115199,hector.aguilar199@aguilar12.mx,525501575881,Industrias Aguilar del Bajío,Puebla,2022-01-15
-C0200,Diego Castillo Mendoza,Distribuidora Castillo Digital S.A. de C.V.,SSM250603200,diego.castillo200@castillo13.mx,55-0158-3800,Distribuidora Castillo Digital,Puebla,2025-06-03
-C0201,Rafael Domínguez Bautista,Sistemas Domínguez Nova S.A. de C.V.,STR240525201,rafael.dominguez201@dominguez14.mx,55-0159-1719,Sistemas Domínguez Nova,Veracruz,2024-05-25
-C0202,Ana Ramírez Navarro,Grupo Ramírez Empresarial S.A. de C.V.,SUW231201202,ana.ramirez202@ramirez15.mx,5501599638,Grupo Ramírez Empresarial,Querétaro,2023-12-01
-C0203,Alejandro Pérez Jiménez,Innovación Pérez del Bajío S.A. de C.V.,SVB260322203,alejandro.perez203@perez16.mx,+52 55 0160 7557,Innovación Pérez del Bajío,Nuevo León,2026-03-22
-C0204,Inés Escobar López,Tecnología Escobar Digital S.A. de C.V.,SWG260421204,ines.escobar204@escobar0.mx,5501615476,Tecnología Escobar Digital,Chihuahua,2026-04-21
-C0205,Eduardo Gómez Rivera,Servicios Gómez Nova S.A. de C.V.,SXL250625205,eduardo.gomez205@gomez1.mx,(55) 0162 3395,SERVICIOS GÓMEZ NOVA,Puebla,2025-06-25
-C0206,Rafael Martínez Romero,Comercializadora Martínez Empresarial S.A. de C.V.,SYQ231229206,rafael.martinez206@martinez2.mx,525501631314,Comercializadora Martínez Empresarial,Veracruz,2023-12-29
-C0207,Bruno Cortés Flores,Consultoría Cortés del Bajío S.A. de C.V.,SZV250206207,bruno.cortes207@cortes3.mx,55-0163-9233,Consultoría Cortés del Bajío,Chihuahua,2025-02-06
-C0208,Ricardo Castillo Sánchez,Logística Castillo Digital S.A. de C.V.,SAA230508208,ricardo.castillo208@castillo4.mx,55-0164-7152,Logistica Castillo Digital,Puebla,2023-05-08
-C0209,Renata González Chávez,Soluciones González Nova S.A. de C.V.,SBF251222209,renata.gonzalez209@gonzalez5.mx,55-0165-5071,Soluciones González Nova,Estado de México,22/12/2025
-C0210,Luis Ramírez López,Corporativo Ramírez Empresarial S.A. de C.V.,SCK251210210,luis.ramirez210@ramirez6.mx,+52 55 0166 2990,Corporativo Ramírez Empresarial,Veracruz,2025-12-10
-C0211,Sofía Domínguez Reyes,Industrias Domínguez del Bajío S.A. de C.V.,SDP250115211,SOFIA.DOMINGUEZ211@DOMINGUEZ7.MX,55-0167-0909,Industrias Dominguez del Bajio,Guanajuato,2025-01-15
-C0212,Jimena Cortés Jiménez,Distribuidora Cortés Digital S.A. de C.V.,SEU220610212,jimena.cortes212@cortes8.mx,+52 55 0167 8828,Distribuidora Cortés Digital,Jalisco,2022-06-10
-C0213,Laura Vázquez Castillo,Sistemas Vázquez Nova S.A. de C.V.,SFZ230308213,laura.vazquez213@vazquez9.mx,+52 55 0168 6747,Sistemas Vázquez Nova,Jalisco,2023-03-08
-C0214,Sofía Gómez Sánchez,Grupo Gómez Empresarial S.A. de C.V.,SGE230404214,sofia.gomez214@gomez10.mx,(55) 0169 4666,Grupo Gómez Empresarial,Puebla,2023-04-04
-C0215,Jimena Flores Flores,Innovación Flores del Bajío S.A. de C.V.,SHJ231011215,jimena.flores215@flores11.mx,525501702585,Innovacion Flores del Bajio,Jalisco,2023-10-11
-C0216,Diego Flores Chávez,Tecnología Flores Digital S.A. de C.V.,SIO240609216,diego.flores216@flores12.mx,5501710504,Tecnología Flores Digital,Jalisco,2024-06-09
-C0217,Diego Escobar Jiménez,Servicios Escobar Nova S.A. de C.V.,SJT230609217,diego.escobar217@escobar13.mx,55-0171-8423,SERVICIOS ESCOBAR NOVA,Querétaro,2023-06-09
-C0218,Valeria Martínez Flores,Comercializadora Martínez Empresarial S.A. de C.V.,SKY230329218,valeria.martinez218@martinez14.mx,+52 55 0172 6342,Comercializadora Martínez Empresarial,Estado de México,2023-03-29
-C0219,Alejandro Vázquez Sánchez,Consultoria Vazquez del Bajio S.A. de C.V.,SLD230814219,alejandro.vazquez219@vazquez15.mx,525501734261,Consultoría Vázquez del Bajío,Nuevo León,2023-08-14
-C0220,Mariana Márquez Domínguez,Logística Márquez Digital S.A. de C.V.,SMI220216220,mariana.marquez220@marquez16.mx,+52 55 0174 2180,Logística Márquez Digital,Querétaro,2022-02-16
-C0221,Héctor Cortés Cabrera,Soluciones Cortés Nova S.A. de C.V.,SNN240824221,hector.cortes221@cortes0.mx,525501750099,soluciones cortés nova,Guanajuato,2024-08-24
-C0222,Mariana Álvarez Hernández,Corporativo Álvarez Empresarial S.A. de C.V.,SOS220822222,mariana.alvarez222@alvarez1.mx,55-0175-8018,CORPORATIVO ÁLVAREZ EMPRESARIAL,Ciudad de México,08/22/2022
-C0223,Beatriz Gómez Chávez,Industrias Gómez del Bajío S.A. de C.V.,SPX220129223,beatriz.gomez223@gomez2.mx,525501765937,Industrias Gómez del Bajío,Querétaro,2022-01-29
-C0224,Adriana Vargas García,Distribuidora Vargas Digital S.A. de C.V.,SQC260806224,adriana.vargas224@vargas3.mx,525501773856,Distribuidora Vargas Digital,Querétaro,2026-08-06
-C0225,José Hernández Pérez,Sistemas Hernández Nova S.A. de C.V.,SRH240706225,jose.hernandez225@hernandez4.mx,+52 55 0178 1775,Sistemas Hernández Nova,Chihuahua,2024-07-06
-C0226,Daniela Aguilar Jiménez,Grupo Aguilar Empresarial S.A. de C.V.,SSM251027226,daniela.aguilar226@aguilar5.mx,+52 55 0178 9694,Grupo Aguilar Empresarial,Veracruz,2025-10-27
-C0227,Víctor Torres Pérez,Innovación Torres del Bajío S.A. de C.V.,STR220422227,victor.torres227@torres6.mx,525501797613,Innovación Torres del Bajío,Estado de México,2022-04-22
-C0228,Javier López Martínez,Tecnología López Digital S.A. de C.V.,SUW221008228,javier.lopez228@lopez7.mx,(55) 0180 5532,Tecnología López Digital,Estado de México,08/10/2022
-C0229,Renata Vargas Gómez,Servicios Vargas Nova S.A. de C.V.,SVB241015229,renata.vargas229@vargas8.mx,+52 55 0181 3451,Servicios Vargas Nova,Nuevo León,2024-10-15
-C0230,José Vázquez García,Comercializadora Vázquez Empresarial S.A. de C.V.,SWG250717230,jose.vazquez230@vazquez9.mx,525501821370,Comercializadora Vázquez Empresarial,Yucatán,2025-07-17
-C0231,Laura Gómez Hernández,Consultoría Gómez del Bajío S.A. de C.V.,SXL241116231,laura.gomez231@gomez10.mx,5501829289,Consultoría Gómez del Bajío,Nuevo León,2024-11-16
-C0232,Natalia Jiménez Domínguez,Logística Jiménez Digital S.A. de C.V.,SYQ220116232,natalia.jimenez232@jimenez11.mx,5501837208,Logística Jiménez Digital,Veracruz,2022-01-16
-C0233,Javier Romero Morales,Soluciones Romero Nova S.A. de C.V.,SZV220930233,javier.romero233@romero12.mx,+52 55 0184 5127,Soluciones Romero Nova,Guanajuato,2022-09-30
-C0234,Inés Castillo Rivera,Corporativo Castillo Empresarial S.A. de C.V.,SAA220825234,ines.castillo234@castillo13.mx,+52 55 0185 3046,Corporativo Castillo Empresarial,Puebla,2022-08-25
-C0235,Carlos Flores Ortega,Industrias Flores del Bajío S.A. de C.V.,SBF231223235,carlos.flores235@flores14.mx,,Industrias Flores del Bajío,Nuevo León,2023-12-23
-C0236,Ana Jiménez Escobar,Distribuidora Jiménez Digital S.A. de C.V.,SCK220914236,ana.jimenez236@jimenez15.mx,(55) 0186 8884,Distribuidora Jiménez Digital,Guanajuato,2022-09-14
-C0237,Héctor Romero Reyes,Sistemas Romero Nova S.A. de C.V.,SDP220424237,hector.romero237@romero16.mx,525501876803,Sistemas Romero Nova,Ciudad de México,2022-04-24
-C0238,Eduardo Álvarez Flores,Grupo Álvarez Empresarial S.A. de C.V.,SEU250326238,eduardo.alvarez238@alvarez0.mx,5501884722,Grupo Álvarez Empresarial,Estado de México,2025-03-26
-C0239,Rafael Ramírez Sánchez,Innovación Ramírez del Bajío S.A. de C.V.,SFZ220312239,rafael.ramirez239@ramirez1.mx,5501892641,Innovación Ramírez del Bajío,Jalisco,2022-03-12
-C0240,Óscar Morales Chávez,Tecnología Morales Digital S.A. de C.V.,SGE230310240,oscar.morales240@morales2.mx,(55) 0190 0560,Tecnologia Morales Digital,Puebla,2023-03-10
-C0241,José Ramírez Morales,Servicios Ramírez Nova S.A. de C.V.,SHJ260317241,jose.ramirez241@ramirez3.mx,525501908479,Servicios Ramírez Nova,Nuevo León,2026-03-17
-C0242,José Jiménez Vázquez,Comercializadora Jiménez Empresarial S.A. de C.V.,SIO260209242,jose.jimenez242@jimenez4.mx,(55) 0191 6398,Comercializadora Jiménez Empresarial,Nuevo León,2026-02-09
-C0243,Sofía Vázquez Vázquez,Consultoría Vázquez del Bajío S.A. de C.V.,SJT220503243,sofia.vazquez243@vazquez5.mx,+52 55 0192 4317,Consultoría Vázquez del Bajío,Yucatán,2022-05-03
-C0244,JOSÉ GARCÍA REYES,Logística García Digital S.A. de C.V.,SKY230217244,JOSE.GARCIA244@GARCIA6.MX,5501932236,Logística García Digital,Guanajuato,2023-02-17
-C0245,Diego Jiménez Jiménez,Soluciones Jiménez Nova S.A. de C.V.,SLD220129245,diego.jimenez245@jimenez7.mx,525501940155,Soluciones Jiménez Nova,Yucatán,2022-01-29
-C0246,Fernanda Aguilar Romero,Corporativo Aguilar Empresarial S.A. de C.V.,SMI260717246,fernanda.aguilar246@aguilar8.mx,525501948074,Corporativo Aguilar Empresarial,Ciudad de México,2026-07-17
-C0247,Bruno Torres Cortés,Industrias Torres del Bajío S.A. de C.V.,SNN220707247,bruno.torres247@torres9.mx,55-0195-5993,Industrias Torres del Bajío,Puebla,07/07/2022
-C0248,José Bautista Sánchez,Distribuidora Bautista Digital S.A. de C.V.,SOS240424248,jose.bautista248@bautista10.mx,(55) 0196 3912,Distribuidora Bautista Digital,Estado de México,2024-04-24
-C0249,Mariana Romero Hernández,Sistemas Romero Nova S.A. de C.V.,SPX240723249,mariana.romero249@romero11.mx,5501971831,Sistemas Romero Nova,,2024-07-23
-C0250,Rafael Hernández Reyes,Grupo Hernández Empresarial S.A. de C.V.,SQC230205250,rafael.hernandez250@hernandez12.mx,(55) 0197 9750,Grupo Hernández Empresarial,Ciudad de México,2023-02-05
-C0251,Alejandro Vázquez Rodríguez,Innovación Vázquez del Bajío S.A. de C.V.,SRH250309251,alejandro.vazquez251@vazquez13.mx,+52 55 0198 7669,Innovación Vázquez del Bajío,Querétaro,2025-03-09
-C0252,Daniela Reyes Flores,Tecnología Reyes Digital S.A. de C.V.,SSM260401252, daniela.reyes252@reyes14.mx ,525501995588,Tecnología Reyes Digital,Ciudad de México,2026-04-01
-C0253,Alejandro Hernández Escobar,Servicios Hernández Nova S.A. de C.V.,STR240824253,alejandro.hernandez253@hernandez15.mx,525502003507,SERVICIOS HERNÁNDEZ NOVA,Puebla,2024-08-24
-C0254,Carlos Aguilar Bautista,Comercializadora Aguilar Empresarial S.A. de C.V.,SUW260828254,carlos.aguilar254@aguilar16.mx,5502011426,Comercializadora Aguilar Empresarial,Chihuahua,2026-08-28
-C0255,Bruno Rodríguez Escobar,Consultoría Rodríguez del Bajío S.A. de C.V.,SVB231020255,bruno.rodriguez255@rodriguez0.mx,(55) 0201 9345,Consultoría Rodríguez del Bajío,Ciudad de México,2023-10-20
-C0256,Ana Reyes Gómez,Logística Reyes Digital S.A. de C.V.,SWG240821256,ana.reyes256@reyes1.mx,+52 55 0202 7264,Logística Reyes Digital,Estado de México,2024-08-21
-C0257,José Chávez Gómez,Soluciones Chávez Nova S.A. de C.V.,SXL220220257,jose.chavez257@chavez2.mx,55-0203-5183,Soluciones Chavez Nova,Puebla,2022-02-20
-C0258,Fernanda Navarro Navarro,Corporativo Navarro Empresarial S.A. de C.V.,SYQ250618258,fernanda.navarro258@navarro3.mx,(55) 0204 3102,Corporativo Navarro Empresarial,Ciudad de México,2025-06-18
-C0259,Renata Romero Flores,Industrias Romero del Bajío S.A. de C.V.,SZV220126259,renata.romero259@romero4.mx,+52 55 0205 1021,Industrias Romero del Bajío,Puebla,01/26/2022
-C0260,Rafael Martínez Mendoza,Distribuidora Martínez Digital S.A. de C.V.,SAA240208260,rafael.martinez260@martinez5.mx,(55) 0205 8940,Distribuidora Martínez Digital,Jalisco,2024-02-08
-C0261,Óscar Ortega Cortés,Sistemas Ortega Nova S.A. de C.V.,SBF241216261,oscar.ortega261@ortega6.mx,5502066859,Sistemas Ortega Nova,Estado de México,2024-12-16
-C0262,Gabriel García Sánchez,Grupo García Empresarial S.A. de C.V.,SCK220501262,gabriel.garcia262@garcia7.mx,55-0207-4778,Grupo García Empresarial,Jalisco,2022-05-01
-C0263,Gabriel Hernández Escobar,Innovación Hernández del Bajío S.A. de C.V.,SDP250525263,gabriel.hernandez263@hernandez8.mx,5502082697,Innovación Hernández del Bajío,Chihuahua,2025-05-25
-C0264,Víctor Aguilar Cortés,Tecnología Aguilar Digital S.A. de C.V.,SEU260114264,victor.aguilar264@aguilar9.mx,55-0209-0616,Tecnología Aguilar Digital,Chihuahua,2026-01-14
-C0265,Bruno Aguilar Castillo,Servicios Aguilar Nova S.A. de C.V.,SFZ230522265,bruno.aguilar265@aguilar10.mx,+52 55 0209 8535,servicios aguilar nova,Ciudad de México,2023-05-22
-C0266,Ricardo Escobar Romero,Comercializadora Escobar Empresarial S.A. de C.V.,SGE221125266,ricardo.escobar266@escobar11.mx,55-0210-6454,Comercializadora Escobar Empresarial,Jalisco,25/11/2022
-C0267,Adriana Romero Rivera,Consultoría Romero del Bajío S.A. de C.V.,SHJ260331267,adriana.romero267@romero12.mx,,Consultoría Romero del Bajío,Puebla,2026-03-31
-C0268,Sofía Chávez Sánchez,Logística Chávez Digital S.A. de C.V.,SIO220405268,SOFIA.CHAVEZ268@CHAVEZ13.MX,(55) 0212 2292,Logística Chávez Digital,Puebla,2022-04-05
-C0269,Bruno Chávez Rivera,Soluciones Chávez Nova S.A. de C.V.,SJT250516269,bruno.chavez269@chavez14.mx,525502130211,Soluciones Chávez Nova,Veracruz,2025-05-16
-C0270,Beatriz Morales Vázquez,Corporativo Morales Empresarial S.A. de C.V.,SKY250625270,beatriz.morales270@morales15.mx,+52 55 0213 8130,Corporativo Morales Empresarial,Puebla,2025-06-25
-C0271,Camila Romero Escobar,Industrias Romero del Bajío S.A. de C.V.,SLD230413271,camila.romero271@romero16.mx,5502146049,Industrias Romero del Bajío,Jalisco,2023-04-13
-C0272,Elena Ramírez Cortés,Distribuidora Ramírez Digital S.A. de C.V.,SMI260823272,elena.ramirez272@ramirez0.mx,5502153968,Distribuidora Ramirez Digital,Nuevo León,2026-08-23
-C0273,Paola Gómez Aguilar,Sistemas Gómez Nova S.A. de C.V.,SNN230608273,paola.gomez273@gomez1.mx,(55) 0216 1887,Sistemas Gomez Nova,Chihuahua,2023-06-08
-C0274,Diego Flores Domínguez,Grupo Flores Empresarial S.A. de C.V.,SOS250520274,diego.flores274@flores2.mx,+52 55 0216 9806,Grupo Flores Empresarial,Estado de México,2025-05-20
-C0275,Diego Flores García,Innovación Flores del Bajío S.A. de C.V.,SPX250712275,diego.flores275@flores3.mx,(55) 0217 7725,Innovacion Flores del Bajio,Estado de México,2025-07-12
-C0276,Diego Torres Chávez,Tecnología Torres Digital S.A. de C.V.,SQC230727276,diego.torres276@torres4.mx,+52 55 0218 5644,Tecnologia Torres Digital,Ciudad de México,2023-07-27
-C0277,Mariana Pérez Mendoza,Servicios Pérez Nova S.A. de C.V.,SRH250322277,mariana.perez277@perez5.mx,+52 55 0219 3563,Servicios Pérez Nova,Chihuahua,2025-03-22
-C0278,José Reyes Gómez,Comercializadora Reyes Empresarial S.A. de C.V.,SSM260605278,jose.reyes278@reyes6.mx,+52 55 0220 1482,Comercializadora Reyes Empresarial,Guanajuato,2026-06-05
-C0279,Alejandro Cortés Navarro,Consultoría Cortés del Bajío S.A. de C.V.,STR220721279,alejandro.cortes279@cortes7.mx,+52 55 0220 9401,Consultoría Cortés del Bajío,Nuevo León,2022-07-21
-C0280,Renata Escobar Mendoza,Logística Escobar Digital S.A. de C.V.,SUW221120280,renata.escobar280@escobar8.mx,55-0221-7320,Logística Escobar Digital,Ciudad de México,2022-11-20
-C0281,Alejandro Reyes Márquez,Soluciones Reyes Nova S.A. de C.V.,SVB230723281,alejandro.reyes281@reyes9.mx,(55) 0222 5239,Soluciones Reyes Nova,Estado de México,2023-07-23
-C0282,Fernanda Pérez Álvarez,Corporativo Pérez Empresarial S.A. de C.V.,SWG241222282,fernanda.perez282@perez10.mx,,Corporativo Pérez Empresarial,Chihuahua,2024-12-22
-C0283,Diego Flores Navarro,Industrias Flores del Bajío S.A. de C.V.,SXL220812283,diego.flores283@flores11.mx,525502241077,Industrias Flores del Bajío,Yucatán,2022-08-12
-C0284,Natalia Rivera Vargas,Distribuidora Rivera Digital S.A. de C.V.,SYQ260602284,natalia.rivera284@rivera12.mx,(55) 0224 8996,Distribuidora Rivera Digital,Chihuahua,2026-06-02
-C0285,Natalia Castillo Ortega,Sistemas Castillo Nova S.A. de C.V.,SZV260801285,natalia.castillo285@castillo13.mx,(55) 0225 6915,Sistemas Castillo Nova,Estado de México,01/08/2026
-C0286,Miguel Reyes Martínez,Grupo Reyes Empresarial S.A. de C.V.,SAA250125286,miguel.reyes286@reyes14.mx,5502264834,Grupo Reyes Empresarial,Veracruz,2025-01-25
-C0287,Héctor Sánchez Hernández,Innovación Sánchez del Bajío S.A. de C.V.,SBF260420287,hector.sanchez287@sanchez15.mx,(55) 0227 2753,Innovación Sánchez del Bajío,Veracruz,2026-04-20
-C0288,Jimena González Martínez,Tecnología González Digital S.A. de C.V.,SCK240704288,jimena.gonzalez288@gonzalez16.mx,+52 55 0228 0672,Tecnología González Digital,Estado de México,2024-07-04
-C0289,Óscar Mendoza Rodríguez,Servicios Mendoza Nova S.A. de C.V.,SDP251106289,oscar.mendoza289@mendoza0.mx,+52 55 0228 8591,servicios mendoza nova,Jalisco,2025-11-06
-C0290,Fernanda Castillo Chávez,Comercializadora Castillo Empresarial S.A. de C.V.,SEU221111290,fernanda.castillo290@castillo1.mx,5502296510,Comercializadora Castillo Empresarial,Chihuahua,2022-11-11
-C0291,Beatriz Ortega Cortés,Consultoría Ortega del Bajío S.A. de C.V.,SFZ230712291,beatriz.ortega291@ortega2.mx,(55) 0230 4429,Consultoría Ortega del Bajío,Estado de México,2023-07-12
-C0292,Miguel López Gómez,Logistica Lopez Digital S.A. de C.V.,SGE260904292,miguel.lopez292@lopez3.mx,55-0231-2348,Logística López Digital,Estado de México,2026-09-04
-C0293,Fernanda Álvarez Mendoza,Soluciones Álvarez Nova S.A. de C.V.,SHJ241007293,fernanda.alvarez293@alvarez4.mx,5502320267,Soluciones Álvarez Nova,Nuevo León,2024-10-07
-C0294,Beatriz Vargas Vargas,Corporativo Vargas Empresarial S.A. de C.V.,SIO220405294,beatriz.vargas294@vargas5.mx,(55) 0232 8186,Corporativo Vargas Empresarial,Querétaro,2022-04-05
-C0295,Rafael Castillo Cabrera,Industrias Castillo del Bajío S.A. de C.V.,SJT251215295,rafael.castillo295@castillo6.mx,+52 55 0233 6105,INDUSTRIAS CASTILLO DEL BAJÍO,Puebla,2025-12-15
-C0296,Ana Cortés Vázquez,Distribuidora Cortés Digital S.A. de C.V.,SKY260128296,ana.cortes296@cortes7.mx,525502344024,Distribuidora Cortés Digital,Guanajuato,01/28/2026
-C0297,José Pérez Mendoza,Sistemas Pérez Nova S.A. de C.V.,SLD250807297,JOSE.PEREZ297@PEREZ8.MX,+52 55 0235 1943,Sistemas Pérez Nova,Chihuahua,2025-08-07
-C0298,Paola González Márquez,Grupo González Empresarial S.A. de C.V.,SMI220527298,paola.gonzalez298@gonzalez9.mx,(55) 0235 9862,Grupo González Empresarial,Yucatán,2022-05-27
-C0299,Laura Torres Rivera,Innovación Torres del Bajío S.A. de C.V.,SNN250917299,laura.torres299@torres10.mx,55-0236-7781,Innovación Torres del Bajío,Guanajuato,2025-09-17
-C0300,Adriana Cortés Jiménez,Tecnología Cortés Digital S.A. de C.V.,SOS240406300,adriana.cortes300@cortes11.mx,55-0237-5700,Tecnología Cortés Digital,Veracruz,2024-04-06
-C0301,Javier Martínez López,Servicios Martínez Nova S.A. de C.V.,SPX231109301,javier.martinez301@martinez12.mx,(55) 0238 3619,Servicios Martínez Nova,Querétaro,2023-11-09
-C0302,Ricardo Pérez González,Comercializadora Pérez Empresarial S.A. de C.V.,SQC260223302,ricardo.perez302@perez13.mx,55-0239-1538,Comercializadora Pérez Empresarial,Veracruz,2026-02-23
-C0303,Fernanda Sánchez Reyes,Consultoría Sánchez del Bajío S.A. de C.V.,SRH231123303,fernanda.sanchez303@sanchez14.mx,(55) 0239 9457,Consultoría Sánchez del Bajío,Veracruz,2023-11-23
-C0304,Víctor Torres Jiménez,Logística Torres Digital S.A. de C.V.,SSM240326304,victor.torres304@torres15.mx,+52 55 0240 7376,Logística Torres Digital,Puebla,26/03/2024
-C0305,ÁNGEL MENDOZA RAMÍREZ,Soluciones Mendoza Nova S.A. de C.V.,STR240119305,angel.mendoza305@mendoza16.mx,525502415295,Soluciones Mendoza Nova,Veracruz,2024-01-19
-C0306,Mariana Álvarez Flores,Corporativo Álvarez Empresarial S.A. de C.V.,SUW220817306,mariana.alvarez306@alvarez0.mx,525502423214,Corporativo Álvarez Empresarial,Querétaro,2022-08-17
-C0307,Sofía Flores Escobar,Industrias Flores del Bajío S.A. de C.V.,SVB260407307,sofia.flores307@flores1.mx,5502431133,Industrias Flores del Bajio,Querétaro,2026-04-07
-C0308,Paola Torres Torres,Distribuidora Torres Digital S.A. de C.V.,SWG240223308,paola.torres308@torres2.mx,5502439052,Distribuidora Torres Digital,Puebla,2024-02-23
-C0309,Óscar González Vázquez,Sistemas González Nova S.A. de C.V.,SXL240322309,oscar.gonzalez309@gonzalez3.mx,5502446971,Sistemas González Nova,Veracruz,2024-03-22
-C0310,Beatriz Chávez Castillo,Grupo Chávez Empresarial S.A. de C.V.,SYQ220810310,beatriz.chavez310@chavez4.mx,+52 55 0245 4890,grupo chávez empresarial,Estado de México,2022-08-10
-C0311,José Álvarez Ramírez,Innovación Álvarez del Bajío S.A. de C.V.,SZV250930311,jose.alvarez311@alvarez5.mx,+52 55 0246 2809,Innovación Álvarez del Bajío,Ciudad de México,2025-09-30
-C0312,Alejandro Domínguez Jiménez,Tecnología Domínguez Digital S.A. de C.V.,SAA241016312,alejandro.dominguez312@dominguez6.mx,5502470728,Tecnología Domínguez Digital,Puebla,2024-10-16
-C0313,Miguel Morales Márquez,Servicios Morales Nova S.A. de C.V.,SBF241210313,miguel.morales313@morales7.mx,55-0247-8647,Servicios Morales Nova,Guanajuato,2024-12-10
-C0314,Bruno Álvarez Ortega,Comercializadora Álvarez Empresarial S.A. de C.V.,SCK220219314,bruno.alvarez314@alvarez8.mx,(55) 0248 6566,Comercializadora Álvarez Empresarial,Estado de México,2022-02-19
-C0315,Fernanda Jiménez Castillo,Consultoría Jiménez del Bajío S.A. de C.V.,SDP221030315,fernanda.jimenez315@jimenez9.mx,(55) 0249 4485,Consultoría Jiménez del Bajío,Chihuahua,2022-10-30
-C0316,Ana Vargas Aguilar,Logística Vargas Digital S.A. de C.V.,SEU250118316,ANA.VARGAS316@VARGAS10.MX,525502502404,Logistica Vargas Digital,Yucatán,2025-01-18
-C0317,Daniela Romero Navarro,Soluciones Romero Nova S.A. de C.V.,SFZ251124317,daniela.romero317@romero11.mx,55-0251-0323,Soluciones Romero Nova,Yucatán,2025-11-24
-C0318,Bruno Aguilar Rodríguez,Corporativo Aguilar Empresarial S.A. de C.V.,SGE240118318,bruno.aguilar318 @aguilar12.mx,55-0251-8242,Corporativo Aguilar Empresarial,Nuevo León,2024-01-18
-C0319,Fernanda Martínez Martínez,Industrias Martínez del Bajío S.A. de C.V.,SHJ250307319,fernanda.martinez319@martinez13.mx,55-0252-6161,Industrias Martínez del Bajío,Estado de México,2025-03-07
-C0320,Eduardo Márquez Martínez,Distribuidora Márquez Digital S.A. de C.V.,SIO230525320,eduardo.marquez320@marquez14.mx,5502534080,Distribuidora Márquez Digital,Puebla,2023-05-25
-C0321,Rafael Torres García,Sistemas Torres Nova S.A. de C.V.,SJT221202321,rafael.torres321@torres15.mx,+52 55 0254 1999,Sistemas Torres Nova,Nuevo León,2022-12-02
-C0322,Paola Márquez Castillo,Grupo Márquez Empresarial S.A. de C.V.,SKY250223322,paola.marquez322@marquez16.mx,+52 55 0254 9918,Grupo Marquez Empresarial,Estado de México,2025-02-23
-C0323,Ana Pérez López,Innovación Pérez del Bajío S.A. de C.V.,SLD260525323,ana.perez323@perez0.mx,525502557837,Innovación Pérez del Bajío,Puebla,25/05/2026
-C0324,Mariana Rodríguez Rodríguez,Tecnología Rodríguez Digital S.A. de C.V.,SMI221014324,mariana.rodriguez324@rodriguez1.mx,(55) 0256 5756,tecnología rodríguez digital,Estado de México,2022-10-14
-C0325,Valeria Navarro Morales,Servicios Navarro Nova S.A. de C.V.,SNN240623325,valeria.navarro325@navarro2.mx,(55) 0257 3675,Servicios Navarro Nova,Chihuahua,2024-06-23
-C0326,Héctor Morales Jiménez,Comercializadora Morales Empresarial S.A. de C.V.,SOS260517326,hector.morales326@morales3.mx,55-0258-1594,Comercializadora Morales Empresarial,Ciudad de México,2026-05-17
-C0327,Miguel Bautista Domínguez,Consultoría Bautista del Bajío S.A. de C.V.,SPX240621327,miguel.bautista327@bautista4.mx,(55) 0258 9513,Consultoría Bautista del Bajío,Querétaro,2024-06-21
-C0328,Sofía Cabrera Morales,Logística Cabrera Digital S.A. de C.V.,SQC220801328,sofia.cabrera328@cabrera5.mx,+52 55 0259 7432,Logística Cabrera Digital,Chihuahua,2022-08-01
-C0329,Laura Domínguez Ramírez,Soluciones Domínguez Nova S.A. de C.V.,SRH220422329,laura.dominguez329@dominguez6.mx,,Soluciones Domínguez Nova,Ciudad de México,2022-04-22
-C0330,Renata García González,Corporativo García Empresarial S.A. de C.V.,SSM250704330,renata.garcia330@garcia7.mx,+52 55 0261 3270,Corporativo García Empresarial,Nuevo León,2025-07-04
-C0331,Daniela Navarro Castillo,Industrias Navarro del Bajío S.A. de C.V.,STR250906331,DANIELA.NAVARRO331@NAVARRO8.MX,+52 55 0262 1189,Industrias Navarro del Bajío,Guanajuato,2025-09-06
-C0332,Diego Jiménez Navarro,Distribuidora Jiménez Digital S.A. de C.V.,SUW250117332,diego.jimenez332@jimenez9.mx,5502629108,Distribuidora Jiménez Digital,,2025-01-17
-C0333,Beatriz Vázquez Domínguez,Sistemas Vázquez Nova S.A. de C.V.,SVB230329333,beatriz.vazquez333@vazquez10.mx,55-0263-7027,Sistemas Vázquez Nova,Guanajuato,03/29/2023
-C0334,Paola Vargas Márquez,Grupo Vargas Empresarial S.A. de C.V.,SWG260802334,paola.vargas334@vargas11.mx,525502644946,Grupo Vargas Empresarial,Guanajuato,2026-08-02
-C0335,Inés Rodríguez Navarro,Innovación Rodríguez del Bajío S.A. de C.V.,SXL260131335,ines.rodriguez335@rodriguez12.mx,(55) 0265 2865,Innovación Rodríguez del Bajío,Puebla,2026-01-31
-C0336,Fernanda González Jiménez,Tecnología González Digital S.A. de C.V.,SYQ240920336,fernanda.gonzalez336@gonzalez13.mx,525502660784,Tecnología González Digital,Veracruz,2024-09-20
-C0337,Laura López Navarro,Servicios López Nova S.A. de C.V.,SZV260218337,laura.lopez337@lopez14.mx,5502668703,Servicios López Nova,Guanajuato,2026-02-18
-C0338,Daniela Rodríguez Chávez,Comercializadora Rodríguez Empresarial S.A. de C.V.,SAA231012338,daniela.rodriguez338@rodriguez15.mx,5502676622,Comercializadora Rodríguez Empresarial,Querétaro,2023-10-12
-C0339,Ana Morales Castillo,Consultoría Morales del Bajío S.A. de C.V.,SBF250226339,ana.morales339@morales16.mx,55-0268-4541,Consultoría Morales del Bajío,Ciudad de México,2025-02-26
-C0340,Daniela Morales Sánchez,Logística Morales Digital S.A. de C.V.,SCK231224340,daniela.morales340@morales0.mx,5502692460,Logística Morales Digital,Yucatán,2023-12-24
-C0341,Ana Rivera Rodríguez,Soluciones Rivera Nova S.A. de C.V.,SDP220710341,ana.rivera341@rivera1.mx,(55) 0270 0379,Soluciones Rivera Nova,Puebla,2022-07-10
-C0342,Laura García Torres,Corporativo García Empresarial S.A. de C.V.,SEU240219342,laura.garcia342@garcia2.mx,525502708298,Corporativo García Empresarial,Guanajuato,19/02/2024
-C0343,Luis Bautista Escobar,Industrias Bautista del Bajío S.A. de C.V.,SFZ250313343,luis.bautista343@bautista3.mx,(55) 0271 6217,Industrias Bautista del Bajio,Guanajuato,2025-03-13
-C0344,Laura Cortés Navarro,Distribuidora Cortés Digital S.A. de C.V.,SGE221222344,laura.cortes344@cortes4.mx,55-0272-4136,Distribuidora Cortés Digital,Jalisco,2022-12-22
-C0345,Luis García García,Sistemas García Nova S.A. de C.V.,SHJ231205345,luis.garcia345@garcia5.mx,5502732055,Sistemas García Nova,Guanajuato,2023-12-05
-C0346,Alejandro Navarro Morales,Grupo Navarro Empresarial S.A. de C.V.,SIO240408346,alejandro.navarro346@navarro6.mx,(55) 0273 9974,Grupo Navarro Empresarial,Ciudad de México,2024-04-08
-C0347,Valeria Hernández López,Innovación Hernández del Bajío S.A. de C.V.,SJT241216347,valeria.hernandez347@hernandez7.mx,55-0274-7893,Innovación Hernández del Bajío,Nuevo León,2024-12-16
-C0348,Ángel Álvarez Pérez,Tecnología Álvarez Digital S.A. de C.V.,SKY220410348,angel.alvarez348@alvarez8.mx,+52 55 0275 5812,Tecnología Álvarez Digital,Estado de México,2022-04-10
-C0349,Inés García Cortés,Servicios García Nova S.A. de C.V.,SLD240623349,INES.GARCIA349@GARCIA9.MX,(55) 0276 3731,Servicios Garcia Nova,Nuevo León,2024-06-23
-C0350,Inés Reyes González,Comercializadora Reyes Empresarial S.A. de C.V.,SMI250217350,ines.reyes350@reyes10.mx,5502771650,COMERCIALIZADORA REYES EMPRESARIAL,Puebla,2025-02-17
-C0351,Carlos Cabrera Morales,Consultoría Cabrera del Bajío S.A. de C.V.,SNN221226351,carlos.cabrera351@cabrera11.mx,525502779569,Consultoría Cabrera del Bajío,Querétaro,2022-12-26
-C0352,Camila Pérez Vázquez,Logística Pérez Digital S.A. de C.V.,SOS250209352,camila.perez352@perez12.mx,(55) 0278 7488,Logística Pérez Digital,Jalisco,2025-02-09
-C0353,Mariana Escobar Chávez,Soluciones Escobar Nova S.A. de C.V.,SPX220610353,mariana.escobar353@escobar13.mx,5502795407,Soluciones Escobar Nova,Puebla,2022-06-10
-C0354,Óscar Domínguez Márquez,Corporativo Domínguez Empresarial S.A. de C.V.,SQC220616354,oscar.dominguez354@dominguez14.mx,+52 55 0280 3326,Corporativo Dominguez Empresarial,Veracruz,2022-06-16
-C0355,Eduardo Morales Vázquez,Industrias Morales del Bajío S.A. de C.V.,SRH230416355,eduardo.morales355@morales15.mx,525502811245,Industrias Morales del Bajío,Querétaro,2023-04-16
-C0356,Camila Martínez Vázquez,Distribuidora Martínez Digital S.A. de C.V.,SSM230118356,camila.martinez356@martinez16.mx,,Distribuidora Martinez Digital,Veracruz,2023-01-18
-C0357,Elena Mendoza Morales,Sistemas Mendoza Nova S.A. de C.V.,STR251126357,elena.mendoza357@mendoza0.mx,+52 55 0282 7083,Sistemas Mendoza Nova,Nuevo León,2025-11-26
-C0358,Javier Reyes Ortega,Grupo Reyes Empresarial S.A. de C.V.,SUW240218358,javier.reyes358@reyes1.mx,+52 55 0283 5002,Grupo Reyes Empresarial,Chihuahua,2024-02-18
-C0359,Óscar Rodríguez Morales,Innovación Rodríguez del Bajío S.A. de C.V.,SVB260706359,oscar.rodriguez359@rodriguez2.mx,5502842921,Innovacion Rodriguez del Bajio,Yucatán,2026-07-06
-C0360,Natalia Hernández Ortega,Tecnología Hernández Digital S.A. de C.V.,SWG220212360,natalia.hernandez360@hernandez3.mx,5502850840,Tecnología Hernández Digital,Nuevo León,2022-02-12
-C0361,Inés Morales Torres,Servicios Morales Nova S.A. de C.V.,SXL250402361,ines.morales361@morales4.mx,525502858759,Servicios Morales Nova,Puebla,02/04/2025
-C0362,Laura Domínguez Romero,Comercializadora Domínguez Empresarial S.A. de C.V.,SYQ250323362,laura.dominguez362@dominguez5.mx,(55) 0286 6678,Comercializadora Domínguez Empresarial,Jalisco,2025-03-23
-C0363,Jimena Cortés Morales,Consultoría Cortés del Bajío S.A. de C.V.,SZV260629363,jimena.cortes363@cortes6.mx,+52 55 0287 4597,Consultoría Cortés del Bajío,Puebla,2026-06-29
-C0364,Rafael Pérez Romero,Logística Pérez Digital S.A. de C.V.,SAA260707364,rafael.perez364@perez7.mx,55-0288-2516,Logística Pérez Digital,Chihuahua,2026-07-07
-C0365,Valeria Escobar Vázquez,Soluciones Escobar Nova S.A. de C.V.,SBF240612365,valeria.escobar365 @escobar8.mx,525502890435,Soluciones Escobar Nova,Jalisco,2024-06-12
-C0366,NATALIA PÉREZ VARGAS,Corporativo Pérez Empresarial S.A. de C.V.,SCK230410366,natalia.perez366@perez9.mx,+52 55 0289 8354,Corporativo Pérez Empresarial,Ciudad de México,2023-04-10
-C0367,Miguel García Morales,Industrias García del Bajío S.A. de C.V.,SDP220111367, miguel.garcia367@garcia10.mx ,(55) 0290 6273,Industrias García del Bajío,Puebla,2022-01-11
-C0368,Javier Aguilar García,Distribuidora Aguilar Digital S.A. de C.V.,SEU220925368,javier.aguilar368@aguilar11.mx,55-0291-4192,Distribuidora Aguilar Digital,Guanajuato,2022-09-25
-C0369,Paola Domínguez Castillo,Sistemas Domínguez Nova S.A. de C.V.,SFZ241215369,paola.dominguez369@dominguez12.mx,55-0292-2111,SISTEMAS DOMÍNGUEZ NOVA,Yucatán,2024-12-15
-C0370,Ana Morales Ortega,Grupo Morales Empresarial S.A. de C.V.,SGE230523370,ana.morales370 @morales13.mx,525502930030,Grupo Morales Empresarial,Guanajuato,05/23/2023
-C0371,Bruno Vázquez García,Innovación Vázquez del Bajío S.A. de C.V.,SHJ220719371,bruno.vazquez371@vazquez14.mx,55-0293-7949,Innovación Vázquez del Bajío,Ciudad de México,2022-07-19
-C0372,Eduardo Flores Flores,Tecnología Flores Digital S.A. de C.V.,SIO250516372,eduardo.flores372@flores15.mx,+52 55 0294 5868,Tecnología Flores Digital,Guanajuato,2025-05-16
-C0373,Luis Jiménez Ramírez,Servicios Jiménez Nova S.A. de C.V.,SJT251014373,luis.jimenez373@jimenez16.mx,(55) 0295 3787,Servicios Jiménez Nova,Yucatán,2025-10-14
-C0374,Natalia Ortega Hernández,Comercializadora Ortega Empresarial S.A. de C.V.,SKY220914374,natalia.ortega374@ortega0.mx,(55) 0296 1706,Comercializadora Ortega Empresarial,Nuevo León,2022-09-14
-C0375,Beatriz Rodríguez Escobar,Consultoría Rodríguez del Bajío S.A. de C.V.,SLD241217375,beatriz.rodriguez375@rodriguez1.mx,(55) 0296 9625,Consultoría Rodríguez del Bajío,Guanajuato,2024-12-17
-C0376,Bruno Sánchez Rivera,Logística Sánchez Digital S.A. de C.V.,SMI220502376,bruno.sanchez376@sanchez2.mx,,Logistica Sanchez Digital,Estado de México,2022-05-02
-C0377,Jimena Pérez Vargas,Soluciones Pérez Nova S.A. de C.V.,SNN240215377,jimena.perez377@perez3.mx,525502985463,Soluciones Pérez Nova,Ciudad de México,2024-02-15
-C0378,Inés Castillo Castillo,Corporativo Castillo Empresarial S.A. de C.V.,SOS220528378,ines.castillo378@castillo4.mx,55-0299-3382,Corporativo Castillo Empresarial,Puebla,2022-05-28
-C0379,Ricardo Ramírez Hernández,Industrias Ramírez del Bajío S.A. de C.V.,SPX260824379,ricardo.ramirez379@ramirez5.mx,5503001301,Industrias Ramírez del Bajío,Ciudad de México,2026-08-24
-C0380,Jimena Martínez Rodríguez,Distribuidora Martínez Digital S.A. de C.V.,SQC230705380,jimena.martinez380@martinez6.mx,5503009220,Distribuidora Martinez Digital,Ciudad de México,05/07/2023
-C0381,Sofía Aguilar Morales,Sistemas Aguilar Nova S.A. de C.V.,SRH220222381,sofia.aguilar381@aguilar7.mx,+52 55 0301 7139,Sistemas Aguilar Nova,Querétaro,2022-02-22
-C0382,Renata Ortega Morales,Grupo Ortega Empresarial S.A. de C.V.,SSM221014382,renata.ortega382@ortega8.mx,525503025058,Grupo Ortega Empresarial,Chihuahua,2022-10-14
-C0383,Laura Pérez Mendoza,Innovación Pérez del Bajío S.A. de C.V.,STR230710383,laura.perez383@perez9.mx,5503032977,Innovacion Perez del Bajio,Yucatán,2023-07-10
-C0384,Diego Martínez Escobar,Tecnología Martínez Digital S.A. de C.V.,SUW260108384,diego.martinez384@martinez10.mx,5503040896,Tecnología Martínez Digital,Puebla,2026-01-08
-C0385,Óscar Jiménez Hernández,Servicios Jiménez Nova S.A. de C.V.,SVB251007385,oscar.jimenez385@jimenez11.mx,+52 55 0304 8815,Servicios Jiménez Nova,Estado de México,2025-10-07
-C0386,Luis Escobar Hernández,Comercializadora Escobar Empresarial S.A. de C.V.,SWG250320386,luis.escobar386@escobar12.mx,55-0305-6734,Comercializadora Escobar Empresarial,Nuevo León,2025-03-20
-C0387,Ángel Bautista Hernández,Consultoría Bautista del Bajío S.A. de C.V.,SXL241110387,angel.bautista387@bautista13.mx,525503064653,Consultoria Bautista del Bajio,Guanajuato,2024-11-10
-C0388,José Ortega López,Logística Ortega Digital S.A. de C.V.,SYQ230712388,jose.ortega388@ortega14.mx,(55) 0307 2572,Logística Ortega Digital,Ciudad de México,2023-07-12
-C0389,Beatriz Cabrera Morales,Soluciones Cabrera Nova S.A. de C.V.,SZV221121389,beatriz.cabrera389@cabrera15.mx,5503080491,Soluciones Cabrera Nova,Querétaro,2022-11-21
-C0390,Renata Vargas Chávez,Corporativo Vargas Empresarial S.A. de C.V.,SAA221115390,renata.vargas390@vargas16.mx,55-0308-8410,Corporativo Vargas Empresarial,Guanajuato,2022-11-15
-C0391,Renata Jiménez Reyes,Industrias Jiménez del Bajío S.A. de C.V.,SBF240108391,renata.jimenez391@jimenez0.mx,(55) 0309 6329,Industrias Jiménez del Bajío,Yucatán,2024-01-08
-C0392,Ana González Domínguez,Distribuidora González Digital S.A. de C.V.,SCK251210392,ana.gonzalez392@gonzalez1.mx,525503104248,distribuidora gonzález digital,Yucatán,2025-12-10
-C0393,Beatriz Álvarez García,Sistemas Álvarez Nova S.A. de C.V.,SDP260129393,beatriz.alvarez393@alvarez2.mx,5503112167,Sistemas Álvarez Nova,Veracruz,2026-01-29
-C0394,Elena Vázquez Morales,Grupo Vázquez Empresarial S.A. de C.V.,SEU240525394,elena.vazquez394@vazquez3.mx,5503120086,Grupo Vázquez Empresarial,Ciudad de México,2024-05-25
-C0395,Camila Romero Cabrera,Innovación Romero del Bajío S.A. de C.V.,SFZ260712395,camila.romero395@romero4.mx,+52 55 0312 8005,Innovación Romero del Bajío,Estado de México,2026-07-12
-C0396,Óscar Jiménez Navarro,Tecnología Jiménez Digital S.A. de C.V.,SGE241228396,oscar.jimenez396@jimenez5.mx,5503135924,TECNOLOGÍA JIMÉNEZ DIGITAL,Puebla,2024-12-28
-C0397,Luis Jiménez Vázquez,Servicios Jiménez Nova S.A. de C.V.,SHJ240117397,luis.jimenez397@jimenez6.mx,(55) 0314 3843,Servicios Jiménez Nova,Veracruz,2024-01-17
-C0398,Mariana Sánchez Bautista,Comercializadora Sánchez Empresarial S.A. de C.V.,SIO240325398,mariana.sanchez398@sanchez7.mx,525503151762,Comercializadora Sánchez Empresarial,Guanajuato,2024-03-25
-C0399,Elena Castillo Vázquez,Consultoría Castillo del Bajío S.A. de C.V.,SJT250201399,elena.castillo399@castillo8.mx,525503159681,Consultoria Castillo del Bajio,Querétaro,01/02/2025
-C0400,Paola Vargas Morales,Logística Vargas Digital S.A. de C.V.,SKY250905400,paola.vargas400@vargas9.mx,+52 55 0316 7600,Logística Vargas Digital,Nuevo León,2025-09-05
-C0401,Fernanda Rivera Rivera,Soluciones Rivera Nova S.A. de C.V.,SLD220712401,fernanda.rivera401 @rivera10.mx,(55) 0317 5519,Soluciones Rivera Nova,Nuevo León,2022-07-12
-C0402,Ana Navarro Romero,Corporativo Navarro Empresarial S.A. de C.V.,SMI240817402,ana.navarro402@navarro11.mx,5503183438,Corporativo Navarro Empresarial,Estado de México,2024-08-17
-C0403,Elena Aguilar Hernández,Industrias Aguilar del Bajío S.A. de C.V.,SNN260503403,elena.aguilar403@aguilar12.mx,+52 55 0319 1357,INDUSTRIAS AGUILAR DEL BAJÍO,Puebla,2026-05-03
-C0404,Javier Morales Escobar,Distribuidora Morales Digital S.A. de C.V.,SOS251226404,javier.morales404@morales13.mx,+52 55 0319 9276,Distribuidora Morales Digital,Chihuahua,2025-12-26
-C0405,Valeria Cabrera Escobar,Sistemas Cabrera Nova S.A. de C.V.,SPX231230405,valeria.cabrera405@cabrera14.mx,+52 55 0320 7195,SISTEMAS CABRERA NOVA,Veracruz,2023-12-30
-C0406,Inés Aguilar Reyes,Grupo Aguilar Empresarial S.A. de C.V.,SQC241024406,ines.aguilar406@aguilar15.mx,(55) 0321 5114,Grupo Aguilar Empresarial,Chihuahua,2024-10-24
-C0407,Víctor Gómez Hernández,Innovación Gómez del Bajío S.A. de C.V.,SRH251110407,victor.gomez407@gomez16.mx,55-0322-3033,Innovación Gómez del Bajío,Nuevo León,11/10/2025
-C0408,Elena Vargas Hernández,Tecnología Vargas Digital S.A. de C.V.,SSM241026408,elena.vargas408@vargas0.mx,(55) 0323 0952,Tecnología Vargas Digital,Veracruz,2024-10-26
-C0409,Javier Castillo Hernández,Servicios Castillo Nova S.A. de C.V.,STR260306409,JAVIER.CASTILLO409@CASTILLO1.MX,5503238871,Servicios Castillo Nova,Estado de México,2026-03-06
-C0410,Daniela Cabrera Domínguez,Comercializadora Cabrera Empresarial S.A. de C.V.,SUW241219410,daniela.cabrera410@cabrera2.mx,525503246790,Comercializadora Cabrera Empresarial,Puebla,2024-12-19
-C0411,Paola Castillo Pérez,Consultoría Castillo del Bajío S.A. de C.V.,SVB220411411,paola.castillo411@castillo3.mx,+52 55 0325 4709,Consultoría Castillo del Bajío,Veracruz,2022-04-11
-C0412,Adriana Chávez Álvarez,Logística Chávez Digital S.A. de C.V.,SWG251205412,adriana.chavez412@chavez4.mx,55-0326-2628,Logística Chávez Digital,Guanajuato,2025-12-05
-C0413,Alejandro Márquez Jiménez,Soluciones Márquez Nova S.A. de C.V.,SXL240722413,alejandro.marquez413@marquez5.mx,(55) 0327 0547,Soluciones Márquez Nova,Veracruz,2024-07-22
-C0414,Ángel Rivera Flores,Corporativo Rivera Empresarial S.A. de C.V.,SYQ250110414,angel.rivera414@rivera6.mx,525503278466,CORPORATIVO RIVERA EMPRESARIAL,Veracruz,2025-01-10
-C0415,Adriana Márquez Domínguez,Industrias Márquez del Bajío S.A. de C.V.,SZV260324415,adriana.marquez415@marquez7.mx,55-0328-6385,Industrias Marquez del Bajio,,2026-03-24
-C0416,Renata Sánchez Rivera,Distribuidora Sánchez Digital S.A. de C.V.,SAA230716416,renata.sanchez416@sanchez8.mx,(55) 0329 4304,Distribuidora Sánchez Digital,Nuevo León,2023-07-16
-C0417,Gabriel López González,Sistemas López Nova S.A. de C.V.,SBF250226417,gabriel.lopez417@lopez9.mx,55-0330-2223,Sistemas López Nova,Yucatán,2025-02-26
-C0418,Sofía Álvarez Escobar,Grupo Álvarez Empresarial S.A. de C.V.,SCK231119418,sofia.alvarez418@alvarez10.mx,+52 55 0331 0142,Grupo Álvarez Empresarial,Nuevo León,19/11/2023
-C0419,Elena Castillo Torres,Innovación Castillo del Bajío S.A. de C.V.,SDP230214419,elena.castillo419@castillo11.mx,+52 55 0331 8061,Innovacion Castillo del Bajio,Jalisco,2023-02-14
-C0420,Víctor Navarro Sánchez,Tecnología Navarro Digital S.A. de C.V.,SEU231025420,victor.navarro420@navarro12.mx,+52 55 0332 5980,Tecnologia Navarro Digital,Nuevo León,2023-10-25
-C0421,Renata Ramírez Márquez,Servicios Ramírez Nova S.A. de C.V.,SFZ220212421,renata.ramirez421@ramirez13.mx,55-0333-3899,Servicios Ramírez Nova,Jalisco,2022-02-12
-C0422,Gabriel Pérez Cabrera,Comercializadora Pérez Empresarial S.A. de C.V.,SGE230705422,gabriel.perez422@perez14.mx,+52 55 0334 1818,Comercializadora Pérez Empresarial,Nuevo León,2023-07-05
-C0423,Miguel Ortega Cortés,Consultoría Ortega del Bajío S.A. de C.V.,SHJ250128423,miguel.ortega423@ortega15.mx,,Consultoría Ortega del Bajío,Puebla,2025-01-28
-C0424,Óscar Gómez Sánchez,Logística Gómez Digital S.A. de C.V.,SIO240801424,oscar.gomez424@gomez16.mx,5503357656,Logística Gómez Digital,Jalisco,2024-08-01
-C0425,Sofía Aguilar Cabrera,Soluciones Aguilar Nova S.A. de C.V.,SJT221213425,sofia.aguilar425@aguilar0.mx,5503365575,Soluciones Aguilar Nova,Chihuahua,2022-12-13
-C0426,Luis Márquez Escobar,Corporativo Márquez Empresarial S.A. de C.V.,SKY221107426,luis.marquez426@marquez1.mx,525503373494,Corporativo Márquez Empresarial,Estado de México,2022-11-07
-C0427,CARLOS ORTEGA VARGAS,Industrias Ortega del Bajío S.A. de C.V.,SLD251004427,carlos.ortega427@ortega2.mx,55-0338-1413,Industrias Ortega del Bajío,Puebla,2025-10-04
-C0428,Ricardo Ortega Ortega,Distribuidora Ortega Digital S.A. de C.V.,SMI220804428,ricardo.ortega428@ortega3.mx,+52 55 0338 9332,Distribuidora Ortega Digital,Guanajuato,2022-08-04
-C0429,Sofía Navarro Cabrera,Sistemas Navarro Nova S.A. de C.V.,SNN220927429,sofia.navarro429@navarro4.mx,525503397251,sistemas navarro nova,Yucatán,2022-09-27
-C0430,Bruno Escobar Jiménez,Grupo Escobar Empresarial S.A. de C.V.,SOS230516430,bruno.escobar430@escobar5.mx,(55) 0340 5170,Grupo Escobar Empresarial,Yucatán,2023-05-16
-C0431,José Sánchez Domínguez,Innovación Sánchez del Bajío S.A. de C.V.,SPX250815431,jose.sanchez431@sanchez6.mx,+52 55 0341 3089,Innovación Sánchez del Bajío,Chihuahua,2025-08-15
-C0432,José González Gómez,Tecnología González Digital S.A. de C.V.,SQC220114432,jose.gonzalez432@gonzalez7.mx,5503421008,Tecnología González Digital,Veracruz,2022-01-14
-C0433,Daniela Rivera Castillo,Servicios Rivera Nova S.A. de C.V.,SRH260906433,daniela.rivera433@rivera8.mx,55-0342-8927,Servicios Rivera Nova,Estado de México,2026-09-06
-C0434,Diego Rivera González,Comercializadora Rivera Empresarial S.A. de C.V.,SSM221026434,DIEGO.RIVERA434@RIVERA9.MX,+52 55 0343 6846,Comercializadora Rivera Empresarial,Jalisco,2022-10-26
-C0435,Natalia López Cortés,Consultoría López del Bajío S.A. de C.V.,STR240506435,natalia.lopez435@lopez10.mx,+52 55 0344 4765,Consultoría López del Bajío,Puebla,2024-05-06
-C0436,Javier Márquez Romero,Logística Márquez Digital S.A. de C.V.,SUW240305436,javier.marquez436@marquez11.mx,525503452684,Logística Márquez Digital,Puebla,2024-03-05
-C0437,Víctor Aguilar González,Soluciones Aguilar Nova S.A. de C.V.,SVB251121437, victor.aguilar437@aguilar12.mx ,525503460603,Soluciones Aguilar Nova,Guanajuato,21/11/2025
-C0438,Renata Álvarez Cabrera,Corporativo Alvarez Empresarial S.A. de C.V.,SWG251117438,renata.alvarez438@alvarez13.mx,55-0346-8522,Corporativo Álvarez Empresarial,Guanajuato,2025-11-17
-C0439,Ana Aguilar Vázquez,Industrias Aguilar del Bajío S.A. de C.V.,SXL220427439,ana.aguilar439@aguilar14.mx,+52 55 0347 6441,industrias aguilar del bajío,Yucatán,2022-04-27
-C0440,Héctor Domínguez Jiménez,Distribuidora Domínguez Digital S.A. de C.V.,SYQ230822440,hector.dominguez440@dominguez15.mx,+52 55 0348 4360,Distribuidora Domínguez Digital,Nuevo León,2023-08-22
-C0441,Laura Torres López,Sistemas Torres Nova S.A. de C.V.,SZV230828441,laura.torres441@torres16.mx,(55) 0349 2279,Sistemas Torres Nova,Querétaro,2023-08-28
-C0442,Camila Sánchez Hernández,Grupo Sánchez Empresarial S.A. de C.V.,SAA260525442,camila.sanchez442@sanchez0.mx,(55) 0350 0198,Grupo Sánchez Empresarial,Chihuahua,2026-05-25
-C0443,Diego Reyes Hernández,Innovación Reyes del Bajío S.A. de C.V.,SBF260627443,diego.reyes443@reyes1.mx,55-0350-8117,Innovación Reyes del Bajío,Yucatán,2026-06-27
-C0444,Óscar Flores González,Tecnología Flores Digital S.A. de C.V.,SCK260511444,oscar.flores444@flores2.mx,(55) 0351 6036,Tecnología Flores Digital,Puebla,05/11/2026
-C0445,Beatriz Morales Castillo,Servicios Morales Nova S.A. de C.V.,SDP260905445,beatriz.morales445@morales3.mx,,Servicios Morales Nova,Yucatán,2026-09-05
-C0446,Javier Jiménez Aguilar,Comercializadora Jiménez Empresarial S.A. de C.V.,SEU241111446,javier.jimenez446@jimenez4.mx,525503531874,Comercializadora Jimenez Empresarial,Yucatán,2024-11-11
-C0447,Óscar Álvarez Gómez,Consultoría Álvarez del Bajío S.A. de C.V.,SFZ240809447,oscar.alvarez447@alvarez5.mx,5503539793,Consultoria Alvarez del Bajio,Jalisco,2024-08-09
-C0448,Óscar Rivera Aguilar,Logística Rivera Digital S.A. de C.V.,SGE240924448,oscar.rivera448@rivera6.mx,+52 55 0354 7712,Logística Rivera Digital,Veracruz,2024-09-24
-C0449,Gabriel Rivera Jiménez,Soluciones Rivera Nova S.A. de C.V.,SHJ251007449,gabriel.rivera449@rivera7.mx,55-0355-5631,Soluciones Rivera Nova,Nuevo León,2025-10-07
-C0450,Luis Márquez González,Corporativo Márquez Empresarial S.A. de C.V.,SIO220227450,luis.marquez450@marquez8.mx,525503563550,Corporativo Márquez Empresarial,Guanajuato,2022-02-27
-C0451,Paola Álvarez Bautista,Industrias Álvarez del Bajío S.A. de C.V.,SJT240813451,paola.alvarez451@alvarez9.mx,525503571469,Industrias Álvarez del Bajío,Puebla,2024-08-13
-C0452,Luis Torres Martínez,Distribuidora Torres Digital S.A. de C.V.,SKY250914452,luis.torres452@torres10.mx,(55) 0357 9388,Distribuidora Torres Digital,Veracruz,2025-09-14
-C0453,Bruno Reyes Rivera,Sistemas Reyes Nova S.A. de C.V.,SLD230726453,bruno.reyes453@reyes11.mx,(55) 0358 7307,Sistemas Reyes Nova,Estado de México,2023-07-26
-C0454,Renata López Gómez,Grupo López Empresarial S.A. de C.V.,SMI220425454,renata.lopez454@lopez12.mx,+52 55 0359 5226,Grupo López Empresarial,Estado de México,2022-04-25
-C0455,Óscar Márquez Rivera,Innovación Márquez del Bajío S.A. de C.V.,SNN221004455,oscar.marquez455@marquez13.mx,55-0360-3145,Innovacion Marquez del Bajio,Veracruz,2022-10-04
-C0456,Valeria Ortega Bautista,Tecnología Ortega Digital S.A. de C.V.,SOS230227456,valeria.ortega456@ortega14.mx,+52 55 0361 1064,Tecnología Ortega Digital,Nuevo León,27/02/2023
-C0457,Ángel Sánchez Pérez,Servicios Sánchez Nova S.A. de C.V.,SPX220714457,angel.sanchez457@sanchez15.mx,(55) 0361 8983,Servicios Sanchez Nova,Nuevo León,2022-07-14
-C0458,Renata Domínguez González,Comercializadora Domínguez Empresarial S.A. de C.V.,SQC250115458,renata.dominguez458@dominguez16.mx,55-0362-6902,comercializadora domínguez empresarial,Guanajuato,2025-01-15
-C0459,Mariana Escobar Jiménez,Consultoría Escobar del Bajío S.A. de C.V.,SRH260302459,mariana.escobar459@escobar0.mx,(55) 0363 4821,Consultoría Escobar del Bajío,Nuevo León,2026-03-02
-C0460,Daniela Castillo Vázquez,Logística Castillo Digital S.A. de C.V.,SSM231201460,daniela.castillo460@castillo1.mx,525503642740,Logística Castillo Digital,Chihuahua,2023-12-01
-C0461,Óscar Castillo Romero,Soluciones Castillo Nova S.A. de C.V.,STR240204461,oscar.castillo461@castillo2.mx,55-0365-0659,Soluciones Castillo Nova,Ciudad de México,2024-02-04
-C0462,Víctor Vargas Castillo,Corporativo Vargas Empresarial S.A. de C.V.,SUW231203462,victor.vargas462@vargas3.mx,+52 55 0365 8578,Corporativo Vargas Empresarial,Querétaro,2023-12-03
-C0463,Paola Flores Bautista,Industrias Flores del Bajío S.A. de C.V.,SVB250624463,paola.flores463@flores4.mx,5503666497,Industrias Flores del Bajio,Nuevo León,2025-06-24
-C0464,Bruno Romero Aguilar,Distribuidora Romero Digital S.A. de C.V.,SWG230329464,bruno.romero464@romero5.mx,(55) 0367 4416,Distribuidora Romero Digital,Puebla,2023-03-29
-C0465,Renata Chávez Rivera,Sistemas Chávez Nova S.A. de C.V.,SXL240314465,renata.chavez465@chavez6.mx,(55) 0368 2335,Sistemas Chávez Nova,Ciudad de México,2024-03-14
-C0466,Beatriz Flores Rodríguez,Grupo Flores Empresarial S.A. de C.V.,SYQ230930466,beatriz.flores466@flores7.mx,5503690254,Grupo Flores Empresarial,Guanajuato,2023-09-30
-C0467,Javier Bautista Gómez,Innovación Bautista del Bajío S.A. de C.V.,SZV260419467,javier.bautista467@bautista8.mx,+52 55 0369 8173,Innovación Bautista del Bajío,Veracruz,2026-04-19
-C0468,Eduardo Torres Ramírez,Tecnología Torres Digital S.A. de C.V.,SAA220224468,eduardo.torres468@torres9.mx,+52 55 0370 6092,Tecnología Torres Digital,Estado de México,2022-02-24
-C0469,Camila Ramírez Hernández,Servicios Ramírez Nova S.A. de C.V.,SBF251222469,camila.ramirez469@ramirez10.mx,525503714011,Servicios Ramírez Nova,Querétaro,2025-12-22
-C0470,Mariana Martínez Reyes,Comercializadora Martínez Empresarial S.A. de C.V.,SCK241208470,mariana.martinez470@martinez11.mx,,COMERCIALIZADORA MARTÍNEZ EMPRESARIAL,Querétaro,2024-12-08
-C0471,Ricardo Escobar Álvarez,Consultoría Escobar del Bajío S.A. de C.V.,SDP240315471,bruno.chavez269@chavez14.mx,5503729849,Consultoría Escobar del Bajío,Chihuahua,2024-03-15
-C0472,Carlos Castillo Álvarez,Logística Castillo Digital S.A. de C.V.,SEU251225472,carlos.castillo472@castillo13.mx,(55) 0373 7768,Logística Castillo Digital,Yucatán,2025-12-25
-C0473,Miguel Navarro Escobar,Soluciones Navarro Nova S.A. de C.V.,SFZ240218473, miguel.navarro473@navarro14.mx ,+52 55 0374 5687,Soluciones Navarro Nova,Veracruz,2024-02-18
-C0474,Adriana Martínez Márquez,Corporativo Martínez Empresarial S.A. de C.V.,SGE220131474,ricardo.cabrera56@cabrera5.mx,525503753606,Corporativo Martínez Empresarial,Jalisco,2022-01-31
-C0475,Renata Morales Torres,Industrias Morales del Bajío S.A. de C.V.,SHJ220129475,renata.morales475@morales16.mx,525503761525,INDUSTRIAS MORALES DEL BAJÍO,Guanajuato,29/01/2022
-C0476,Fernanda García López,Distribuidora García Digital S.A. de C.V.,SIO240202476,fernanda.garcia476@garcia0.mx,+52 55 0376 9444,Distribuidora García Digital,Nuevo León,2024-02-02
-C0477,Camila Cabrera Cortés,Sistemas Cabrera Nova S.A. de C.V.,SJT220416477,hector.escobar33@escobar16.mx,(55) 0377 7363,Sistemas Cabrera Nova,Yucatán,2022-04-16
-C0478,Natalia Hernández Álvarez,Grupo Hernández Empresarial S.A. de C.V.,SKY230611478,natalia.hernandez478@hernandez2.mx,(55) 0378 5282,Grupo Hernández Empresarial,Yucatán,2023-06-11
-C0479,Adriana Márquez Aguilar,Innovación Márquez del Bajío S.A. de C.V.,SLD250723479,adriana.marquez479@marquez3.mx,+52 55 0379 3201,Innovación Márquez del Bajío,Querétaro,2025-07-23
-C0480,Eduardo Ortega Romero,Tecnología Ortega Digital S.A. de C.V.,SMI230812480,renata.alvarez438@alvarez13.mx,+52 55 0380 1120,Tecnología Ortega Digital,Guanajuato,2023-08-12
-C0481,Gabriel González Cortés,Servicios González Nova S.A. de C.V.,SNN260308481,gabriel.gonzalez481@gonzalez5.mx,525503809039,Servicios Gonzalez Nova,Jalisco,03/08/2026
-C0482,Daniela Domínguez Jiménez,Comercializadora Domínguez Empresarial S.A. de C.V.,SOS260717482,daniela.dominguez482@dominguez6.mx,+52 55 0381 6958,Comercializadora Domínguez Empresarial,Veracruz,2026-07-17
-C0483,Diego López Reyes,Consultoría López del Bajío S.A. de C.V.,SPX260804483, natalia.perez366@perez9.mx ,5503824877,Consultoría López del Bajío,Ciudad de México,2026-08-04
-C0484,Camila Jiménez Sánchez,Logística Jiménez Digital S.A. de C.V.,SQC251227484,camila.jimenez484@jimenez8.mx,(55) 0383 2796,Logística Jiménez Digital,Querétaro,2025-12-27
-C0485,Adriana Reyes Torres,Soluciones Reyes Nova S.A. de C.V.,SRH251225485,adriana.reyes485@reyes9.mx,(55) 0384 0715,Soluciones Reyes Nova,Puebla,2025-12-25
-C0486,Héctor Hernández Bautista,Corporativo Hernández Empresarial S.A. de C.V.,SSM260804486,mariana.martinez470@martinez11.mx,(55) 0384 8634,Corporativo Hernández Empresarial,Estado de México,2026-08-04
-C0487,Ana Reyes Cortés,Industrias Reyes del Bajío S.A. de C.V.,STR241104487,ana.reyes487@reyes11.mx,5503856553,INDUSTRIAS REYES DEL BAJÍO,Puebla,2024-11-04
-C0488,JAVIER CHÁVEZ HERNÁNDEZ,Distribuidora Chávez Digital S.A. de C.V.,SUW221224488,javier.chavez488@chavez12.mx,+52 55 0386 4472,Distribuidora Chavez Digital,Jalisco,2022-12-24
-C0489,Laura Sánchez Martínez,Sistemas Sánchez Nova S.A. de C.V.,SVB250826489,victor.reyes81@reyes13.mx,+52 55 0387 2391,SISTEMAS SÁNCHEZ NOVA,Jalisco,2025-08-26
-C0490,Inés García López,Grupo García Empresarial S.A. de C.V.,SWG231025490,ines.garcia490@garcia14.mx,55-0388-0310,Grupo García Empresarial,Puebla,2023-10-25
-C0491,Fernanda Romero Sánchez,Innovación Romero del Bajío S.A. de C.V.,SXL240619491,fernanda.romero491@romero15.mx,(55) 0388 8229,Innovación Romero del Bajío,Guanajuato,2024-06-19
-C0492,Ana Hernández Morales,Tecnología Hernández Digital S.A. de C.V.,SYQ220505492,valeria.ortega456@ortega14.mx,+52 55 0389 6148,Tecnología Hernández Digital,Yucatán,2022-05-05
-C0493,Rafael Sánchez Pérez,Servicios Sánchez Nova S.A. de C.V.,SZV260211493,rafael.sanchez493@sanchez0.mx,+52 55 0390 4067,Servicios Sánchez Nova,Veracruz,2026-02-11
-C0494,Ángel Jiménez Ortega,Comercializadora Jiménez Empresarial S.A. de C.V.,SAA240102494,angel.jimenez494@jimenez1.mx,55-0391-1986,Comercializadora Jiménez Empresarial,Guanajuato,02/01/2024
-C0495,Alejandro Álvarez Rodríguez,Consultoría Álvarez del Bajío S.A. de C.V.,SBF250829495,victor.aguilar437@aguilar12.mx,55-0391-9905,Consultoría Álvarez del Bajío,Ciudad de México,2025-08-29
-C0496,Ricardo Domínguez Ortega,Logística Domínguez Digital S.A. de C.V.,SCK240408496,ricardo.dominguez496@dominguez3.mx,5503927824,Logistica Dominguez Digital,Chihuahua,2024-04-08
-C0497,Sofía Álvarez Chávez,Soluciones Álvarez Nova S.A. de C.V.,SDP251225497,sofia.alvarez497@alvarez4.mx,5503935743,Soluciones Álvarez Nova,Guanajuato,2025-12-25
-C0498,Ricardo Rivera Jiménez,Corporativo Rivera Empresarial S.A. de C.V.,SEU230310498,beatriz.rodriguez375@rodriguez1.mx,525503943662,Corporativo Rivera Empresarial,,2023-03-10
-C0499,Luis Cabrera Escobar,Industrias Cabrera del Bajío S.A. de C.V.,SFZ250409499,luis.cabrera499@cabrera6.mx,55-0395-1581,Industrias Cabrera del Bajío,Ciudad de México,2025-04-09
-C0500,Javier García Cabrera,Distribuidora García Digital S.A. de C.V.,SGE220903500,javier.garcia500@garcia7.mx,5503959500,Distribuidora García Digital,Ciudad de México,2022-09-03
+﻿id_cliente,nombre_cliente,razon_social,rfc,correo,telefono,empresa,estado,fecha_registro
+C0001,Laura Martínez Cabrera,Servicios Martínez Nova S.A. de C.V.,SBF230929001,LAURA.MARTINEZ1@systemkw.com,+52 55 0000 7919,Servicios Martinez Nova,Estado de México,2023-09-29
+C0002,Camila González Reyes,Comercializadora González Empresarial S.A. de C.V.,SCK240501002,camila.gonzalez2@systemkw.com,5500015838,comercializadora gonzález empresarial,Puebla,2024-05-01
+C0003,Elena Ramírez Gómez,Consultoría Ramírez del Bajío S.A. de C.V.,SDP220524003,elena.ramirez3@systemkw.com,+52 55 0002 3757,Consultoría Ramírez del Bajío,Puebla,2022-05-24
+C0004,Héctor Mendoza Pérez,Logística Mendoza Digital S.A. de C.V.,SEU231230004,hector.mendoza4@systemkw.com,(55) 0003 1676,Logística Mendoza Digital,Nuevo León,2023-12-30
+C0005,Jimena Morales Gómez,Soluciones Morales Nova S.A. de C.V.,SFZ250131005,jimena.morales5@systemkw.com,5500039595,Soluciones Morales Nova,Guanajuato,2025-01-31
+C0006,Natalia Rivera Cabrera,Corporativo Rivera Empresarial S.A. de C.V.,SGE241210006,natalia.rivera6@systemkw.com,525500047514,Corporativo Rivera Empresarial,Querétaro,2024-12-10
+C0007,Camila Cabrera Bautista,Industrias Cabrera del Bajío S.A. de C.V.,SHJ250922007,camila.cabrera7@systemkw.com,525500055433,Industrias Cabrera del Bajio,Jalisco,2025-09-22
+C0008,Héctor Hernández Domínguez,Distribuidora Hernández Digital S.A. de C.V.,SIO231129008,hector.hernandez8@systemkw.com,(55) 0006 3352,Distribuidora Hernández Digital,Ciudad de México,2023-11-29
+C0009,Eduardo Martínez Rodríguez,Sistemas Martínez Nova S.A. de C.V.,SJT220611009,eduardo.martinez9@systemkw.com,(55) 0007 1271,Sistemas Martínez Nova,Jalisco,2022-06-11
+C0010,Bruno López Vargas,Grupo López Empresarial S.A. de C.V.,SKY250828010,bruno.lopez10@systemkw.com,525500079190,Grupo López Empresarial,Querétaro,2025-08-28
+C0011,Natalia Navarro Morales,Innovación Navarro del Bajío S.A. de C.V.,SLD220524011,natalia.navarro11@systemkw.com,55-0008-7109,INNOVACIÓN NAVARRO DEL BAJÍO,Nuevo León,2022-05-24
+C0012,Laura Márquez Morales,Tecnología Márquez Digital S.A. de C.V.,SMI250401012,laura.marquez12@systemkw.com,5500095028,Tecnologia Marquez Digital,Querétaro,2025-04-01
+C0013,Rafael Romero Morales,Servicios Romero Nova S.A. de C.V.,SNN230316013,rafael.romero13@systemkw.com,+52 55 0010 2947,Servicios Romero Nova,Guanajuato,2023-03-16
+C0014,Elena Martínez Bautista,Comercializadora Martínez Empresarial S.A. de C.V.,SOS260202014,elena.martinez14@systemkw.com,525500110866,Comercializadora Martínez Empresarial,Chihuahua,2026-02-02
+C0015,Natalia Hernández Pérez,Consultoría Hernández del Bajío S.A. de C.V.,SPX240925015,natalia.hernandez15 @systemkw.com,5500118785,Consultoría Hernández del Bajío,Veracruz,2024-09-25
+C0016,Rafael González Pérez,Logística González Digital S.A. de C.V.,SQC220323016,rafael.gonzalez16@systemkw.com,(55) 0012 6704,Logística González Digital,Querétaro,2022-03-23
+C0017,Bruno Vargas Ramírez,Soluciones Vargas Nova S.A. de C.V.,SRH250216017,bruno.vargas17@systemkw.com,(55) 0013 4623,Soluciones Vargas Nova,Estado de México,2025-02-16
+C0018,Javier Flores Ramírez,Corporativo Flores Empresarial S.A. de C.V.,SSM220709018,javier.flores18@systemkw.com,+52 55 0014 2542,corporativo flores empresarial,Estado de México,2022-07-09
+C0019,Diego Márquez Torres,Industrias Márquez del Bajío S.A. de C.V.,STR240126019,diego.marquez19@systemkw.com,+52 55 0015 0461,Industrias Márquez del Bajío,Chihuahua,26/01/2024
+C0020,Mariana Sánchez Escobar,Distribuidora Sánchez Digital S.A. de C.V.,SUW230916020,mariana.sanchez20@systemkw.com,5500158380,DISTRIBUIDORA SÁNCHEZ DIGITAL,Jalisco,2023-09-16
+C0021,Mariana Cortés Gómez,Sistemas Cortés Nova S.A. de C.V.,SVB240728021,mariana.cortes21@systemkw.com,525500166299,Sistemas Cortés Nova,Estado de México,2024-07-28
+C0022,Ángel Navarro Martínez,Grupo Navarro Empresarial S.A. de C.V.,SWG240829022,angel.navarro22@systemkw.com,(55) 0017 4218,Grupo Navarro Empresarial,Guanajuato,2024-08-29
+C0023,Ana Rivera Chávez,Innovación Rivera del Bajío S.A. de C.V.,SXL230906023,ana.rivera23@systemkw.com,5500182137,Innovación Rivera del Bajío,Guanajuato,2023-09-06
+C0024,Valeria González Pérez,Tecnología González Digital S.A. de C.V.,SYQ240618024,VALERIA.GONZALEZ24@systemkw.com,+52 55 0019 0056,Tecnología González Digital,Puebla,2024-06-18
+C0025,Alejandro Rodríguez Gómez,Servicios Rodríguez Nova S.A. de C.V.,SZV251030025,alejandro.rodriguez25@systemkw.com,5500197975,servicios rodríguez nova,Querétaro,2025-10-30
+C0026,José Morales López,Comercializadora Morales Empresarial S.A. de C.V.,SAA230506026,jose.morales26@systemkw.com,525500205894,Comercializadora Morales Empresarial,Querétaro,2023-05-06
+C0027,Renata Bautista Navarro,Consultoría Bautista del Bajío S.A. de C.V.,SBF221207027,renata.bautista27@systemkw.com,+52 55 0021 3813,Consultoria Bautista del Bajio,Veracruz,2022-12-07
+C0028,Daniela Torres Morales,Logística Torres Digital S.A. de C.V.,SCK230111028,daniela.torres28@systemkw.com,5500221732,Logistica Torres Digital,Jalisco,2023-01-11
+C0029,Ana Álvarez Pérez,Soluciones Álvarez Nova S.A. de C.V.,SDP260128029,ana.alvarez29@systemkw.com,+52 55 0022 9651,Soluciones Álvarez Nova,Estado de México,2026-01-28
+C0030,Daniela Pérez García,Corporativo Pérez Empresarial S.A. de C.V.,SEU250526030,daniela.perez30@systemkw.com,5500237570,Corporativo Pérez Empresarial,Yucatán,2025-05-26
+C0031,Inés Navarro Morales,Industrias Navarro del Bajío S.A. de C.V.,SFZ240110031,ines.navarro31@systemkw.com,525500245489,Industrias Navarro del Bajio,Querétaro,2024-01-10
+C0032,Luis Pérez Romero,Distribuidora Pérez Digital S.A. de C.V.,SGE221019032,luis.perez32@systemkw.com,5500253408,Distribuidora Perez Digital,Ciudad de México,2022-10-19
+C0033,Héctor Escobar Rivera,Sistemas Escobar Nova S.A. de C.V.,SHJ240609033,hector.escobar33@systemkw.com,525500261327,Sistemas Escobar Nova,Nuevo León,2024-06-09
+C0034,Óscar Jiménez Cabrera,Grupo Jiménez Empresarial S.A. de C.V.,SIO260301034,oscar.jimenez34@systemkw.com,5500269246,GRUPO JIMÉNEZ EMPRESARIAL,Jalisco,2026-03-01
+C0035,Miguel Sánchez Torres,Innovación Sánchez del Bajío S.A. de C.V.,SJT260427035,miguel.sanchez35@systemkw.com,55-0027-7165,Innovación Sánchez del Bajío,Nuevo León,2026-04-27
+C0036,Diego Aguilar Romero,Tecnología Aguilar Digital S.A. de C.V.,SKY240922036,diego.aguilar36@systemkw.com,525500285084,Tecnología Aguilar Digital,Puebla,2024-09-22
+C0037,Mariana García Álvarez,Servicios García Nova S.A. de C.V.,SLD250920037,mariana.garcia37@systemkw.com,525500293003,Servicios García Nova,Guanajuato,09/20/2025
+C0038,Natalia Ortega Flores,Comercializadora Ortega Empresarial S.A. de C.V.,SMI251208038,natalia.ortega38@systemkw.com,+52 55 0030 0922,Comercializadora Ortega Empresarial,Estado de México,08/12/2025
+C0039,Víctor Jiménez Bautista,Consultoría Jiménez del Bajío S.A. de C.V.,SNN260531039,victor.jimenez39@systemkw.com,55-0030-8841,CONSULTORÍA JIMÉNEZ DEL BAJÍO,Chihuahua,2026-05-31
+C0040,Rafael Vargas Álvarez,Logística Vargas Digital S.A. de C.V.,SOS250220040,RAFAEL.VARGAS40@systemkw.com,+52 55 0031 6760,Logística Vargas Digital,Ciudad de México,2025-02-20
+C0041,Bruno Rivera Domínguez,Soluciones Rivera Nova S.A. de C.V.,SPX241029041,bruno.rivera41@systemkw.com,525500324679,Soluciones Rivera Nova,Estado de México,2024-10-29
+C0042,Diego Rodríguez Sánchez,Corporativo Rodríguez Empresarial S.A. de C.V.,SQC250413042,diego.rodriguez42@systemkw.com,+52 55 0033 2598,Corporativo Rodriguez Empresarial,Estado de México,2025-04-13
+C0043,Luis Jiménez González,Industrias Jiménez del Bajío S.A. de C.V.,SRH240109043,luis.jimenez43@systemkw.com,(55) 0034 0517,Industrias Jiménez del Bajío,Querétaro,2024-01-09
+C0044,Jimena Mendoza Pérez,Distribuidora Mendoza Digital S.A. de C.V.,SSM240312044,jimena.mendoza44@systemkw.com,+52 55 0034 8436,Distribuidora Mendoza Digital,Chihuahua,2024-03-12
+C0045,Renata Chávez Reyes,Sistemas Chávez Nova S.A. de C.V.,STR221113045,renata.chavez45@systemkw.com,(55) 0035 6355,Sistemas Chávez Nova,Estado de México,2022-11-13
+C0046,Valeria Pérez González,Grupo Pérez Empresarial S.A. de C.V.,SUW250214046,valeria.perez46@systemkw.com,55-0036-4274,Grupo Pérez Empresarial,Puebla,2025-02-14
+C0047,José Vargas Ramírez,Innovación Vargas del Bajío S.A. de C.V.,SVB230330047,jose.vargas47@systemkw.com,,innovación vargas del bajío,Chihuahua,2023-03-30
+C0048,Miguel Mendoza Morales,Tecnología Mendoza Digital S.A. de C.V.,SWG240827048,miguel.mendoza48@systemkw.com,55-0038-0112,Tecnologia Mendoza Digital,Puebla,2024-08-27
+C0049,Miguel Torres López,Servicios Torres Nova S.A. de C.V.,SXL250602049,miguel.torres49@systemkw.com,(55) 0038 8031,Servicios Torres Nova,Querétaro,2025-06-02
+C0050,Beatriz Vázquez Rodríguez,Comercializadora Vázquez Empresarial S.A. de C.V.,SYQ230301050,beatriz.vazquez50 @systemkw.com,+52 55 0039 5950,Comercializadora Vázquez Empresarial,Nuevo León,2023-03-01
+C0051,Ricardo Domínguez Morales,Consultoría Domínguez del Bajío S.A. de C.V.,SZV220420051,ricardo.dominguez51@systemkw.com,55-0040-3869,Consultoría Domínguez del Bajío,Guanajuato,2022-04-20
+C0052,Laura Flores Rivera,Logística Flores Digital S.A. de C.V.,SAA251128052,laura.flores52@systemkw.com,525500411788,Logistica Flores Digital,Veracruz,2025-11-28
+C0053,Daniela Chávez Torres,Soluciones Chávez Nova S.A. de C.V.,SBF220211053,daniela.chavez53@systemkw.com,55-0041-9707,Soluciones Chavez Nova,Yucatán,2022-02-11
+C0054,Rafael Romero Márquez,Corporativo Romero Empresarial S.A. de C.V.,SCK260316054,rafael.romero54@systemkw.com,(55) 0042 7626,corporativo romero empresarial,Estado de México,2026-03-16
+C0055,Natalia Márquez Torres,Industrias Márquez del Bajío S.A. de C.V.,SDP230413055,natalia.marquez55@systemkw.com,525500435545,Industrias Marquez del Bajio,Guanajuato,2023-04-13
+C0056,Ricardo Cabrera Chávez,Distribuidora Cabrera Digital S.A. de C.V.,SEU240906056,ricardo.cabrera56@systemkw.com,(55) 0044 3464,Distribuidora Cabrera Digital,Nuevo León,2024-09-06
+C0057,Diego Flores Gómez,Sistemas Flores Nova S.A. de C.V.,SFZ260405057,diego.flores57@systemkw.com,5500451383,Sistemas Flores Nova,Yucatán,05/04/2026
+C0058,Eduardo Cortés Bautista,Grupo Cortés Empresarial S.A. de C.V.,SGE250529058,eduardo.cortes58@systemkw.com,55-0045-9302,Grupo Cortés Empresarial,Veracruz,2025-05-29
+C0059,Miguel Álvarez Escobar,Innovación Álvarez del Bajío S.A. de C.V.,SHJ250717059,miguel.alvarez59@systemkw.com,(55) 0046 7221,Innovación Álvarez del Bajío,Guanajuato,2025-07-17
+C0060,Ana Aguilar Castillo,Tecnología Aguilar Digital S.A. de C.V.,SIO241028060,ana.aguilar60@systemkw.com,55-0047-5140,TECNOLOGÍA AGUILAR DIGITAL,Puebla,2024-10-28
+C0061,BRUNO ÁLVAREZ NAVARRO,Servicios Álvarez Nova S.A. de C.V.,SJT221021061,bruno.alvarez61 @systemkw.com,5500483059,servicios álvarez nova,Chihuahua,2022-10-21
+C0062,Eduardo Márquez Álvarez,Comercializadora Márquez Empresarial S.A. de C.V.,SKY230614062,eduardo.marquez62@systemkw.com,(55) 0049 0978,Comercializadora Márquez Empresarial,Veracruz,2023-06-14
+C0063,Óscar Mendoza Martínez,Consultoría Mendoza del Bajío S.A. de C.V.,SLD230901063,oscar.mendoza63@systemkw.com,55-0049-8897,Consultoría Mendoza del Bajío,Estado de México,2023-09-01
+C0064,Eduardo Reyes Rodríguez,Logística Reyes Digital S.A. de C.V.,SMI240629064,EDUARDO.REYES64@systemkw.com,55-0050-6816,Logística Reyes Digital,Guanajuato,2024-06-29
+C0065,Ana Navarro Ramírez,Soluciones Navarro Nova S.A. de C.V.,SNN240823065,ana.navarro65@systemkw.com,525500514735,Soluciones Navarro Nova,Nuevo León,2024-08-23
+C0066,Beatriz Reyes Romero,Corporativo Reyes Empresarial S.A. de C.V.,SOS240825066,beatriz.reyes66@systemkw.com,5500522654,Corporativo Reyes Empresarial,Jalisco,2024-08-25
+C0067,Jimena López Chávez,Industrias López del Bajío S.A. de C.V.,SPX251016067,jimena.lopez67 @systemkw.com,(55) 0053 0573,Industrias López del Bajío,Chihuahua,2025-10-16
+C0068,Carlos García Márquez,Distribuidora García Digital S.A. de C.V.,SQC260117068,carlos.garcia68@systemkw.com,5500538492,Distribuidora García Digital,Yucatán,2026-01-17
+C0069,Eduardo Martínez Navarro,Sistemas Martínez Nova S.A. de C.V.,SRH220713069,eduardo.martinez69@systemkw.com,55-0054-6411,Sistemas Martinez Nova,Jalisco,2022-07-13
+C0070,Renata Pérez Flores,Grupo Pérez Empresarial S.A. de C.V.,SSM221123070,renata.perez70@systemkw.com,525500554330,Grupo Pérez Empresarial,Nuevo León,2022-11-23
+C0071,Carlos López Flores,Innovación López del Bajío S.A. de C.V.,STR230627071,carlos.lopez71@systemkw.com,5500562249,Innovación López del Bajío,Ciudad de México,2023-06-27
+C0072,Mariana Márquez Mendoza,Tecnología Márquez Digital S.A. de C.V.,SUW250113072,mariana.marquez72@systemkw.com,+52 55 0057 0168,Tecnología Márquez Digital,Jalisco,2025-01-13
+C0073,Diego Domínguez Vázquez,Servicios Dominguez Nova S.A. de C.V.,SVB260204073,diego.dominguez73@systemkw.com,(55) 0057 8087,Servicios Domínguez Nova,Estado de México,2026-02-04
+C0074,Inés Vargas Álvarez,Comercializadora Vargas Empresarial S.A. de C.V.,SWG250126074,ines.vargas74@systemkw.com,(55) 0058 6006,COMERCIALIZADORA VARGAS EMPRESARIAL,Yucatán,01/26/2025
+C0075,Daniela Jiménez Márquez,Consultoría Jiménez del Bajío S.A. de C.V.,SXL250223075,daniela.jimenez75@systemkw.com,5500593925,Consultoría Jiménez del Bajío,Puebla,2025-02-23
+C0076,Beatriz Romero Ramírez,Logística Romero Digital S.A. de C.V.,SYQ230713076,beatriz.romero76@systemkw.com,(55) 0060 1844,Logística Romero Digital,Veracruz,13/07/2023
+C0077,Paola Márquez Reyes,Soluciones Márquez Nova S.A. de C.V.,SZV240105077,paola.marquez77@systemkw.com,(55) 0060 9763,Soluciones Márquez Nova,Nuevo León,2024-01-05
+C0078,Ana Ortega Márquez,Corporativo Ortega Empresarial S.A. de C.V.,SAA230929078,ana.ortega78@systemkw.com,(55) 0061 7682,corporativo ortega empresarial,Guanajuato,2023-09-29
+C0079,Jimena Domínguez García,Industrias Domínguez del Bajío S.A. de C.V.,SBF241206079,jimena.dominguez79@systemkw.com,55-0062-5601,Industrias Domínguez del Bajío,Guanajuato,2024-12-06
+C0080,Valeria Ortega Ramírez,Distribuidora Ortega Digital S.A. de C.V.,SCK240906080,valeria.ortega80@systemkw.com,55-0063-3520,Distribuidora Ortega Digital,Yucatán,2024-09-06
+C0081,Víctor Reyes Gómez,Sistemas Reyes Nova S.A. de C.V.,SDP220106081,victor.reyes81@systemkw.com,55-0064-1439,Sistemas Reyes Nova,Estado de México,2022-01-06
+C0082,Mariana Cabrera Jiménez,Grupo Cabrera Empresarial S.A. de C.V.,SEU251025082,mariana.cabrera82@systemkw.com,(55) 0064 9358,Grupo Cabrera Empresarial,Puebla,2025-10-25
+C0083,Ana Martínez Vargas,Innovación Martínez del Bajío S.A. de C.V.,SFZ250128083,ana.martinez83@systemkw.com,55-0065-7277,INNOVACIÓN MARTÍNEZ DEL BAJÍO,,2025-01-28
+C0084,Renata Domínguez Mendoza,Tecnología Domínguez Digital S.A. de C.V.,SGE240509084,renata.dominguez84@systemkw.com,(55) 0066 5196,Tecnología Domínguez Digital,Yucatán,2024-05-09
+C0085,Beatriz Gómez Reyes,Servicios Gómez Nova S.A. de C.V.,SHJ260223085,beatriz.gomez85@systemkw.com,(55) 0067 3115,SERVICIOS GÓMEZ NOVA,Yucatán,2026-02-23
+C0086,Elena Mendoza Navarro,Comercializadora Mendoza Empresarial S.A. de C.V.,SIO220404086,elena.mendoza86@systemkw.com,(55) 0068 1034,Comercializadora Mendoza Empresarial,Nuevo León,2022-04-04
+C0087,Renata Reyes Martínez,Consultoría Reyes del Bajío S.A. de C.V.,SJT250812087,renata.reyes87@systemkw.com,5500688953,CONSULTORÍA REYES DEL BAJÍO,Estado de México,2025-08-12
+C0088,Alejandro Castillo García,Logística Castillo Digital S.A. de C.V.,SKY231127088,alejandro.castillo88@systemkw.com,5500696872,LOGÍSTICA CASTILLO DIGITAL,Yucatán,2023-11-27
+C0089,Javier Rodríguez Romero,Soluciones Rodríguez Nova S.A. de C.V.,SLD250206089,javier.rodriguez89@systemkw.com,,Soluciones Rodríguez Nova,Puebla,2025-02-06
+C0090,Valeria Morales Rodríguez,Corporativo Morales Empresarial S.A. de C.V.,SMI230419090,valeria.morales90@systemkw.com,+52 55 0071 2710,Corporativo Morales Empresarial,Guanajuato,2023-04-19
+C0091,Ángel Chávez Pérez,Industrias Chávez del Bajío S.A. de C.V.,SNN250127091,angel.chavez91@systemkw.com,55-0072-0629,industrias chávez del bajío,Yucatán,2025-01-27
+C0092,Adriana González Gómez,Distribuidora González Digital S.A. de C.V.,SOS230819092,adriana.gonzalez92@systemkw.com,(55) 0072 8548,Distribuidora González Digital,Jalisco,2023-08-19
+C0093,Daniela González Álvarez,Sistemas González Nova S.A. de C.V.,SPX230727093,daniela.gonzalez93@systemkw.com,55-0073-6467,Sistemas González Nova,Querétaro,2023-07-27
+C0094,Beatriz Ortega Escobar,Grupo Ortega Empresarial S.A. de C.V.,SQC241002094,beatriz.ortega94@systemkw.com,,Grupo Ortega Empresarial,Querétaro,2024-10-02
+C0095,Renata Aguilar Aguilar,Innovación Aguilar del Bajío S.A. de C.V.,SRH260104095,RENATA.AGUILAR95@systemkw.com,5500752305,Innovación Aguilar del Bajío,Nuevo León,04/01/2026
+C0096,Sofía Torres Ramírez,Tecnología Torres Digital S.A. de C.V.,SSM240220096,sofia.torres96@systemkw.com,5500760224,Tecnología Torres Digital,Guanajuato,2024-02-20
+C0097,Valeria Navarro Aguilar,Servicios Navarro Nova S.A. de C.V.,STR251114097,valeria.navarro97@systemkw.com,5500768143,Servicios Navarro Nova,Nuevo León,2025-11-14
+C0098,Inés Álvarez Cabrera,Comercializadora Álvarez Empresarial S.A. de C.V.,SUW240318098,ines.alvarez98@systemkw.com,(55) 0077 6062,COMERCIALIZADORA ÁLVAREZ EMPRESARIAL,Guanajuato,2024-03-18
+C0099,Mariana Vázquez Flores,Consultoría Vázquez del Bajío S.A. de C.V.,SVB250130099,mariana.vazquez99@systemkw.com,5500783981,Consultoría Vázquez del Bajío,Puebla,2025-01-30
+C0100,Víctor Sánchez Hernández,Logística Sánchez Digital S.A. de C.V.,SWG230304100,victor.sanchez100@systemkw.com,+52 55 0079 1900,Logística Sánchez Digital,Ciudad de México,2023-03-04
+C0101,José Rodríguez Castillo,Soluciones Rodríguez Nova S.A. de C.V.,SXL240820101,jose.rodriguez101@systemkw.com,5500799819,Soluciones Rodríguez Nova,Chihuahua,2024-08-20
+C0102,Víctor Ramírez González,Corporativo Ramírez Empresarial S.A. de C.V.,SYQ230223102,victor.ramirez102@systemkw.com,5500807738,Corporativo Ramírez Empresarial,Jalisco,2023-02-23
+C0103,Bruno Ortega Martínez,Industrias Ortega del Bajío S.A. de C.V.,SZV220912103,bruno.ortega103@systemkw.com,525500815657,Industrias Ortega del Bajio,Puebla,2022-09-12
+C0104,Gabriel Sánchez Sánchez,Distribuidora Sánchez Digital S.A. de C.V.,SAA230118104,gabriel.sanchez104@systemkw.com,525500823576,Distribuidora Sánchez Digital,Ciudad de México,2023-01-18
+C0105,Mariana Domínguez Torres,Sistemas Domínguez Nova S.A. de C.V.,SBF251121105,mariana.dominguez105@systemkw.com,(55) 0083 1495,Sistemas Dominguez Nova,Nuevo León,2025-11-21
+C0106,Alejandro Rodríguez Ortega,Grupo Rodríguez Empresarial S.A. de C.V.,SCK220425106,alejandro.rodriguez106@systemkw.com,+52 55 0083 9414,Grupo Rodríguez Empresarial,Nuevo León,2022-04-25
+C0107,Eduardo Reyes Navarro,Innovación Reyes del Bajío S.A. de C.V.,SDP220111107,eduardo.reyes107@systemkw.com,(55) 0084 7333,Innovación Reyes del Bajío,Veracruz,2022-01-11
+C0108,Natalia Castillo Flores,Tecnología Castillo Digital S.A. de C.V.,SEU260209108,natalia.castillo108@systemkw.com,55-0085-5252,Tecnología Castillo Digital,Ciudad de México,2026-02-09
+C0109,Diego Castillo Hernández,Servicios Castillo Nova S.A. de C.V.,SFZ241113109,diego.castillo109@systemkw.com,(55) 0086 3171,Servicios Castillo Nova,Nuevo León,2024-11-13
+C0110,Luis García Bautista,Comercializadora García Empresarial S.A. de C.V.,SGE231017110,luis.garcia110@systemkw.com,55-0087-1090,COMERCIALIZADORA GARCÍA EMPRESARIAL,Nuevo León,2023-10-17
+C0111,Natalia Reyes Reyes,Consultoría Reyes del Bajío S.A. de C.V.,SHJ250529111,natalia.reyes111@systemkw.com,525500879009,Consultoría Reyes del Bajío,Puebla,05/29/2025
+C0112,Héctor Torres Domínguez,Logística Torres Digital S.A. de C.V.,SIO250331112,hector.torres112@systemkw.com,(55) 0088 6928,Logística Torres Digital,Estado de México,2025-03-31
+C0113,Daniela Sánchez Morales,Soluciones Sánchez Nova S.A. de C.V.,SJT260223113,daniela.sanchez113@systemkw.com,(55) 0089 4847,Soluciones Sánchez Nova,Querétaro,2026-02-23
+C0114,Miguel Domínguez Ortega,Corporativo Domínguez Empresarial S.A. de C.V.,SKY230816114,miguel.dominguez114@systemkw.com,+52 55 0090 2766,Corporativo Domínguez Empresarial,Estado de México,16/08/2023
+C0115,Eduardo Márquez Torres,Industrias Márquez del Bajío S.A. de C.V.,SLD250503115,eduardo.marquez115@systemkw.com,55-0091-0685,Industrias Márquez del Bajío,Querétaro,2025-05-03
+C0116,Adriana Ortega Castillo,Distribuidora Ortega Digital S.A. de C.V.,SMI240906116,adriana.ortega116@systemkw.com,(55) 0091 8604,Distribuidora Ortega Digital,Puebla,2024-09-06
+C0117,Mariana Sánchez Gómez,Sistemas Sánchez Nova S.A. de C.V.,SNN260525117,mariana.sanchez117@systemkw.com,(55) 0092 6523,Sistemas Sanchez Nova,Chihuahua,2026-05-25
+C0118,Héctor Álvarez Gómez,Grupo Álvarez Empresarial S.A. de C.V.,SOS250801118,hector.alvarez118@systemkw.com,+52 55 0093 4442,Grupo Álvarez Empresarial,Veracruz,2025-08-01
+C0119,Javier Mendoza Reyes,Innovación Mendoza del Bajío S.A. de C.V.,SPX260416119,javier.mendoza119@systemkw.com,(55) 0094 2361,Innovación Mendoza del Bajío,Querétaro,2026-04-16
+C0120,Héctor González Ortega,Tecnología González Digital S.A. de C.V.,SQC220226120,hector.gonzalez120@systemkw.com,55-0095-0280,Tecnología González Digital,Veracruz,2022-02-26
+C0121,Daniela Romero García,Servicios Romero Nova S.A. de C.V.,SRH221202121,daniela.romero121@systemkw.com,55-0095-8199,Servicios Romero Nova,Estado de México,2022-12-02
+C0122,MIGUEL NAVARRO TORRES,Comercializadora Navarro Empresarial S.A. de C.V.,SSM230626122,miguel.navarro122@systemkw.com,5500966118,Comercializadora Navarro Empresarial,Guanajuato,2023-06-26
+C0123,Adriana Jiménez Chávez,Consultoría Jiménez del Bajío S.A. de C.V.,STR250216123,adriana.jimenez123@systemkw.com,55-0097-4037,Consultoría Jiménez del Bajío,Guanajuato,2025-02-16
+C0124,Eduardo Martínez Rodríguez,Logística Martínez Digital S.A. de C.V.,SUW220202124,eduardo.martinez124@systemkw.com,+52 55 0098 1956,Logística Martínez Digital,Estado de México,2022-02-02
+C0125,Miguel Torres Cabrera,Soluciones Torres Nova S.A. de C.V.,SVB230121125,miguel.torres125@systemkw.com,55-0098-9875,Soluciones Torres Nova,Guanajuato,2023-01-21
+C0126,Camila García Cabrera,Corporativo García Empresarial S.A. de C.V.,SWG230321126,camila.garcia126@systemkw.com,(55) 0099 7794,Corporativo Garcia Empresarial,Jalisco,2023-03-21
+C0127,Inés González Torres,Industrias González del Bajío S.A. de C.V.,SXL220401127,ines.gonzalez127@systemkw.com,(55) 0100 5713,Industrias González del Bajío,Puebla,2022-04-01
+C0128,Ricardo Rivera Reyes,Distribuidora Rivera Digital S.A. de C.V.,SYQ250106128,ricardo.rivera128@systemkw.com,525501013632,Distribuidora Rivera Digital,Querétaro,2025-01-06
+C0129,Diego Domínguez Pérez,Sistemas Domínguez Nova S.A. de C.V.,SZV240103129,diego.dominguez129@systemkw.com,55-0102-1551,Sistemas Domínguez Nova,Querétaro,2024-01-03
+C0130,José Flores Pérez,Grupo Flores Empresarial S.A. de C.V.,SAA241118130,jose.flores130@systemkw.com,+52 55 0102 9470,Grupo Flores Empresarial,Jalisco,2024-11-18
+C0131,Valeria Sánchez Ramírez,Innovación Sánchez del Bajío S.A. de C.V.,SBF220617131,valeria.sanchez131@systemkw.com,55-0103-7389,Innovación Sánchez del Bajío,Veracruz,2022-06-17
+C0132,Jimena Pérez Morales,Tecnología Pérez Digital S.A. de C.V.,SCK231004132,jimena.perez132@systemkw.com,55-0104-5308,Tecnología Pérez Digital,Estado de México,2023-10-04
+C0133,Gabriel Navarro Jiménez,Servicios Navarro Nova S.A. de C.V.,SDP230213133,gabriel.navarro133@systemkw.com,(55) 0105 3227,SERVICIOS NAVARRO NOVA,Jalisco,13/02/2023
+C0134,Paola Mendoza Gómez,Comercializadora Mendoza Empresarial S.A. de C.V.,SEU230827134,paola.mendoza134@systemkw.com,55-0106-1146,Comercializadora Mendoza Empresarial,Yucatán,2023-08-27
+C0135,Eduardo Martínez Cabrera,Consultoría Martínez del Bajío S.A. de C.V.,SFZ260615135,eduardo.martinez135@systemkw.com,55-0106-9065,Consultoría Martínez del Bajío,Chihuahua,2026-06-15
+C0136,Bruno Gómez González,Logística Gómez Digital S.A. de C.V.,SGE230213136,bruno.gomez136@systemkw.com,(55) 0107 6984,Logística Gómez Digital,Puebla,2023-02-13
+C0137,Adriana Gómez Álvarez,Soluciones Gómez Nova S.A. de C.V.,SHJ230628137,adriana.gomez137@systemkw.com,+52 55 0108 4903,Soluciones Gomez Nova,Puebla,2023-06-28
+C0138,Jimena Mendoza Ramírez,Corporativo Mendoza Empresarial S.A. de C.V.,SIO241011138,JIMENA.MENDOZA138@systemkw.com,525501092822,Corporativo Mendoza Empresarial,Estado de México,2024-10-11
+C0139,Elena Jiménez Ramírez,Industrias Jiménez del Bajío S.A. de C.V.,SJT251217139,elena.jimenez139@systemkw.com,525501100741,Industrias Jiménez del Bajío,Ciudad de México,2025-12-17
+C0140,Víctor Sánchez Romero,Distribuidora Sánchez Digital S.A. de C.V.,SKY220223140,victor.sanchez140@systemkw.com,5501108660,Distribuidora Sánchez Digital,Chihuahua,2022-02-23
+C0141,Ángel Morales González,Sistemas Morales Nova S.A. de C.V.,SLD221121141,angel.morales141@systemkw.com,,Sistemas Morales Nova,Ciudad de México,2022-11-21
+C0142,Alejandro Aguilar Vázquez,Grupo Aguilar Empresarial S.A. de C.V.,SMI250324142,alejandro.aguilar142@systemkw.com,525501124498,Grupo Aguilar Empresarial,Querétaro,2025-03-24
+C0143,Ricardo Chávez González,Innovación Chávez del Bajío S.A. de C.V.,SNN240506143,ricardo.chavez143@systemkw.com,(55) 0113 2417,Innovación Chávez del Bajío,Estado de México,2024-05-06
+C0144,Miguel Torres Romero,Tecnología Torres Digital S.A. de C.V.,SOS250703144,miguel.torres144@systemkw.com,525501140336,Tecnología Torres Digital,Veracruz,2025-07-03
+C0145,Héctor Cortés Ortega,Servicios Cortés Nova S.A. de C.V.,SPX251103145,hector.cortes145@systemkw.com,(55) 0114 8255,Servicios Cortes Nova,Puebla,2025-11-03
+C0146,Renata Escobar Reyes,Comercializadora Escobar Empresarial S.A. de C.V.,SQC220216146,renata.escobar146@systemkw.com,+52 55 0115 6174,Comercializadora Escobar Empresarial,Yucatán,2022-02-16
+C0147,Natalia Márquez Flores,Consultoría Márquez del Bajío S.A. de C.V.,SRH231106147,natalia.marquez147@systemkw.com,+52 55 0116 4093,Consultoría Márquez del Bajío,Yucatán,2023-11-06
+C0148,Inés Aguilar Ortega,Logística Aguilar Digital S.A. de C.V.,SSM251030148,ines.aguilar148@systemkw.com,5501172012,Logística Aguilar Digital,Nuevo León,10/30/2025
+C0149,Camila Reyes Bautista,Soluciones Reyes Nova S.A. de C.V.,STR230515149,camila.reyes149@systemkw.com,5501179931,Soluciones Reyes Nova,Guanajuato,2023-05-15
+C0150,Javier Hernández Ramírez,Corporativo Hernández Empresarial S.A. de C.V.,SUW220117150,javier.hernandez150@systemkw.com,5501187850,Corporativo Hernández Empresarial,Nuevo León,2022-01-17
+C0151,Jimena Cortés Sánchez,Industrias Cortés del Bajío S.A. de C.V.,SVB231221151,jimena.cortes151@systemkw.com,+52 55 0119 5769,Industrias Cortés del Bajío,Estado de México,2023-12-21
+C0152,Víctor Rodríguez Jiménez,Distribuidora Rodríguez Digital S.A. de C.V.,SWG250206152,victor.rodriguez152@systemkw.com,5501203688,Distribuidora Rodriguez Digital,Estado de México,06/02/2025
+C0153,Ricardo Ortega Jiménez,Sistemas Ortega Nova S.A. de C.V.,SXL260615153,ricardo.ortega153@systemkw.com,+52 55 0121 1607,Sistemas Ortega Nova,Yucatán,2026-06-15
+C0154,Carlos Sánchez Jiménez,Grupo Sánchez Empresarial S.A. de C.V.,SYQ250822154,carlos.sanchez154@systemkw.com,525501219526,Grupo Sánchez Empresarial,Veracruz,2025-08-22
+C0155,Héctor Aguilar Martínez,Innovación Aguilar del Bajío S.A. de C.V.,SZV220312155,hector.aguilar155@systemkw.com,(55) 0122 7445,Innovación Aguilar del Bajío,Querétaro,2022-03-12
+C0156,Ana Álvarez Reyes,Tecnología Álvarez Digital S.A. de C.V.,SAA240315156,ana.alvarez156@systemkw.com,5501235364,Tecnología Álvarez Digital,Veracruz,2024-03-15
+C0157,Rafael López Rivera,Servicios López Nova S.A. de C.V.,SBF260411157,rafael.lopez157@systemkw.com,+52 55 0124 3283,Servicios López Nova,Jalisco,2026-04-11
+C0158,Adriana Domínguez Ortega,Comercializadora Domínguez Empresarial S.A. de C.V.,SCK231211158,adriana.dominguez158@systemkw.com,525501251202,Comercializadora Domínguez Empresarial,Estado de México,2023-12-11
+C0159,Mariana Torres Escobar,Consultoría Torres del Bajío S.A. de C.V.,SDP220926159,mariana.torres159@systemkw.com,(55) 0125 9121,Consultoría Torres del Bajío,Jalisco,2022-09-26
+C0160,Luis Aguilar Flores,Logística Aguilar Digital S.A. de C.V.,SEU241021160,luis.aguilar160@systemkw.com,525501267040,Logística Aguilar Digital,Guanajuato,2024-10-21
+C0161,Diego Romero Domínguez,Soluciones Romero Nova S.A. de C.V.,SFZ240224161,diego.romero161@systemkw.com,5501274959,Soluciones Romero Nova,Yucatán,2024-02-24
+C0162,Adriana Vargas López,Corporativo Vargas Empresarial S.A. de C.V.,SGE231127162,adriana.vargas162@systemkw.com,5501282878,Corporativo Vargas Empresarial,Jalisco,2023-11-27
+C0163,Daniela Chávez Rodríguez,Industrias Chávez del Bajío S.A. de C.V.,SHJ240707163,daniela.chavez163@systemkw.com,5501290797,Industrias Chávez del Bajío,Guanajuato,2024-07-07
+C0164,Ángel Márquez Gómez,Distribuidora Márquez Digital S.A. de C.V.,SIO220112164,angel.marquez164@systemkw.com,525501298716,Distribuidora Márquez Digital,Puebla,2022-01-12
+C0165,Daniela Ramírez Cortés,Sistemas Ramírez Nova S.A. de C.V.,SJT240301165,daniela.ramirez165@systemkw.com,(55) 0130 6635,sistemas ramírez nova,Puebla,2024-03-01
+C0166,Elena Ramírez Martínez,Grupo Ramírez Empresarial S.A. de C.V.,SKY220406166,elena.ramirez166@systemkw.com,55-0131-4554,GRUPO RAMÍREZ EMPRESARIAL,,2022-04-06
+C0167,Óscar Ortega Hernández,Innovación Ortega del Bajío S.A. de C.V.,SLD221231167,oscar.ortega167@systemkw.com,+52 55 0132 2473,Innovación Ortega del Bajío,Guanajuato,2022-12-31
+C0168,Gabriel Domínguez Hernández,Tecnología Domínguez Digital S.A. de C.V.,SMI240926168,gabriel.dominguez168@systemkw.com,(55) 0133 0392,Tecnología Domínguez Digital,Yucatán,2024-09-26
+C0169,Miguel Chávez Morales,Servicios Chávez Nova S.A. de C.V.,SNN230213169,miguel.chavez169@systemkw.com,525501338311,Servicios Chávez Nova,Chihuahua,2023-02-13
+C0170,Inés Cabrera Navarro,Comercializadora Cabrera Empresarial S.A. de C.V.,SOS230422170,ines.cabrera170@systemkw.com,525501346230,Comercializadora Cabrera Empresarial,Ciudad de México,2023-04-22
+C0171,Inés Gómez Jiménez,Consultoría Gómez del Bajío S.A. de C.V.,SPX231203171,ines.gomez171@systemkw.com,5501354149,consultoría gómez del bajío,Yucatán,03/12/2023
+C0172,Laura Escobar Navarro,Logística Escobar Digital S.A. de C.V.,SQC241010172,laura.escobar172@systemkw.com,5501362068,logística escobar digital,Guanajuato,2024-10-10
+C0173,Laura Ortega Martínez,Soluciones Ortega Nova S.A. de C.V.,SRH251213173,laura.ortega173@systemkw.com,525501369987,Soluciones Ortega Nova,Puebla,2025-12-13
+C0174,Beatriz González Castillo,Corporativo González Empresarial S.A. de C.V.,SSM240511174,beatriz.gonzalez174@systemkw.com,+52 55 0137 7906,Corporativo González Empresarial,Jalisco,2024-05-11
+C0175,Camila García Reyes,Industrias García del Bajío S.A. de C.V.,STR240619175,camila.garcia175@systemkw.com,+52 55 0138 5825,Industrias García del Bajío,Puebla,2024-06-19
+C0176,Bruno Chávez Mendoza,Distribuidora Chávez Digital S.A. de C.V.,SUW240717176,bruno.chavez176@systemkw.com,525501393744,Distribuidora Chávez Digital,Ciudad de México,2024-07-17
+C0177,Óscar González Romero,Sistemas González Nova S.A. de C.V.,SVB251018177,oscar.gonzalez177@systemkw.com,525501401663,Sistemas González Nova,Yucatán,2025-10-18
+C0178,Carlos Castillo Rodríguez,Grupo Castillo Empresarial S.A. de C.V.,SWG230506178,carlos.castillo178@systemkw.com,,grupo castillo empresarial,Querétaro,2023-05-06
+C0179,Gabriel Navarro Álvarez,Innovación Navarro del Bajío S.A. de C.V.,SXL260602179,gabriel.navarro179@systemkw.com,55-0141-7501,Innovación Navarro del Bajío,Ciudad de México,2026-06-02
+C0180,Daniela Márquez Vargas,Tecnología Márquez Digital S.A. de C.V.,SYQ240130180,daniela.marquez180@systemkw.com,55-0142-5420,Tecnología Márquez Digital,Puebla,2024-01-30
+C0181,Rafael Vargas Domínguez,Servicios Vargas Nova S.A. de C.V.,SZV251001181,rafael.vargas181@systemkw.com,5501433339,Servicios Vargas Nova,Guanajuato,2025-10-01
+C0182,Daniela Mendoza Martínez,Comercializadora Mendoza Empresarial S.A. de C.V.,SAA250527182,daniela.mendoza182@systemkw.com,55-0144-1258,Comercializadora Mendoza Empresarial,Veracruz,2025-05-27
+C0183,ELENA SÁNCHEZ REYES,Consultoría Sánchez del Bajío S.A. de C.V.,SBF260213183,elena.sanchez183@systemkw.com,(55) 0144 9177,Consultoría Sánchez del Bajío,Puebla,2026-02-13
+C0184,Paola Vázquez Domínguez,Logística Vázquez Digital S.A. de C.V.,SCK240107184,paola.vazquez184@systemkw.com,(55) 0145 7096,Logística Vázquez Digital,Querétaro,2024-01-07
+C0185,Diego Rivera Gómez,Soluciones Rivera Nova S.A. de C.V.,SDP240404185,diego.rivera185@systemkw.com,5501465015,Soluciones Rivera Nova,Jalisco,04/04/2024
+C0186,Ana Vázquez González,Corporativo Vázquez Empresarial S.A. de C.V.,SEU250811186,ana.vazquez186@systemkw.com,+52 55 0147 2934,Corporativo Vázquez Empresarial,Veracruz,2025-08-11
+C0187,Víctor Navarro Torres,Industrias Navarro del Bajío S.A. de C.V.,SFZ240109187,victor.navarro187@systemkw.com,525501480853,Industrias Navarro del Bajío,Querétaro,2024-01-09
+C0188,Luis Romero Navarro,Distribuidora Romero Digital S.A. de C.V.,SGE250928188,luis.romero188@systemkw.com,,Distribuidora Romero Digital,Jalisco,2025-09-28
+C0189,Paola Aguilar Flores,Sistemas Aguilar Nova S.A. de C.V.,SHJ240317189,paola.aguilar189@systemkw.com,55-0149-6691,Sistemas Aguilar Nova,Nuevo León,2024-03-17
+C0190,Víctor Domínguez Hernández,Grupo Domínguez Empresarial S.A. de C.V.,SIO220119190,victor.dominguez190@systemkw.com,525501504610,Grupo Dominguez Empresarial,Veracruz,19/01/2022
+C0191,Diego Vázquez Hernández,Innovación Vázquez del Bajío S.A. de C.V.,SJT260401191,diego.vazquez191@systemkw.com,+52 55 0151 2529,Innovación Vázquez del Bajío,Guanajuato,2026-04-01
+C0192,Luis Navarro Domínguez,Tecnología Navarro Digital S.A. de C.V.,SKY221118192,luis.navarro192@systemkw.com,+52 55 0152 0448,Tecnologia Navarro Digital,Ciudad de México,2022-11-18
+C0193,Ricardo Hernández Domínguez,Servicios Hernández Nova S.A. de C.V.,SLD250526193,ricardo.hernandez193@systemkw.com,+52 55 0152 8367,Servicios Hernández Nova,Veracruz,2025-05-26
+C0194,Sofía Rodríguez Ortega,Comercializadora Rodríguez Empresarial S.A. de C.V.,SMI260816194,sofia.rodriguez194@systemkw.com,+52 55 0153 6286,Comercializadora Rodríguez Empresarial,Estado de México,2026-08-16
+C0195,Laura Cabrera Bautista,Consultoría Cabrera del Bajío S.A. de C.V.,SNN230823195,laura.cabrera195@systemkw.com,(55) 0154 4205,Consultoría Cabrera del Bajío,Veracruz,2023-08-23
+C0196,Jimena López García,Logística López Digital S.A. de C.V.,SOS220528196,jimena.lopez196@systemkw.com,+52 55 0155 2124,Logística López Digital,Ciudad de México,2022-05-28
+C0197,Javier Álvarez Álvarez,Soluciones Álvarez Nova S.A. de C.V.,SPX240310197,JAVIER.ALVAREZ197@systemkw.com,525501560043,SOLUCIONES ÁLVAREZ NOVA,Nuevo León,2024-03-10
+C0198,Sofía Torres Mendoza,Corporativo Torres Empresarial S.A. de C.V.,SQC230511198,sofia.torres198@systemkw.com,55-0156-7962,Corporativo Torres Empresarial,Veracruz,2023-05-11
+C0199,Héctor Aguilar Pérez,Industrias Aguilar del Bajío S.A. de C.V.,SRH220115199,hector.aguilar199@systemkw.com,525501575881,Industrias Aguilar del Bajío,Puebla,2022-01-15
+C0200,Diego Castillo Mendoza,Distribuidora Castillo Digital S.A. de C.V.,SSM250603200,diego.castillo200@systemkw.com,55-0158-3800,Distribuidora Castillo Digital,Puebla,2025-06-03
+C0201,Rafael Domínguez Bautista,Sistemas Domínguez Nova S.A. de C.V.,STR240525201,rafael.dominguez201@systemkw.com,55-0159-1719,Sistemas Domínguez Nova,Veracruz,2024-05-25
+C0202,Ana Ramírez Navarro,Grupo Ramírez Empresarial S.A. de C.V.,SUW231201202,ana.ramirez202@systemkw.com,5501599638,Grupo Ramírez Empresarial,Querétaro,2023-12-01
+C0203,Alejandro Pérez Jiménez,Innovación Pérez del Bajío S.A. de C.V.,SVB260322203,alejandro.perez203@systemkw.com,+52 55 0160 7557,Innovación Pérez del Bajío,Nuevo León,2026-03-22
+C0204,Inés Escobar López,Tecnología Escobar Digital S.A. de C.V.,SWG260421204,ines.escobar204@systemkw.com,5501615476,Tecnología Escobar Digital,Chihuahua,2026-04-21
+C0205,Eduardo Gómez Rivera,Servicios Gómez Nova S.A. de C.V.,SXL250625205,eduardo.gomez205@systemkw.com,(55) 0162 3395,SERVICIOS GÓMEZ NOVA,Puebla,2025-06-25
+C0206,Rafael Martínez Romero,Comercializadora Martínez Empresarial S.A. de C.V.,SYQ231229206,rafael.martinez206@systemkw.com,525501631314,Comercializadora Martínez Empresarial,Veracruz,2023-12-29
+C0207,Bruno Cortés Flores,Consultoría Cortés del Bajío S.A. de C.V.,SZV250206207,bruno.cortes207@systemkw.com,55-0163-9233,Consultoría Cortés del Bajío,Chihuahua,2025-02-06
+C0208,Ricardo Castillo Sánchez,Logística Castillo Digital S.A. de C.V.,SAA230508208,ricardo.castillo208@systemkw.com,55-0164-7152,Logistica Castillo Digital,Puebla,2023-05-08
+C0209,Renata González Chávez,Soluciones González Nova S.A. de C.V.,SBF251222209,renata.gonzalez209@systemkw.com,55-0165-5071,Soluciones González Nova,Estado de México,22/12/2025
+C0210,Luis Ramírez López,Corporativo Ramírez Empresarial S.A. de C.V.,SCK251210210,luis.ramirez210@systemkw.com,+52 55 0166 2990,Corporativo Ramírez Empresarial,Veracruz,2025-12-10
+C0211,Sofía Domínguez Reyes,Industrias Domínguez del Bajío S.A. de C.V.,SDP250115211,SOFIA.DOMINGUEZ211@systemkw.com,55-0167-0909,Industrias Dominguez del Bajio,Guanajuato,2025-01-15
+C0212,Jimena Cortés Jiménez,Distribuidora Cortés Digital S.A. de C.V.,SEU220610212,jimena.cortes212@systemkw.com,+52 55 0167 8828,Distribuidora Cortés Digital,Jalisco,2022-06-10
+C0213,Laura Vázquez Castillo,Sistemas Vázquez Nova S.A. de C.V.,SFZ230308213,laura.vazquez213@systemkw.com,+52 55 0168 6747,Sistemas Vázquez Nova,Jalisco,2023-03-08
+C0214,Sofía Gómez Sánchez,Grupo Gómez Empresarial S.A. de C.V.,SGE230404214,sofia.gomez214@systemkw.com,(55) 0169 4666,Grupo Gómez Empresarial,Puebla,2023-04-04
+C0215,Jimena Flores Flores,Innovación Flores del Bajío S.A. de C.V.,SHJ231011215,jimena.flores215@systemkw.com,525501702585,Innovacion Flores del Bajio,Jalisco,2023-10-11
+C0216,Diego Flores Chávez,Tecnología Flores Digital S.A. de C.V.,SIO240609216,diego.flores216@systemkw.com,5501710504,Tecnología Flores Digital,Jalisco,2024-06-09
+C0217,Diego Escobar Jiménez,Servicios Escobar Nova S.A. de C.V.,SJT230609217,diego.escobar217@systemkw.com,55-0171-8423,SERVICIOS ESCOBAR NOVA,Querétaro,2023-06-09
+C0218,Valeria Martínez Flores,Comercializadora Martínez Empresarial S.A. de C.V.,SKY230329218,valeria.martinez218@systemkw.com,+52 55 0172 6342,Comercializadora Martínez Empresarial,Estado de México,2023-03-29
+C0219,Alejandro Vázquez Sánchez,Consultoria Vazquez del Bajio S.A. de C.V.,SLD230814219,alejandro.vazquez219@systemkw.com,525501734261,Consultoría Vázquez del Bajío,Nuevo León,2023-08-14
+C0220,Mariana Márquez Domínguez,Logística Márquez Digital S.A. de C.V.,SMI220216220,mariana.marquez220@systemkw.com,+52 55 0174 2180,Logística Márquez Digital,Querétaro,2022-02-16
+C0221,Héctor Cortés Cabrera,Soluciones Cortés Nova S.A. de C.V.,SNN240824221,hector.cortes221@systemkw.com,525501750099,soluciones cortés nova,Guanajuato,2024-08-24
+C0222,Mariana Álvarez Hernández,Corporativo Álvarez Empresarial S.A. de C.V.,SOS220822222,mariana.alvarez222@systemkw.com,55-0175-8018,CORPORATIVO ÁLVAREZ EMPRESARIAL,Ciudad de México,08/22/2022
+C0223,Beatriz Gómez Chávez,Industrias Gómez del Bajío S.A. de C.V.,SPX220129223,beatriz.gomez223@systemkw.com,525501765937,Industrias Gómez del Bajío,Querétaro,2022-01-29
+C0224,Adriana Vargas García,Distribuidora Vargas Digital S.A. de C.V.,SQC260806224,adriana.vargas224@systemkw.com,525501773856,Distribuidora Vargas Digital,Querétaro,2026-08-06
+C0225,José Hernández Pérez,Sistemas Hernández Nova S.A. de C.V.,SRH240706225,jose.hernandez225@systemkw.com,+52 55 0178 1775,Sistemas Hernández Nova,Chihuahua,2024-07-06
+C0226,Daniela Aguilar Jiménez,Grupo Aguilar Empresarial S.A. de C.V.,SSM251027226,daniela.aguilar226@systemkw.com,+52 55 0178 9694,Grupo Aguilar Empresarial,Veracruz,2025-10-27
+C0227,Víctor Torres Pérez,Innovación Torres del Bajío S.A. de C.V.,STR220422227,victor.torres227@systemkw.com,525501797613,Innovación Torres del Bajío,Estado de México,2022-04-22
+C0228,Javier López Martínez,Tecnología López Digital S.A. de C.V.,SUW221008228,javier.lopez228@systemkw.com,(55) 0180 5532,Tecnología López Digital,Estado de México,08/10/2022
+C0229,Renata Vargas Gómez,Servicios Vargas Nova S.A. de C.V.,SVB241015229,renata.vargas229@systemkw.com,+52 55 0181 3451,Servicios Vargas Nova,Nuevo León,2024-10-15
+C0230,José Vázquez García,Comercializadora Vázquez Empresarial S.A. de C.V.,SWG250717230,jose.vazquez230@systemkw.com,525501821370,Comercializadora Vázquez Empresarial,Yucatán,2025-07-17
+C0231,Laura Gómez Hernández,Consultoría Gómez del Bajío S.A. de C.V.,SXL241116231,laura.gomez231@systemkw.com,5501829289,Consultoría Gómez del Bajío,Nuevo León,2024-11-16
+C0232,Natalia Jiménez Domínguez,Logística Jiménez Digital S.A. de C.V.,SYQ220116232,natalia.jimenez232@systemkw.com,5501837208,Logística Jiménez Digital,Veracruz,2022-01-16
+C0233,Javier Romero Morales,Soluciones Romero Nova S.A. de C.V.,SZV220930233,javier.romero233@systemkw.com,+52 55 0184 5127,Soluciones Romero Nova,Guanajuato,2022-09-30
+C0234,Inés Castillo Rivera,Corporativo Castillo Empresarial S.A. de C.V.,SAA220825234,ines.castillo234@systemkw.com,+52 55 0185 3046,Corporativo Castillo Empresarial,Puebla,2022-08-25
+C0235,Carlos Flores Ortega,Industrias Flores del Bajío S.A. de C.V.,SBF231223235,carlos.flores235@systemkw.com,,Industrias Flores del Bajío,Nuevo León,2023-12-23
+C0236,Ana Jiménez Escobar,Distribuidora Jiménez Digital S.A. de C.V.,SCK220914236,ana.jimenez236@systemkw.com,(55) 0186 8884,Distribuidora Jiménez Digital,Guanajuato,2022-09-14
+C0237,Héctor Romero Reyes,Sistemas Romero Nova S.A. de C.V.,SDP220424237,hector.romero237@systemkw.com,525501876803,Sistemas Romero Nova,Ciudad de México,2022-04-24
+C0238,Eduardo Álvarez Flores,Grupo Álvarez Empresarial S.A. de C.V.,SEU250326238,eduardo.alvarez238@systemkw.com,5501884722,Grupo Álvarez Empresarial,Estado de México,2025-03-26
+C0239,Rafael Ramírez Sánchez,Innovación Ramírez del Bajío S.A. de C.V.,SFZ220312239,rafael.ramirez239@systemkw.com,5501892641,Innovación Ramírez del Bajío,Jalisco,2022-03-12
+C0240,Óscar Morales Chávez,Tecnología Morales Digital S.A. de C.V.,SGE230310240,oscar.morales240@systemkw.com,(55) 0190 0560,Tecnologia Morales Digital,Puebla,2023-03-10
+C0241,José Ramírez Morales,Servicios Ramírez Nova S.A. de C.V.,SHJ260317241,jose.ramirez241@systemkw.com,525501908479,Servicios Ramírez Nova,Nuevo León,2026-03-17
+C0242,José Jiménez Vázquez,Comercializadora Jiménez Empresarial S.A. de C.V.,SIO260209242,jose.jimenez242@systemkw.com,(55) 0191 6398,Comercializadora Jiménez Empresarial,Nuevo León,2026-02-09
+C0243,Sofía Vázquez Vázquez,Consultoría Vázquez del Bajío S.A. de C.V.,SJT220503243,sofia.vazquez243@systemkw.com,+52 55 0192 4317,Consultoría Vázquez del Bajío,Yucatán,2022-05-03
+C0244,JOSÉ GARCÍA REYES,Logística García Digital S.A. de C.V.,SKY230217244,JOSE.GARCIA244@systemkw.com,5501932236,Logística García Digital,Guanajuato,2023-02-17
+C0245,Diego Jiménez Jiménez,Soluciones Jiménez Nova S.A. de C.V.,SLD220129245,diego.jimenez245@systemkw.com,525501940155,Soluciones Jiménez Nova,Yucatán,2022-01-29
+C0246,Fernanda Aguilar Romero,Corporativo Aguilar Empresarial S.A. de C.V.,SMI260717246,fernanda.aguilar246@systemkw.com,525501948074,Corporativo Aguilar Empresarial,Ciudad de México,2026-07-17
+C0247,Bruno Torres Cortés,Industrias Torres del Bajío S.A. de C.V.,SNN220707247,bruno.torres247@systemkw.com,55-0195-5993,Industrias Torres del Bajío,Puebla,07/07/2022
+C0248,José Bautista Sánchez,Distribuidora Bautista Digital S.A. de C.V.,SOS240424248,jose.bautista248@systemkw.com,(55) 0196 3912,Distribuidora Bautista Digital,Estado de México,2024-04-24
+C0249,Mariana Romero Hernández,Sistemas Romero Nova S.A. de C.V.,SPX240723249,mariana.romero249@systemkw.com,5501971831,Sistemas Romero Nova,,2024-07-23
+C0250,Rafael Hernández Reyes,Grupo Hernández Empresarial S.A. de C.V.,SQC230205250,rafael.hernandez250@systemkw.com,(55) 0197 9750,Grupo Hernández Empresarial,Ciudad de México,2023-02-05
+C0251,Alejandro Vázquez Rodríguez,Innovación Vázquez del Bajío S.A. de C.V.,SRH250309251,alejandro.vazquez251@systemkw.com,+52 55 0198 7669,Innovación Vázquez del Bajío,Querétaro,2025-03-09
+C0252,Daniela Reyes Flores,Tecnología Reyes Digital S.A. de C.V.,SSM260401252,daniela.reyes252@systemkw.com,525501995588,Tecnología Reyes Digital,Ciudad de México,2026-04-01
+C0253,Alejandro Hernández Escobar,Servicios Hernández Nova S.A. de C.V.,STR240824253,alejandro.hernandez253@systemkw.com,525502003507,SERVICIOS HERNÁNDEZ NOVA,Puebla,2024-08-24
+C0254,Carlos Aguilar Bautista,Comercializadora Aguilar Empresarial S.A. de C.V.,SUW260828254,carlos.aguilar254@systemkw.com,5502011426,Comercializadora Aguilar Empresarial,Chihuahua,2026-08-28
+C0255,Bruno Rodríguez Escobar,Consultoría Rodríguez del Bajío S.A. de C.V.,SVB231020255,bruno.rodriguez255@systemkw.com,(55) 0201 9345,Consultoría Rodríguez del Bajío,Ciudad de México,2023-10-20
+C0256,Ana Reyes Gómez,Logística Reyes Digital S.A. de C.V.,SWG240821256,ana.reyes256@systemkw.com,+52 55 0202 7264,Logística Reyes Digital,Estado de México,2024-08-21
+C0257,José Chávez Gómez,Soluciones Chávez Nova S.A. de C.V.,SXL220220257,jose.chavez257@systemkw.com,55-0203-5183,Soluciones Chavez Nova,Puebla,2022-02-20
+C0258,Fernanda Navarro Navarro,Corporativo Navarro Empresarial S.A. de C.V.,SYQ250618258,fernanda.navarro258@systemkw.com,(55) 0204 3102,Corporativo Navarro Empresarial,Ciudad de México,2025-06-18
+C0259,Renata Romero Flores,Industrias Romero del Bajío S.A. de C.V.,SZV220126259,renata.romero259@systemkw.com,+52 55 0205 1021,Industrias Romero del Bajío,Puebla,01/26/2022
+C0260,Rafael Martínez Mendoza,Distribuidora Martínez Digital S.A. de C.V.,SAA240208260,rafael.martinez260@systemkw.com,(55) 0205 8940,Distribuidora Martínez Digital,Jalisco,2024-02-08
+C0261,Óscar Ortega Cortés,Sistemas Ortega Nova S.A. de C.V.,SBF241216261,oscar.ortega261@systemkw.com,5502066859,Sistemas Ortega Nova,Estado de México,2024-12-16
+C0262,Gabriel García Sánchez,Grupo García Empresarial S.A. de C.V.,SCK220501262,gabriel.garcia262@systemkw.com,55-0207-4778,Grupo García Empresarial,Jalisco,2022-05-01
+C0263,Gabriel Hernández Escobar,Innovación Hernández del Bajío S.A. de C.V.,SDP250525263,gabriel.hernandez263@systemkw.com,5502082697,Innovación Hernández del Bajío,Chihuahua,2025-05-25
+C0264,Víctor Aguilar Cortés,Tecnología Aguilar Digital S.A. de C.V.,SEU260114264,victor.aguilar264@systemkw.com,55-0209-0616,Tecnología Aguilar Digital,Chihuahua,2026-01-14
+C0265,Bruno Aguilar Castillo,Servicios Aguilar Nova S.A. de C.V.,SFZ230522265,bruno.aguilar265@systemkw.com,+52 55 0209 8535,servicios aguilar nova,Ciudad de México,2023-05-22
+C0266,Ricardo Escobar Romero,Comercializadora Escobar Empresarial S.A. de C.V.,SGE221125266,ricardo.escobar266@systemkw.com,55-0210-6454,Comercializadora Escobar Empresarial,Jalisco,25/11/2022
+C0267,Adriana Romero Rivera,Consultoría Romero del Bajío S.A. de C.V.,SHJ260331267,adriana.romero267@systemkw.com,,Consultoría Romero del Bajío,Puebla,2026-03-31
+C0268,Sofía Chávez Sánchez,Logística Chávez Digital S.A. de C.V.,SIO220405268,SOFIA.CHAVEZ268@systemkw.com,(55) 0212 2292,Logística Chávez Digital,Puebla,2022-04-05
+C0269,Bruno Chávez Rivera,Soluciones Chávez Nova S.A. de C.V.,SJT250516269,bruno.chavez269@systemkw.com,525502130211,Soluciones Chávez Nova,Veracruz,2025-05-16
+C0270,Beatriz Morales Vázquez,Corporativo Morales Empresarial S.A. de C.V.,SKY250625270,beatriz.morales270@systemkw.com,+52 55 0213 8130,Corporativo Morales Empresarial,Puebla,2025-06-25
+C0271,Camila Romero Escobar,Industrias Romero del Bajío S.A. de C.V.,SLD230413271,camila.romero271@systemkw.com,5502146049,Industrias Romero del Bajío,Jalisco,2023-04-13
+C0272,Elena Ramírez Cortés,Distribuidora Ramírez Digital S.A. de C.V.,SMI260823272,elena.ramirez272@systemkw.com,5502153968,Distribuidora Ramirez Digital,Nuevo León,2026-08-23
+C0273,Paola Gómez Aguilar,Sistemas Gómez Nova S.A. de C.V.,SNN230608273,paola.gomez273@systemkw.com,(55) 0216 1887,Sistemas Gomez Nova,Chihuahua,2023-06-08
+C0274,Diego Flores Domínguez,Grupo Flores Empresarial S.A. de C.V.,SOS250520274,diego.flores274@systemkw.com,+52 55 0216 9806,Grupo Flores Empresarial,Estado de México,2025-05-20
+C0275,Diego Flores García,Innovación Flores del Bajío S.A. de C.V.,SPX250712275,diego.flores275@systemkw.com,(55) 0217 7725,Innovacion Flores del Bajio,Estado de México,2025-07-12
+C0276,Diego Torres Chávez,Tecnología Torres Digital S.A. de C.V.,SQC230727276,diego.torres276@systemkw.com,+52 55 0218 5644,Tecnologia Torres Digital,Ciudad de México,2023-07-27
+C0277,Mariana Pérez Mendoza,Servicios Pérez Nova S.A. de C.V.,SRH250322277,mariana.perez277@systemkw.com,+52 55 0219 3563,Servicios Pérez Nova,Chihuahua,2025-03-22
+C0278,José Reyes Gómez,Comercializadora Reyes Empresarial S.A. de C.V.,SSM260605278,jose.reyes278@systemkw.com,+52 55 0220 1482,Comercializadora Reyes Empresarial,Guanajuato,2026-06-05
+C0279,Alejandro Cortés Navarro,Consultoría Cortés del Bajío S.A. de C.V.,STR220721279,alejandro.cortes279@systemkw.com,+52 55 0220 9401,Consultoría Cortés del Bajío,Nuevo León,2022-07-21
+C0280,Renata Escobar Mendoza,Logística Escobar Digital S.A. de C.V.,SUW221120280,renata.escobar280@systemkw.com,55-0221-7320,Logística Escobar Digital,Ciudad de México,2022-11-20
+C0281,Alejandro Reyes Márquez,Soluciones Reyes Nova S.A. de C.V.,SVB230723281,alejandro.reyes281@systemkw.com,(55) 0222 5239,Soluciones Reyes Nova,Estado de México,2023-07-23
+C0282,Fernanda Pérez Álvarez,Corporativo Pérez Empresarial S.A. de C.V.,SWG241222282,fernanda.perez282@systemkw.com,,Corporativo Pérez Empresarial,Chihuahua,2024-12-22
+C0283,Diego Flores Navarro,Industrias Flores del Bajío S.A. de C.V.,SXL220812283,diego.flores283@systemkw.com,525502241077,Industrias Flores del Bajío,Yucatán,2022-08-12
+C0284,Natalia Rivera Vargas,Distribuidora Rivera Digital S.A. de C.V.,SYQ260602284,natalia.rivera284@systemkw.com,(55) 0224 8996,Distribuidora Rivera Digital,Chihuahua,2026-06-02
+C0285,Natalia Castillo Ortega,Sistemas Castillo Nova S.A. de C.V.,SZV260801285,natalia.castillo285@systemkw.com,(55) 0225 6915,Sistemas Castillo Nova,Estado de México,01/08/2026
+C0286,Miguel Reyes Martínez,Grupo Reyes Empresarial S.A. de C.V.,SAA250125286,miguel.reyes286@systemkw.com,5502264834,Grupo Reyes Empresarial,Veracruz,2025-01-25
+C0287,Héctor Sánchez Hernández,Innovación Sánchez del Bajío S.A. de C.V.,SBF260420287,hector.sanchez287@systemkw.com,(55) 0227 2753,Innovación Sánchez del Bajío,Veracruz,2026-04-20
+C0288,Jimena González Martínez,Tecnología González Digital S.A. de C.V.,SCK240704288,jimena.gonzalez288@systemkw.com,+52 55 0228 0672,Tecnología González Digital,Estado de México,2024-07-04
+C0289,Óscar Mendoza Rodríguez,Servicios Mendoza Nova S.A. de C.V.,SDP251106289,oscar.mendoza289@systemkw.com,+52 55 0228 8591,servicios mendoza nova,Jalisco,2025-11-06
+C0290,Fernanda Castillo Chávez,Comercializadora Castillo Empresarial S.A. de C.V.,SEU221111290,fernanda.castillo290@systemkw.com,5502296510,Comercializadora Castillo Empresarial,Chihuahua,2022-11-11
+C0291,Beatriz Ortega Cortés,Consultoría Ortega del Bajío S.A. de C.V.,SFZ230712291,beatriz.ortega291@systemkw.com,(55) 0230 4429,Consultoría Ortega del Bajío,Estado de México,2023-07-12
+C0292,Miguel López Gómez,Logistica Lopez Digital S.A. de C.V.,SGE260904292,miguel.lopez292@systemkw.com,55-0231-2348,Logística López Digital,Estado de México,2026-09-04
+C0293,Fernanda Álvarez Mendoza,Soluciones Álvarez Nova S.A. de C.V.,SHJ241007293,fernanda.alvarez293@systemkw.com,5502320267,Soluciones Álvarez Nova,Nuevo León,2024-10-07
+C0294,Beatriz Vargas Vargas,Corporativo Vargas Empresarial S.A. de C.V.,SIO220405294,beatriz.vargas294@systemkw.com,(55) 0232 8186,Corporativo Vargas Empresarial,Querétaro,2022-04-05
+C0295,Rafael Castillo Cabrera,Industrias Castillo del Bajío S.A. de C.V.,SJT251215295,rafael.castillo295@systemkw.com,+52 55 0233 6105,INDUSTRIAS CASTILLO DEL BAJÍO,Puebla,2025-12-15
+C0296,Ana Cortés Vázquez,Distribuidora Cortés Digital S.A. de C.V.,SKY260128296,ana.cortes296@systemkw.com,525502344024,Distribuidora Cortés Digital,Guanajuato,01/28/2026
+C0297,José Pérez Mendoza,Sistemas Pérez Nova S.A. de C.V.,SLD250807297,JOSE.PEREZ297@systemkw.com,+52 55 0235 1943,Sistemas Pérez Nova,Chihuahua,2025-08-07
+C0298,Paola González Márquez,Grupo González Empresarial S.A. de C.V.,SMI220527298,paola.gonzalez298@systemkw.com,(55) 0235 9862,Grupo González Empresarial,Yucatán,2022-05-27
+C0299,Laura Torres Rivera,Innovación Torres del Bajío S.A. de C.V.,SNN250917299,laura.torres299@systemkw.com,55-0236-7781,Innovación Torres del Bajío,Guanajuato,2025-09-17
+C0300,Adriana Cortés Jiménez,Tecnología Cortés Digital S.A. de C.V.,SOS240406300,adriana.cortes300@systemkw.com,55-0237-5700,Tecnología Cortés Digital,Veracruz,2024-04-06
+C0301,Javier Martínez López,Servicios Martínez Nova S.A. de C.V.,SPX231109301,javier.martinez301@systemkw.com,(55) 0238 3619,Servicios Martínez Nova,Querétaro,2023-11-09
+C0302,Ricardo Pérez González,Comercializadora Pérez Empresarial S.A. de C.V.,SQC260223302,ricardo.perez302@systemkw.com,55-0239-1538,Comercializadora Pérez Empresarial,Veracruz,2026-02-23
+C0303,Fernanda Sánchez Reyes,Consultoría Sánchez del Bajío S.A. de C.V.,SRH231123303,fernanda.sanchez303@systemkw.com,(55) 0239 9457,Consultoría Sánchez del Bajío,Veracruz,2023-11-23
+C0304,Víctor Torres Jiménez,Logística Torres Digital S.A. de C.V.,SSM240326304,victor.torres304@systemkw.com,+52 55 0240 7376,Logística Torres Digital,Puebla,26/03/2024
+C0305,ÁNGEL MENDOZA RAMÍREZ,Soluciones Mendoza Nova S.A. de C.V.,STR240119305,angel.mendoza305@systemkw.com,525502415295,Soluciones Mendoza Nova,Veracruz,2024-01-19
+C0306,Mariana Álvarez Flores,Corporativo Álvarez Empresarial S.A. de C.V.,SUW220817306,mariana.alvarez306@systemkw.com,525502423214,Corporativo Álvarez Empresarial,Querétaro,2022-08-17
+C0307,Sofía Flores Escobar,Industrias Flores del Bajío S.A. de C.V.,SVB260407307,sofia.flores307@systemkw.com,5502431133,Industrias Flores del Bajio,Querétaro,2026-04-07
+C0308,Paola Torres Torres,Distribuidora Torres Digital S.A. de C.V.,SWG240223308,paola.torres308@systemkw.com,5502439052,Distribuidora Torres Digital,Puebla,2024-02-23
+C0309,Óscar González Vázquez,Sistemas González Nova S.A. de C.V.,SXL240322309,oscar.gonzalez309@systemkw.com,5502446971,Sistemas González Nova,Veracruz,2024-03-22
+C0310,Beatriz Chávez Castillo,Grupo Chávez Empresarial S.A. de C.V.,SYQ220810310,beatriz.chavez310@systemkw.com,+52 55 0245 4890,grupo chávez empresarial,Estado de México,2022-08-10
+C0311,José Álvarez Ramírez,Innovación Álvarez del Bajío S.A. de C.V.,SZV250930311,jose.alvarez311@systemkw.com,+52 55 0246 2809,Innovación Álvarez del Bajío,Ciudad de México,2025-09-30
+C0312,Alejandro Domínguez Jiménez,Tecnología Domínguez Digital S.A. de C.V.,SAA241016312,alejandro.dominguez312@systemkw.com,5502470728,Tecnología Domínguez Digital,Puebla,2024-10-16
+C0313,Miguel Morales Márquez,Servicios Morales Nova S.A. de C.V.,SBF241210313,miguel.morales313@systemkw.com,55-0247-8647,Servicios Morales Nova,Guanajuato,2024-12-10
+C0314,Bruno Álvarez Ortega,Comercializadora Álvarez Empresarial S.A. de C.V.,SCK220219314,bruno.alvarez314@systemkw.com,(55) 0248 6566,Comercializadora Álvarez Empresarial,Estado de México,2022-02-19
+C0315,Fernanda Jiménez Castillo,Consultoría Jiménez del Bajío S.A. de C.V.,SDP221030315,fernanda.jimenez315@systemkw.com,(55) 0249 4485,Consultoría Jiménez del Bajío,Chihuahua,2022-10-30
+C0316,Ana Vargas Aguilar,Logística Vargas Digital S.A. de C.V.,SEU250118316,ANA.VARGAS316@systemkw.com,525502502404,Logistica Vargas Digital,Yucatán,2025-01-18
+C0317,Daniela Romero Navarro,Soluciones Romero Nova S.A. de C.V.,SFZ251124317,daniela.romero317@systemkw.com,55-0251-0323,Soluciones Romero Nova,Yucatán,2025-11-24
+C0318,Bruno Aguilar Rodríguez,Corporativo Aguilar Empresarial S.A. de C.V.,SGE240118318,bruno.aguilar318 @systemkw.com,55-0251-8242,Corporativo Aguilar Empresarial,Nuevo León,2024-01-18
+C0319,Fernanda Martínez Martínez,Industrias Martínez del Bajío S.A. de C.V.,SHJ250307319,fernanda.martinez319@systemkw.com,55-0252-6161,Industrias Martínez del Bajío,Estado de México,2025-03-07
+C0320,Eduardo Márquez Martínez,Distribuidora Márquez Digital S.A. de C.V.,SIO230525320,eduardo.marquez320@systemkw.com,5502534080,Distribuidora Márquez Digital,Puebla,2023-05-25
+C0321,Rafael Torres García,Sistemas Torres Nova S.A. de C.V.,SJT221202321,rafael.torres321@systemkw.com,+52 55 0254 1999,Sistemas Torres Nova,Nuevo León,2022-12-02
+C0322,Paola Márquez Castillo,Grupo Márquez Empresarial S.A. de C.V.,SKY250223322,paola.marquez322@systemkw.com,+52 55 0254 9918,Grupo Marquez Empresarial,Estado de México,2025-02-23
+C0323,Ana Pérez López,Innovación Pérez del Bajío S.A. de C.V.,SLD260525323,ana.perez323@systemkw.com,525502557837,Innovación Pérez del Bajío,Puebla,25/05/2026
+C0324,Mariana Rodríguez Rodríguez,Tecnología Rodríguez Digital S.A. de C.V.,SMI221014324,mariana.rodriguez324@systemkw.com,(55) 0256 5756,tecnología rodríguez digital,Estado de México,2022-10-14
+C0325,Valeria Navarro Morales,Servicios Navarro Nova S.A. de C.V.,SNN240623325,valeria.navarro325@systemkw.com,(55) 0257 3675,Servicios Navarro Nova,Chihuahua,2024-06-23
+C0326,Héctor Morales Jiménez,Comercializadora Morales Empresarial S.A. de C.V.,SOS260517326,hector.morales326@systemkw.com,55-0258-1594,Comercializadora Morales Empresarial,Ciudad de México,2026-05-17
+C0327,Miguel Bautista Domínguez,Consultoría Bautista del Bajío S.A. de C.V.,SPX240621327,miguel.bautista327@systemkw.com,(55) 0258 9513,Consultoría Bautista del Bajío,Querétaro,2024-06-21
+C0328,Sofía Cabrera Morales,Logística Cabrera Digital S.A. de C.V.,SQC220801328,sofia.cabrera328@systemkw.com,+52 55 0259 7432,Logística Cabrera Digital,Chihuahua,2022-08-01
+C0329,Laura Domínguez Ramírez,Soluciones Domínguez Nova S.A. de C.V.,SRH220422329,laura.dominguez329@systemkw.com,,Soluciones Domínguez Nova,Ciudad de México,2022-04-22
+C0330,Renata García González,Corporativo García Empresarial S.A. de C.V.,SSM250704330,renata.garcia330@systemkw.com,+52 55 0261 3270,Corporativo García Empresarial,Nuevo León,2025-07-04
+C0331,Daniela Navarro Castillo,Industrias Navarro del Bajío S.A. de C.V.,STR250906331,DANIELA.NAVARRO331@systemkw.com,+52 55 0262 1189,Industrias Navarro del Bajío,Guanajuato,2025-09-06
+C0332,Diego Jiménez Navarro,Distribuidora Jiménez Digital S.A. de C.V.,SUW250117332,diego.jimenez332@systemkw.com,5502629108,Distribuidora Jiménez Digital,,2025-01-17
+C0333,Beatriz Vázquez Domínguez,Sistemas Vázquez Nova S.A. de C.V.,SVB230329333,beatriz.vazquez333@systemkw.com,55-0263-7027,Sistemas Vázquez Nova,Guanajuato,03/29/2023
+C0334,Paola Vargas Márquez,Grupo Vargas Empresarial S.A. de C.V.,SWG260802334,paola.vargas334@systemkw.com,525502644946,Grupo Vargas Empresarial,Guanajuato,2026-08-02
+C0335,Inés Rodríguez Navarro,Innovación Rodríguez del Bajío S.A. de C.V.,SXL260131335,ines.rodriguez335@systemkw.com,(55) 0265 2865,Innovación Rodríguez del Bajío,Puebla,2026-01-31
+C0336,Fernanda González Jiménez,Tecnología González Digital S.A. de C.V.,SYQ240920336,fernanda.gonzalez336@systemkw.com,525502660784,Tecnología González Digital,Veracruz,2024-09-20
+C0337,Laura López Navarro,Servicios López Nova S.A. de C.V.,SZV260218337,laura.lopez337@systemkw.com,5502668703,Servicios López Nova,Guanajuato,2026-02-18
+C0338,Daniela Rodríguez Chávez,Comercializadora Rodríguez Empresarial S.A. de C.V.,SAA231012338,daniela.rodriguez338@systemkw.com,5502676622,Comercializadora Rodríguez Empresarial,Querétaro,2023-10-12
+C0339,Ana Morales Castillo,Consultoría Morales del Bajío S.A. de C.V.,SBF250226339,ana.morales339@systemkw.com,55-0268-4541,Consultoría Morales del Bajío,Ciudad de México,2025-02-26
+C0340,Daniela Morales Sánchez,Logística Morales Digital S.A. de C.V.,SCK231224340,daniela.morales340@systemkw.com,5502692460,Logística Morales Digital,Yucatán,2023-12-24
+C0341,Ana Rivera Rodríguez,Soluciones Rivera Nova S.A. de C.V.,SDP220710341,ana.rivera341@systemkw.com,(55) 0270 0379,Soluciones Rivera Nova,Puebla,2022-07-10
+C0342,Laura García Torres,Corporativo García Empresarial S.A. de C.V.,SEU240219342,laura.garcia342@systemkw.com,525502708298,Corporativo García Empresarial,Guanajuato,19/02/2024
+C0343,Luis Bautista Escobar,Industrias Bautista del Bajío S.A. de C.V.,SFZ250313343,luis.bautista343@systemkw.com,(55) 0271 6217,Industrias Bautista del Bajio,Guanajuato,2025-03-13
+C0344,Laura Cortés Navarro,Distribuidora Cortés Digital S.A. de C.V.,SGE221222344,laura.cortes344@systemkw.com,55-0272-4136,Distribuidora Cortés Digital,Jalisco,2022-12-22
+C0345,Luis García García,Sistemas García Nova S.A. de C.V.,SHJ231205345,luis.garcia345@systemkw.com,5502732055,Sistemas García Nova,Guanajuato,2023-12-05
+C0346,Alejandro Navarro Morales,Grupo Navarro Empresarial S.A. de C.V.,SIO240408346,alejandro.navarro346@systemkw.com,(55) 0273 9974,Grupo Navarro Empresarial,Ciudad de México,2024-04-08
+C0347,Valeria Hernández López,Innovación Hernández del Bajío S.A. de C.V.,SJT241216347,valeria.hernandez347@systemkw.com,55-0274-7893,Innovación Hernández del Bajío,Nuevo León,2024-12-16
+C0348,Ángel Álvarez Pérez,Tecnología Álvarez Digital S.A. de C.V.,SKY220410348,angel.alvarez348@systemkw.com,+52 55 0275 5812,Tecnología Álvarez Digital,Estado de México,2022-04-10
+C0349,Inés García Cortés,Servicios García Nova S.A. de C.V.,SLD240623349,INES.GARCIA349@systemkw.com,(55) 0276 3731,Servicios Garcia Nova,Nuevo León,2024-06-23
+C0350,Inés Reyes González,Comercializadora Reyes Empresarial S.A. de C.V.,SMI250217350,ines.reyes350@systemkw.com,5502771650,COMERCIALIZADORA REYES EMPRESARIAL,Puebla,2025-02-17
+C0351,Carlos Cabrera Morales,Consultoría Cabrera del Bajío S.A. de C.V.,SNN221226351,carlos.cabrera351@systemkw.com,525502779569,Consultoría Cabrera del Bajío,Querétaro,2022-12-26
+C0352,Camila Pérez Vázquez,Logística Pérez Digital S.A. de C.V.,SOS250209352,camila.perez352@systemkw.com,(55) 0278 7488,Logística Pérez Digital,Jalisco,2025-02-09
+C0353,Mariana Escobar Chávez,Soluciones Escobar Nova S.A. de C.V.,SPX220610353,mariana.escobar353@systemkw.com,5502795407,Soluciones Escobar Nova,Puebla,2022-06-10
+C0354,Óscar Domínguez Márquez,Corporativo Domínguez Empresarial S.A. de C.V.,SQC220616354,oscar.dominguez354@systemkw.com,+52 55 0280 3326,Corporativo Dominguez Empresarial,Veracruz,2022-06-16
+C0355,Eduardo Morales Vázquez,Industrias Morales del Bajío S.A. de C.V.,SRH230416355,eduardo.morales355@systemkw.com,525502811245,Industrias Morales del Bajío,Querétaro,2023-04-16
+C0356,Camila Martínez Vázquez,Distribuidora Martínez Digital S.A. de C.V.,SSM230118356,camila.martinez356@systemkw.com,,Distribuidora Martinez Digital,Veracruz,2023-01-18
+C0357,Elena Mendoza Morales,Sistemas Mendoza Nova S.A. de C.V.,STR251126357,elena.mendoza357@systemkw.com,+52 55 0282 7083,Sistemas Mendoza Nova,Nuevo León,2025-11-26
+C0358,Javier Reyes Ortega,Grupo Reyes Empresarial S.A. de C.V.,SUW240218358,javier.reyes358@systemkw.com,+52 55 0283 5002,Grupo Reyes Empresarial,Chihuahua,2024-02-18
+C0359,Óscar Rodríguez Morales,Innovación Rodríguez del Bajío S.A. de C.V.,SVB260706359,oscar.rodriguez359@systemkw.com,5502842921,Innovacion Rodriguez del Bajio,Yucatán,2026-07-06
+C0360,Natalia Hernández Ortega,Tecnología Hernández Digital S.A. de C.V.,SWG220212360,natalia.hernandez360@systemkw.com,5502850840,Tecnología Hernández Digital,Nuevo León,2022-02-12
+C0361,Inés Morales Torres,Servicios Morales Nova S.A. de C.V.,SXL250402361,ines.morales361@systemkw.com,525502858759,Servicios Morales Nova,Puebla,02/04/2025
+C0362,Laura Domínguez Romero,Comercializadora Domínguez Empresarial S.A. de C.V.,SYQ250323362,laura.dominguez362@systemkw.com,(55) 0286 6678,Comercializadora Domínguez Empresarial,Jalisco,2025-03-23
+C0363,Jimena Cortés Morales,Consultoría Cortés del Bajío S.A. de C.V.,SZV260629363,jimena.cortes363@systemkw.com,+52 55 0287 4597,Consultoría Cortés del Bajío,Puebla,2026-06-29
+C0364,Rafael Pérez Romero,Logística Pérez Digital S.A. de C.V.,SAA260707364,rafael.perez364@systemkw.com,55-0288-2516,Logística Pérez Digital,Chihuahua,2026-07-07
+C0365,Valeria Escobar Vázquez,Soluciones Escobar Nova S.A. de C.V.,SBF240612365,valeria.escobar365 @systemkw.com,525502890435,Soluciones Escobar Nova,Jalisco,2024-06-12
+C0366,NATALIA PÉREZ VARGAS,Corporativo Pérez Empresarial S.A. de C.V.,SCK230410366,natalia.perez366@systemkw.com,+52 55 0289 8354,Corporativo Pérez Empresarial,Ciudad de México,2023-04-10
+C0367,Miguel García Morales,Industrias García del Bajío S.A. de C.V.,SDP220111367,miguel.garcia367@systemkw.com,(55) 0290 6273,Industrias García del Bajío,Puebla,2022-01-11
+C0368,Javier Aguilar García,Distribuidora Aguilar Digital S.A. de C.V.,SEU220925368,javier.aguilar368@systemkw.com,55-0291-4192,Distribuidora Aguilar Digital,Guanajuato,2022-09-25
+C0369,Paola Domínguez Castillo,Sistemas Domínguez Nova S.A. de C.V.,SFZ241215369,paola.dominguez369@systemkw.com,55-0292-2111,SISTEMAS DOMÍNGUEZ NOVA,Yucatán,2024-12-15
+C0370,Ana Morales Ortega,Grupo Morales Empresarial S.A. de C.V.,SGE230523370,ana.morales370 @systemkw.com,525502930030,Grupo Morales Empresarial,Guanajuato,05/23/2023
+C0371,Bruno Vázquez García,Innovación Vázquez del Bajío S.A. de C.V.,SHJ220719371,bruno.vazquez371@systemkw.com,55-0293-7949,Innovación Vázquez del Bajío,Ciudad de México,2022-07-19
+C0372,Eduardo Flores Flores,Tecnología Flores Digital S.A. de C.V.,SIO250516372,eduardo.flores372@systemkw.com,+52 55 0294 5868,Tecnología Flores Digital,Guanajuato,2025-05-16
+C0373,Luis Jiménez Ramírez,Servicios Jiménez Nova S.A. de C.V.,SJT251014373,luis.jimenez373@systemkw.com,(55) 0295 3787,Servicios Jiménez Nova,Yucatán,2025-10-14
+C0374,Natalia Ortega Hernández,Comercializadora Ortega Empresarial S.A. de C.V.,SKY220914374,natalia.ortega374@systemkw.com,(55) 0296 1706,Comercializadora Ortega Empresarial,Nuevo León,2022-09-14
+C0375,Beatriz Rodríguez Escobar,Consultoría Rodríguez del Bajío S.A. de C.V.,SLD241217375,beatriz.rodriguez375@systemkw.com,(55) 0296 9625,Consultoría Rodríguez del Bajío,Guanajuato,2024-12-17
+C0376,Bruno Sánchez Rivera,Logística Sánchez Digital S.A. de C.V.,SMI220502376,bruno.sanchez376@systemkw.com,,Logistica Sanchez Digital,Estado de México,2022-05-02
+C0377,Jimena Pérez Vargas,Soluciones Pérez Nova S.A. de C.V.,SNN240215377,jimena.perez377@systemkw.com,525502985463,Soluciones Pérez Nova,Ciudad de México,2024-02-15
+C0378,Inés Castillo Castillo,Corporativo Castillo Empresarial S.A. de C.V.,SOS220528378,ines.castillo378@systemkw.com,55-0299-3382,Corporativo Castillo Empresarial,Puebla,2022-05-28
+C0379,Ricardo Ramírez Hernández,Industrias Ramírez del Bajío S.A. de C.V.,SPX260824379,ricardo.ramirez379@systemkw.com,5503001301,Industrias Ramírez del Bajío,Ciudad de México,2026-08-24
+C0380,Jimena Martínez Rodríguez,Distribuidora Martínez Digital S.A. de C.V.,SQC230705380,jimena.martinez380@systemkw.com,5503009220,Distribuidora Martinez Digital,Ciudad de México,05/07/2023
+C0381,Sofía Aguilar Morales,Sistemas Aguilar Nova S.A. de C.V.,SRH220222381,sofia.aguilar381@systemkw.com,+52 55 0301 7139,Sistemas Aguilar Nova,Querétaro,2022-02-22
+C0382,Renata Ortega Morales,Grupo Ortega Empresarial S.A. de C.V.,SSM221014382,renata.ortega382@systemkw.com,525503025058,Grupo Ortega Empresarial,Chihuahua,2022-10-14
+C0383,Laura Pérez Mendoza,Innovación Pérez del Bajío S.A. de C.V.,STR230710383,laura.perez383@systemkw.com,5503032977,Innovacion Perez del Bajio,Yucatán,2023-07-10
+C0384,Diego Martínez Escobar,Tecnología Martínez Digital S.A. de C.V.,SUW260108384,diego.martinez384@systemkw.com,5503040896,Tecnología Martínez Digital,Puebla,2026-01-08
+C0385,Óscar Jiménez Hernández,Servicios Jiménez Nova S.A. de C.V.,SVB251007385,oscar.jimenez385@systemkw.com,+52 55 0304 8815,Servicios Jiménez Nova,Estado de México,2025-10-07
+C0386,Luis Escobar Hernández,Comercializadora Escobar Empresarial S.A. de C.V.,SWG250320386,luis.escobar386@systemkw.com,55-0305-6734,Comercializadora Escobar Empresarial,Nuevo León,2025-03-20
+C0387,Ángel Bautista Hernández,Consultoría Bautista del Bajío S.A. de C.V.,SXL241110387,angel.bautista387@systemkw.com,525503064653,Consultoria Bautista del Bajio,Guanajuato,2024-11-10
+C0388,José Ortega López,Logística Ortega Digital S.A. de C.V.,SYQ230712388,jose.ortega388@systemkw.com,(55) 0307 2572,Logística Ortega Digital,Ciudad de México,2023-07-12
+C0389,Beatriz Cabrera Morales,Soluciones Cabrera Nova S.A. de C.V.,SZV221121389,beatriz.cabrera389@systemkw.com,5503080491,Soluciones Cabrera Nova,Querétaro,2022-11-21
+C0390,Renata Vargas Chávez,Corporativo Vargas Empresarial S.A. de C.V.,SAA221115390,renata.vargas390@systemkw.com,55-0308-8410,Corporativo Vargas Empresarial,Guanajuato,2022-11-15
+C0391,Renata Jiménez Reyes,Industrias Jiménez del Bajío S.A. de C.V.,SBF240108391,renata.jimenez391@systemkw.com,(55) 0309 6329,Industrias Jiménez del Bajío,Yucatán,2024-01-08
+C0392,Ana González Domínguez,Distribuidora González Digital S.A. de C.V.,SCK251210392,ana.gonzalez392@systemkw.com,525503104248,distribuidora gonzález digital,Yucatán,2025-12-10
+C0393,Beatriz Álvarez García,Sistemas Álvarez Nova S.A. de C.V.,SDP260129393,beatriz.alvarez393@systemkw.com,5503112167,Sistemas Álvarez Nova,Veracruz,2026-01-29
+C0394,Elena Vázquez Morales,Grupo Vázquez Empresarial S.A. de C.V.,SEU240525394,elena.vazquez394@systemkw.com,5503120086,Grupo Vázquez Empresarial,Ciudad de México,2024-05-25
+C0395,Camila Romero Cabrera,Innovación Romero del Bajío S.A. de C.V.,SFZ260712395,camila.romero395@systemkw.com,+52 55 0312 8005,Innovación Romero del Bajío,Estado de México,2026-07-12
+C0396,Óscar Jiménez Navarro,Tecnología Jiménez Digital S.A. de C.V.,SGE241228396,oscar.jimenez396@systemkw.com,5503135924,TECNOLOGÍA JIMÉNEZ DIGITAL,Puebla,2024-12-28
+C0397,Luis Jiménez Vázquez,Servicios Jiménez Nova S.A. de C.V.,SHJ240117397,luis.jimenez397@systemkw.com,(55) 0314 3843,Servicios Jiménez Nova,Veracruz,2024-01-17
+C0398,Mariana Sánchez Bautista,Comercializadora Sánchez Empresarial S.A. de C.V.,SIO240325398,mariana.sanchez398@systemkw.com,525503151762,Comercializadora Sánchez Empresarial,Guanajuato,2024-03-25
+C0399,Elena Castillo Vázquez,Consultoría Castillo del Bajío S.A. de C.V.,SJT250201399,elena.castillo399@systemkw.com,525503159681,Consultoria Castillo del Bajio,Querétaro,01/02/2025
+C0400,Paola Vargas Morales,Logística Vargas Digital S.A. de C.V.,SKY250905400,paola.vargas400@systemkw.com,+52 55 0316 7600,Logística Vargas Digital,Nuevo León,2025-09-05
+C0401,Fernanda Rivera Rivera,Soluciones Rivera Nova S.A. de C.V.,SLD220712401,fernanda.rivera401 @systemkw.com,(55) 0317 5519,Soluciones Rivera Nova,Nuevo León,2022-07-12
+C0402,Ana Navarro Romero,Corporativo Navarro Empresarial S.A. de C.V.,SMI240817402,ana.navarro402@systemkw.com,5503183438,Corporativo Navarro Empresarial,Estado de México,2024-08-17
+C0403,Elena Aguilar Hernández,Industrias Aguilar del Bajío S.A. de C.V.,SNN260503403,elena.aguilar403@systemkw.com,+52 55 0319 1357,INDUSTRIAS AGUILAR DEL BAJÍO,Puebla,2026-05-03
+C0404,Javier Morales Escobar,Distribuidora Morales Digital S.A. de C.V.,SOS251226404,javier.morales404@systemkw.com,+52 55 0319 9276,Distribuidora Morales Digital,Chihuahua,2025-12-26
+C0405,Valeria Cabrera Escobar,Sistemas Cabrera Nova S.A. de C.V.,SPX231230405,valeria.cabrera405@systemkw.com,+52 55 0320 7195,SISTEMAS CABRERA NOVA,Veracruz,2023-12-30
+C0406,Inés Aguilar Reyes,Grupo Aguilar Empresarial S.A. de C.V.,SQC241024406,ines.aguilar406@systemkw.com,(55) 0321 5114,Grupo Aguilar Empresarial,Chihuahua,2024-10-24
+C0407,Víctor Gómez Hernández,Innovación Gómez del Bajío S.A. de C.V.,SRH251110407,victor.gomez407@systemkw.com,55-0322-3033,Innovación Gómez del Bajío,Nuevo León,11/10/2025
+C0408,Elena Vargas Hernández,Tecnología Vargas Digital S.A. de C.V.,SSM241026408,elena.vargas408@systemkw.com,(55) 0323 0952,Tecnología Vargas Digital,Veracruz,2024-10-26
+C0409,Javier Castillo Hernández,Servicios Castillo Nova S.A. de C.V.,STR260306409,JAVIER.CASTILLO409@systemkw.com,5503238871,Servicios Castillo Nova,Estado de México,2026-03-06
+C0410,Daniela Cabrera Domínguez,Comercializadora Cabrera Empresarial S.A. de C.V.,SUW241219410,daniela.cabrera410@systemkw.com,525503246790,Comercializadora Cabrera Empresarial,Puebla,2024-12-19
+C0411,Paola Castillo Pérez,Consultoría Castillo del Bajío S.A. de C.V.,SVB220411411,paola.castillo411@systemkw.com,+52 55 0325 4709,Consultoría Castillo del Bajío,Veracruz,2022-04-11
+C0412,Adriana Chávez Álvarez,Logística Chávez Digital S.A. de C.V.,SWG251205412,adriana.chavez412@systemkw.com,55-0326-2628,Logística Chávez Digital,Guanajuato,2025-12-05
+C0413,Alejandro Márquez Jiménez,Soluciones Márquez Nova S.A. de C.V.,SXL240722413,alejandro.marquez413@systemkw.com,(55) 0327 0547,Soluciones Márquez Nova,Veracruz,2024-07-22
+C0414,Ángel Rivera Flores,Corporativo Rivera Empresarial S.A. de C.V.,SYQ250110414,angel.rivera414@systemkw.com,525503278466,CORPORATIVO RIVERA EMPRESARIAL,Veracruz,2025-01-10
+C0415,Adriana Márquez Domínguez,Industrias Márquez del Bajío S.A. de C.V.,SZV260324415,adriana.marquez415@systemkw.com,55-0328-6385,Industrias Marquez del Bajio,,2026-03-24
+C0416,Renata Sánchez Rivera,Distribuidora Sánchez Digital S.A. de C.V.,SAA230716416,renata.sanchez416@systemkw.com,(55) 0329 4304,Distribuidora Sánchez Digital,Nuevo León,2023-07-16
+C0417,Gabriel López González,Sistemas López Nova S.A. de C.V.,SBF250226417,gabriel.lopez417@systemkw.com,55-0330-2223,Sistemas López Nova,Yucatán,2025-02-26
+C0418,Sofía Álvarez Escobar,Grupo Álvarez Empresarial S.A. de C.V.,SCK231119418,sofia.alvarez418@systemkw.com,+52 55 0331 0142,Grupo Álvarez Empresarial,Nuevo León,19/11/2023
+C0419,Elena Castillo Torres,Innovación Castillo del Bajío S.A. de C.V.,SDP230214419,elena.castillo419@systemkw.com,+52 55 0331 8061,Innovacion Castillo del Bajio,Jalisco,2023-02-14
+C0420,Víctor Navarro Sánchez,Tecnología Navarro Digital S.A. de C.V.,SEU231025420,victor.navarro420@systemkw.com,+52 55 0332 5980,Tecnologia Navarro Digital,Nuevo León,2023-10-25
+C0421,Renata Ramírez Márquez,Servicios Ramírez Nova S.A. de C.V.,SFZ220212421,renata.ramirez421@systemkw.com,55-0333-3899,Servicios Ramírez Nova,Jalisco,2022-02-12
+C0422,Gabriel Pérez Cabrera,Comercializadora Pérez Empresarial S.A. de C.V.,SGE230705422,gabriel.perez422@systemkw.com,+52 55 0334 1818,Comercializadora Pérez Empresarial,Nuevo León,2023-07-05
+C0423,Miguel Ortega Cortés,Consultoría Ortega del Bajío S.A. de C.V.,SHJ250128423,miguel.ortega423@systemkw.com,,Consultoría Ortega del Bajío,Puebla,2025-01-28
+C0424,Óscar Gómez Sánchez,Logística Gómez Digital S.A. de C.V.,SIO240801424,oscar.gomez424@systemkw.com,5503357656,Logística Gómez Digital,Jalisco,2024-08-01
+C0425,Sofía Aguilar Cabrera,Soluciones Aguilar Nova S.A. de C.V.,SJT221213425,sofia.aguilar425@systemkw.com,5503365575,Soluciones Aguilar Nova,Chihuahua,2022-12-13
+C0426,Luis Márquez Escobar,Corporativo Márquez Empresarial S.A. de C.V.,SKY221107426,luis.marquez426@systemkw.com,525503373494,Corporativo Márquez Empresarial,Estado de México,2022-11-07
+C0427,CARLOS ORTEGA VARGAS,Industrias Ortega del Bajío S.A. de C.V.,SLD251004427,carlos.ortega427@systemkw.com,55-0338-1413,Industrias Ortega del Bajío,Puebla,2025-10-04
+C0428,Ricardo Ortega Ortega,Distribuidora Ortega Digital S.A. de C.V.,SMI220804428,ricardo.ortega428@systemkw.com,+52 55 0338 9332,Distribuidora Ortega Digital,Guanajuato,2022-08-04
+C0429,Sofía Navarro Cabrera,Sistemas Navarro Nova S.A. de C.V.,SNN220927429,sofia.navarro429@systemkw.com,525503397251,sistemas navarro nova,Yucatán,2022-09-27
+C0430,Bruno Escobar Jiménez,Grupo Escobar Empresarial S.A. de C.V.,SOS230516430,bruno.escobar430@systemkw.com,(55) 0340 5170,Grupo Escobar Empresarial,Yucatán,2023-05-16
+C0431,José Sánchez Domínguez,Innovación Sánchez del Bajío S.A. de C.V.,SPX250815431,jose.sanchez431@systemkw.com,+52 55 0341 3089,Innovación Sánchez del Bajío,Chihuahua,2025-08-15
+C0432,José González Gómez,Tecnología González Digital S.A. de C.V.,SQC220114432,jose.gonzalez432@systemkw.com,5503421008,Tecnología González Digital,Veracruz,2022-01-14
+C0433,Daniela Rivera Castillo,Servicios Rivera Nova S.A. de C.V.,SRH260906433,daniela.rivera433@systemkw.com,55-0342-8927,Servicios Rivera Nova,Estado de México,2026-09-06
+C0434,Diego Rivera González,Comercializadora Rivera Empresarial S.A. de C.V.,SSM221026434,DIEGO.RIVERA434@systemkw.com,+52 55 0343 6846,Comercializadora Rivera Empresarial,Jalisco,2022-10-26
+C0435,Natalia López Cortés,Consultoría López del Bajío S.A. de C.V.,STR240506435,natalia.lopez435@systemkw.com,+52 55 0344 4765,Consultoría López del Bajío,Puebla,2024-05-06
+C0436,Javier Márquez Romero,Logística Márquez Digital S.A. de C.V.,SUW240305436,javier.marquez436@systemkw.com,525503452684,Logística Márquez Digital,Puebla,2024-03-05
+C0437,Víctor Aguilar González,Soluciones Aguilar Nova S.A. de C.V.,SVB251121437,victor.aguilar437@systemkw.com,525503460603,Soluciones Aguilar Nova,Guanajuato,21/11/2025
+C0438,Renata Álvarez Cabrera,Corporativo Alvarez Empresarial S.A. de C.V.,SWG251117438,renata.alvarez438@systemkw.com,55-0346-8522,Corporativo Álvarez Empresarial,Guanajuato,2025-11-17
+C0439,Ana Aguilar Vázquez,Industrias Aguilar del Bajío S.A. de C.V.,SXL220427439,ana.aguilar439@systemkw.com,+52 55 0347 6441,industrias aguilar del bajío,Yucatán,2022-04-27
+C0440,Héctor Domínguez Jiménez,Distribuidora Domínguez Digital S.A. de C.V.,SYQ230822440,hector.dominguez440@systemkw.com,+52 55 0348 4360,Distribuidora Domínguez Digital,Nuevo León,2023-08-22
+C0441,Laura Torres López,Sistemas Torres Nova S.A. de C.V.,SZV230828441,laura.torres441@systemkw.com,(55) 0349 2279,Sistemas Torres Nova,Querétaro,2023-08-28
+C0442,Camila Sánchez Hernández,Grupo Sánchez Empresarial S.A. de C.V.,SAA260525442,camila.sanchez442@systemkw.com,(55) 0350 0198,Grupo Sánchez Empresarial,Chihuahua,2026-05-25
+C0443,Diego Reyes Hernández,Innovación Reyes del Bajío S.A. de C.V.,SBF260627443,diego.reyes443@systemkw.com,55-0350-8117,Innovación Reyes del Bajío,Yucatán,2026-06-27
+C0444,Óscar Flores González,Tecnología Flores Digital S.A. de C.V.,SCK260511444,oscar.flores444@systemkw.com,(55) 0351 6036,Tecnología Flores Digital,Puebla,05/11/2026
+C0445,Beatriz Morales Castillo,Servicios Morales Nova S.A. de C.V.,SDP260905445,beatriz.morales445@systemkw.com,,Servicios Morales Nova,Yucatán,2026-09-05
+C0446,Javier Jiménez Aguilar,Comercializadora Jiménez Empresarial S.A. de C.V.,SEU241111446,javier.jimenez446@systemkw.com,525503531874,Comercializadora Jimenez Empresarial,Yucatán,2024-11-11
+C0447,Óscar Álvarez Gómez,Consultoría Álvarez del Bajío S.A. de C.V.,SFZ240809447,oscar.alvarez447@systemkw.com,5503539793,Consultoria Alvarez del Bajio,Jalisco,2024-08-09
+C0448,Óscar Rivera Aguilar,Logística Rivera Digital S.A. de C.V.,SGE240924448,oscar.rivera448@systemkw.com,+52 55 0354 7712,Logística Rivera Digital,Veracruz,2024-09-24
+C0449,Gabriel Rivera Jiménez,Soluciones Rivera Nova S.A. de C.V.,SHJ251007449,gabriel.rivera449@systemkw.com,55-0355-5631,Soluciones Rivera Nova,Nuevo León,2025-10-07
+C0450,Luis Márquez González,Corporativo Márquez Empresarial S.A. de C.V.,SIO220227450,luis.marquez450@systemkw.com,525503563550,Corporativo Márquez Empresarial,Guanajuato,2022-02-27
+C0451,Paola Álvarez Bautista,Industrias Álvarez del Bajío S.A. de C.V.,SJT240813451,paola.alvarez451@systemkw.com,525503571469,Industrias Álvarez del Bajío,Puebla,2024-08-13
+C0452,Luis Torres Martínez,Distribuidora Torres Digital S.A. de C.V.,SKY250914452,luis.torres452@systemkw.com,(55) 0357 9388,Distribuidora Torres Digital,Veracruz,2025-09-14
+C0453,Bruno Reyes Rivera,Sistemas Reyes Nova S.A. de C.V.,SLD230726453,bruno.reyes453@systemkw.com,(55) 0358 7307,Sistemas Reyes Nova,Estado de México,2023-07-26
+C0454,Renata López Gómez,Grupo López Empresarial S.A. de C.V.,SMI220425454,renata.lopez454@systemkw.com,+52 55 0359 5226,Grupo López Empresarial,Estado de México,2022-04-25
+C0455,Óscar Márquez Rivera,Innovación Márquez del Bajío S.A. de C.V.,SNN221004455,oscar.marquez455@systemkw.com,55-0360-3145,Innovacion Marquez del Bajio,Veracruz,2022-10-04
+C0456,Valeria Ortega Bautista,Tecnología Ortega Digital S.A. de C.V.,SOS230227456,valeria.ortega456@systemkw.com,+52 55 0361 1064,Tecnología Ortega Digital,Nuevo León,27/02/2023
+C0457,Ángel Sánchez Pérez,Servicios Sánchez Nova S.A. de C.V.,SPX220714457,angel.sanchez457@systemkw.com,(55) 0361 8983,Servicios Sanchez Nova,Nuevo León,2022-07-14
+C0458,Renata Domínguez González,Comercializadora Domínguez Empresarial S.A. de C.V.,SQC250115458,renata.dominguez458@systemkw.com,55-0362-6902,comercializadora domínguez empresarial,Guanajuato,2025-01-15
+C0459,Mariana Escobar Jiménez,Consultoría Escobar del Bajío S.A. de C.V.,SRH260302459,mariana.escobar459@systemkw.com,(55) 0363 4821,Consultoría Escobar del Bajío,Nuevo León,2026-03-02
+C0460,Daniela Castillo Vázquez,Logística Castillo Digital S.A. de C.V.,SSM231201460,daniela.castillo460@systemkw.com,525503642740,Logística Castillo Digital,Chihuahua,2023-12-01
+C0461,Óscar Castillo Romero,Soluciones Castillo Nova S.A. de C.V.,STR240204461,oscar.castillo461@systemkw.com,55-0365-0659,Soluciones Castillo Nova,Ciudad de México,2024-02-04
+C0462,Víctor Vargas Castillo,Corporativo Vargas Empresarial S.A. de C.V.,SUW231203462,victor.vargas462@systemkw.com,+52 55 0365 8578,Corporativo Vargas Empresarial,Querétaro,2023-12-03
+C0463,Paola Flores Bautista,Industrias Flores del Bajío S.A. de C.V.,SVB250624463,paola.flores463@systemkw.com,5503666497,Industrias Flores del Bajio,Nuevo León,2025-06-24
+C0464,Bruno Romero Aguilar,Distribuidora Romero Digital S.A. de C.V.,SWG230329464,bruno.romero464@systemkw.com,(55) 0367 4416,Distribuidora Romero Digital,Puebla,2023-03-29
+C0465,Renata Chávez Rivera,Sistemas Chávez Nova S.A. de C.V.,SXL240314465,renata.chavez465@systemkw.com,(55) 0368 2335,Sistemas Chávez Nova,Ciudad de México,2024-03-14
+C0466,Beatriz Flores Rodríguez,Grupo Flores Empresarial S.A. de C.V.,SYQ230930466,beatriz.flores466@systemkw.com,5503690254,Grupo Flores Empresarial,Guanajuato,2023-09-30
+C0467,Javier Bautista Gómez,Innovación Bautista del Bajío S.A. de C.V.,SZV260419467,javier.bautista467@systemkw.com,+52 55 0369 8173,Innovación Bautista del Bajío,Veracruz,2026-04-19
+C0468,Eduardo Torres Ramírez,Tecnología Torres Digital S.A. de C.V.,SAA220224468,eduardo.torres468@systemkw.com,+52 55 0370 6092,Tecnología Torres Digital,Estado de México,2022-02-24
+C0469,Camila Ramírez Hernández,Servicios Ramírez Nova S.A. de C.V.,SBF251222469,camila.ramirez469@systemkw.com,525503714011,Servicios Ramírez Nova,Querétaro,2025-12-22
+C0470,Mariana Martínez Reyes,Comercializadora Martínez Empresarial S.A. de C.V.,SCK241208470,mariana.martinez470@systemkw.com,,COMERCIALIZADORA MARTÍNEZ EMPRESARIAL,Querétaro,2024-12-08
+C0471,Ricardo Escobar Álvarez,Consultoría Escobar del Bajío S.A. de C.V.,SDP240315471,bruno.chavez269@systemkw.com,5503729849,Consultoría Escobar del Bajío,Chihuahua,2024-03-15
+C0472,Carlos Castillo Álvarez,Logística Castillo Digital S.A. de C.V.,SEU251225472,carlos.castillo472@systemkw.com,(55) 0373 7768,Logística Castillo Digital,Yucatán,2025-12-25
+C0473,Miguel Navarro Escobar,Soluciones Navarro Nova S.A. de C.V.,SFZ240218473,miguel.navarro473@systemkw.com,+52 55 0374 5687,Soluciones Navarro Nova,Veracruz,2024-02-18
+C0474,Adriana Martínez Márquez,Corporativo Martínez Empresarial S.A. de C.V.,SGE220131474,ricardo.cabrera56@systemkw.com,525503753606,Corporativo Martínez Empresarial,Jalisco,2022-01-31
+C0475,Renata Morales Torres,Industrias Morales del Bajío S.A. de C.V.,SHJ220129475,renata.morales475@systemkw.com,525503761525,INDUSTRIAS MORALES DEL BAJÍO,Guanajuato,29/01/2022
+C0476,Fernanda García López,Distribuidora García Digital S.A. de C.V.,SIO240202476,fernanda.garcia476@systemkw.com,+52 55 0376 9444,Distribuidora García Digital,Nuevo León,2024-02-02
+C0477,Camila Cabrera Cortés,Sistemas Cabrera Nova S.A. de C.V.,SJT220416477,hector.escobar33@systemkw.com,(55) 0377 7363,Sistemas Cabrera Nova,Yucatán,2022-04-16
+C0478,Natalia Hernández Álvarez,Grupo Hernández Empresarial S.A. de C.V.,SKY230611478,natalia.hernandez478@systemkw.com,(55) 0378 5282,Grupo Hernández Empresarial,Yucatán,2023-06-11
+C0479,Adriana Márquez Aguilar,Innovación Márquez del Bajío S.A. de C.V.,SLD250723479,adriana.marquez479@systemkw.com,+52 55 0379 3201,Innovación Márquez del Bajío,Querétaro,2025-07-23
+C0480,Eduardo Ortega Romero,Tecnología Ortega Digital S.A. de C.V.,SMI230812480,renata.alvarez438@systemkw.com,+52 55 0380 1120,Tecnología Ortega Digital,Guanajuato,2023-08-12
+C0481,Gabriel González Cortés,Servicios González Nova S.A. de C.V.,SNN260308481,gabriel.gonzalez481@systemkw.com,525503809039,Servicios Gonzalez Nova,Jalisco,03/08/2026
+C0482,Daniela Domínguez Jiménez,Comercializadora Domínguez Empresarial S.A. de C.V.,SOS260717482,daniela.dominguez482@systemkw.com,+52 55 0381 6958,Comercializadora Domínguez Empresarial,Veracruz,2026-07-17
+C0483,Diego López Reyes,Consultoría López del Bajío S.A. de C.V.,SPX260804483,natalia.perez366@systemkw.com,5503824877,Consultoría López del Bajío,Ciudad de México,2026-08-04
+C0484,Camila Jiménez Sánchez,Logística Jiménez Digital S.A. de C.V.,SQC251227484,camila.jimenez484@systemkw.com,(55) 0383 2796,Logística Jiménez Digital,Querétaro,2025-12-27
+C0485,Adriana Reyes Torres,Soluciones Reyes Nova S.A. de C.V.,SRH251225485,adriana.reyes485@systemkw.com,(55) 0384 0715,Soluciones Reyes Nova,Puebla,2025-12-25
+C0486,Héctor Hernández Bautista,Corporativo Hernández Empresarial S.A. de C.V.,SSM260804486,mariana.martinez470@systemkw.com,(55) 0384 8634,Corporativo Hernández Empresarial,Estado de México,2026-08-04
+C0487,Ana Reyes Cortés,Industrias Reyes del Bajío S.A. de C.V.,STR241104487,ana.reyes487@systemkw.com,5503856553,INDUSTRIAS REYES DEL BAJÍO,Puebla,2024-11-04
+C0488,JAVIER CHÁVEZ HERNÁNDEZ,Distribuidora Chávez Digital S.A. de C.V.,SUW221224488,javier.chavez488@systemkw.com,+52 55 0386 4472,Distribuidora Chavez Digital,Jalisco,2022-12-24
+C0489,Laura Sánchez Martínez,Sistemas Sánchez Nova S.A. de C.V.,SVB250826489,victor.reyes81@systemkw.com,+52 55 0387 2391,SISTEMAS SÁNCHEZ NOVA,Jalisco,2025-08-26
+C0490,Inés García López,Grupo García Empresarial S.A. de C.V.,SWG231025490,ines.garcia490@systemkw.com,55-0388-0310,Grupo García Empresarial,Puebla,2023-10-25
+C0491,Fernanda Romero Sánchez,Innovación Romero del Bajío S.A. de C.V.,SXL240619491,fernanda.romero491@systemkw.com,(55) 0388 8229,Innovación Romero del Bajío,Guanajuato,2024-06-19
+C0492,Ana Hernández Morales,Tecnología Hernández Digital S.A. de C.V.,SYQ220505492,valeria.ortega456@systemkw.com,+52 55 0389 6148,Tecnología Hernández Digital,Yucatán,2022-05-05
+C0493,Rafael Sánchez Pérez,Servicios Sánchez Nova S.A. de C.V.,SZV260211493,rafael.sanchez493@systemkw.com,+52 55 0390 4067,Servicios Sánchez Nova,Veracruz,2026-02-11
+C0494,Ángel Jiménez Ortega,Comercializadora Jiménez Empresarial S.A. de C.V.,SAA240102494,angel.jimenez494@systemkw.com,55-0391-1986,Comercializadora Jiménez Empresarial,Guanajuato,02/01/2024
+C0495,Alejandro Álvarez Rodríguez,Consultoría Álvarez del Bajío S.A. de C.V.,SBF250829495,victor.aguilar437@systemkw.com,55-0391-9905,Consultoría Álvarez del Bajío,Ciudad de México,2025-08-29
+C0496,Ricardo Domínguez Ortega,Logística Domínguez Digital S.A. de C.V.,SCK240408496,ricardo.dominguez496@systemkw.com,5503927824,Logistica Dominguez Digital,Chihuahua,2024-04-08
+C0497,Sofía Álvarez Chávez,Soluciones Álvarez Nova S.A. de C.V.,SDP251225497,sofia.alvarez497@systemkw.com,5503935743,Soluciones Álvarez Nova,Guanajuato,2025-12-25
+C0498,Ricardo Rivera Jiménez,Corporativo Rivera Empresarial S.A. de C.V.,SEU230310498,beatriz.rodriguez375@systemkw.com,525503943662,Corporativo Rivera Empresarial,,2023-03-10
+C0499,Luis Cabrera Escobar,Industrias Cabrera del Bajío S.A. de C.V.,SFZ250409499,luis.cabrera499@systemkw.com,55-0395-1581,Industrias Cabrera del Bajío,Ciudad de México,2025-04-09
+C0500,Javier García Cabrera,Distribuidora García Digital S.A. de C.V.,SGE220903500,javier.garcia500@systemkw.com,5503959500,Distribuidora García Digital,Ciudad de México,2022-09-03

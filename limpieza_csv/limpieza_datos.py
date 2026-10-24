@@ -1,4 +1,5 @@
 """Limpieza inicial y segura de los CSV de clientes, licencias y transacciones.
+
 No modifica los CSV originales. Genera archivos preparados, un archivo de
 relaciones revisables y un reporte de datos que requieren atención.
 """
@@ -43,6 +44,22 @@ def guardar_csv(ruta: Path, filas: list[dict[str, object]]) -> None:
 
 def normalizar_correo(valor: str) -> str:
     return valor.strip().casefold()
+
+
+def normalizar_telefono(valor: str) -> tuple[str, str]:
+    """Convierte teléfonos mexicanos reconocibles a 10 dígitos nacionales."""
+    original = valor.strip()
+    if not original:
+        return "", ""
+
+    digitos = re.sub(r"\D", "", original)
+    # Acepta un prefijo internacional +52 o 52; el resultado queda nacional.
+    if len(digitos) == 12 and digitos.startswith("52"):
+        digitos = digitos[2:]
+
+    if len(digitos) == 10:
+        return digitos, ""
+    return "", "formato telefónico no reconocido; requiere revisión"
 
 
 def clave_nombre(valor: str) -> str:
@@ -109,6 +126,14 @@ def limpiar_campos(filas: list[dict[str, str]], archivo: str,
         nuevo: dict[str, object] = dict(fila)  # conserva columnas originales limpias de espacios
         identificador = (fila.get("id_cliente") or fila.get("id_licencia")
                          or fila.get("id_transaccion") or "")
+        if archivo == "clientes.csv":
+            telefono_original = fila.get("telefono", "")
+            telefono, aviso = normalizar_telefono(telefono_original)
+            nuevo["telefono_original"] = telefono_original
+            nuevo["telefono"] = telefono
+            if aviso:
+                registrar(reporte, archivo, identificador, "telefono",
+                          telefono_original, aviso)
         for campo in campos_fecha:
             valor, aviso = convertir_fecha(fila.get(campo, ""))
             nuevo[campo + "_normalizada"] = valor
