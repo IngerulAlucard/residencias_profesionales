@@ -17,7 +17,7 @@
     <button data-view="transacciones"><span class="ico">⇄</span>Transacciones</button>
     <button data-view="notificaciones"><span class="ico">♧</span>Notificaciones</button>
   </nav>
-  <div class="side-note"><b>Modo de consulta</b>Los registros se muestran desde los CSV proporcionados. Las asociaciones dudosas se señalan para revisión.</div>
+  <div class="side-note"><b>Modo de consulta</b>Los registros se consultan en la base central. Las asociaciones dudosas se señalan para revisión.</div>
 </aside>
 <main class="main">
   <header class="top"><div class="crumb">SYSTEMKW <span style="padding:0 7px">/</span> <b id="crumb">Dashboard</b></div><div class="top-right"><span class="date-text" id="dateNow"></span><div class="avatar">SK</div></div></header>
@@ -26,5 +26,7 @@
 </div>
 <div id="modalRoot"></div>
 
+<script src="https://unpkg.com/@supabase/supabase-js@2" defer></script>
+<script src="js/supabase-config.js" defer></script>
 <script src="js/app.js" defer></script>
 </body></html>
