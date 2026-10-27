@@ -1,7 +1,3 @@
--- Esquema para los CSV limpios de SYSTEMKW.
--- Datos simulados; lectura pública y solo lectura para el prototipo estático.
--- No usar estas políticas con información real o confidencial.
-
 create table if not exists public.clientes (
   id_cliente text primary key,
   nombre_cliente text,
